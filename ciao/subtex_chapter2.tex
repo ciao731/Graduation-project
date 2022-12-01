@@ -42,7 +42,7 @@
 对式\eqref{eq:多普勒频测速原理2}左边进行变换，即可得到多普勒频移与运动速度v之间的关系：
 
 \begin{equation}\label{eq:多普勒频测速原理3}
-    \varphi_d=\frac{\Delta varphi}{2\pi \Delta t}=\frac{v}{\lambda}cos\theta.
+    \varphi_d=\frac{\Delta \varphi}{2\pi \Delta t}=\frac{v}{\lambda}cos\theta.
 \end{equation}
 
 
@@ -60,20 +60,28 @@
 
 上式中\(A_1=A_2\),并且\(|\omega_1-\omega_2|<<\omega_1+\omega2\),那么\(x_1\)和\(x_2\)在空间中相遇叠加产生的拍的方程为：
 \begin{equation}\label{eq:简谐波叠加后方程}
-   x=x_1+x_2=2Acos(\frac{\omega_2-\omega_1}{2}t)cos(\frac{\omega_2+\omega_1}{2}t).
+   x=x_1+x_2=2Acos(\omega_1t+\omega_2t).
 \end{equation}
 
-\begin{figure}[htb]
-    \centering
-    \includegraphics[width=12cm]{fig/2-fig/拍频波形示意图.jpg}
-    \caption{拍频波形示意图\cite{激光外差干涉技术在光刻机中的应用}}
-    \label{fig:拍频波形示意图}
-    \end{figure}
+对式\eqref{eq:简谐波叠加后方程}进行化简后可以得到：
+\begin{equation}\label{eq:化简后简谐波叠加方程}
+  x=x_1+x_2=2Acos(\frac{\omega_2-\omega_1}{2}t)cos(\frac{\omega_2+\omega_1}{2}t).
+\end{equation}
+
 上式中\(|2Acos(\frac{\omega_2-\omega_1}{2}t)|\)为\(x_1\)和\(x_2\)在空间中叠加后拍的幅值，可以看出这是一个随时间周期性变化的值，而\(\frac{\omega_2+\omega_1}{2}\)则为拍的角频率，这也是一个随着时间周期性变化的值，两者共同导致了拍在波形上表现为周期性变化的形式，如图\ref{fig:拍频波形示意图}所示。
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=12cm]{fig/2-fig/拍频波形示意图.jpg}
+  \caption{拍频波形示意图\cite{张志平2022激光外差干涉技术在光刻机中的应用}}
+  \label{fig:拍频波形示意图}
+  \end{figure}
 
-并且由式\eqref{eq:简谐波叠加后方程}可以看出，拍的频率为两个简谐波的原始频率之差，虽然当前激光的频率通常很高(约为\(10^{14}Hz\)量级)，这使得目前的光电探测器无法响应\cite{激光外差干涉技术在光刻机中的应用}，但通过拍频现象，即可将高频的信息转变为低频信息，便于光电探测器响应。
+并且根据角频率和频率之间的转换关系：\(\omega=2\pi f\)和式\eqref{eq:化简后简谐波叠加方程}可以看出，拍的频率为两个简谐波的原始频率之差的一半，即：
+\begin{equation}\label{eq:合成拍与原始简谐波之间的频率关系}
+  f=\frac{f_1-f_2}{2}.
+\end{equation}
 
-
+虽然当前激光的频率通常很高(约为\(10^{14}Hz\)量级)，这使得目前的光电探测器无法响应\cite{张志平2022激光外差干涉技术在光刻机中的应用}，但通过拍频现象，即可将高频的信息转变为低频信息，便于光电探测器响应。
 
 \section{激光干涉仪原理}
 \subsection{单频激光干涉仪}
@@ -96,8 +104,25 @@
     \label{fig:双频激光干涉仪原理图}
 \end{figure}
 
+从图\ref{fig:双频激光干涉仪原理图}可以看出，激光从激光器出射后经过一次反射才达到接收体，不同于图\ref{fig:多普勒频测速示意图}中波源直接抵达接收器的情况，所在双频激光干涉仪中物体移动的距离应是两倍的影响，即式\eqref{eq:多普勒频测速原理1}应乘2，并且一般都为垂直入射，所以\(\theta\)可近似认为0，所以式\eqref{eq:多普勒频测速原理3}可改写为：
+\begin{equation}\label{eq:干涉仪中多普勒相位}
+  \varphi_d = \frac{2v}{\lambda}.
+\end{equation}
+
+并且由于\(v=dl / dt\),带入式\eqref{eq:干涉仪中多普勒相位}中可得：
+\begin{equation}\label{eq:干涉仪中多普勒位移微分}
+  dl = vdt = \frac{\lambda}{2}\Delta f dt.
+\end{equation}
+
+上式中\(dl\)被测物体单位时间内的位移，即位移的微分量，\(\Delta f\)为\(dl\)对应的多普频移，对式\eqref{eq:干涉仪中多普勒相位}进行积分可得：
+\begin{equation}\label{eq:干涉仪中多普勒积分}
+  L = \int_{0}^{t} vdt =\int_{0}^{t} (\frac{\lambda \Delta f}{2})dt = \frac{N\lambda}{2}.
+\end{equation}
+
+式\eqref{eq:干涉仪中多普勒积分}即为双频激光干涉仪位移测量的基本公式\cite{丁子婷双频激光干涉仪测量系统的环境误差研究}。
+
 \section{双频激光干涉仪的环境误差及其成因}
-在真实的测量场景中，双频激光干涉仪的测量值\(D\)是指干涉仪系统实际输出的位移值。是由条纹数\(N\)乘上干涉仪系统的分辨率\(R_{es}\)得到的，而条纹数\(N\)与光程的变化有光，即：
+但在真实的测量场景中，双频激光干涉仪的测量值\(D\)是指干涉仪系统实际输出的位移值。是由条纹数\(N\)乘上干涉仪系统的分辨率\(R_{es}\)得到的，而条纹数\(N\)与光程的变化有光，即：
 \begin{equation}\label{eq:测量值与光程的关系}
     D=R_{es}{\times}N=R_{es}{\times}\frac{\Delta L{\times}n_0{\times}M_o}{\lambda{\div}M_e}=\Delta L{\times}n_0.
 \end{equation}
@@ -155,7 +180,7 @@
 \subsection{局限性}
 现有的Edlen公式用于干涉仪环境补偿有着如下局限性：
 \begin{enumerate}
-  \item 波长不匹配：现有的Edlen公式是根据644.0nm、508.7nm、480.1nm和467.9nm四个波长段的测量数据得出的，而干涉仪由于对光束横模模式和频率稳定性的高要求，所用的激光光源多为波长段为633nm的氦氖激光器，两者在波长段上并不匹配。
+  \item 波长不匹配：现有的Edlen公式是根据644.0nm、508.7nm、480.1nm和467.9nm四个波长段的测量数据得出的\cite{2020Effect}，而干涉仪由于对光束横模模式和频率稳定性的高要求，所用的激光光源多为波长段为633nm的氦氖激光器，两者在波长段上并不匹配。
   \item 温度不匹配：现有的Edlen公式的适用温度位标准条件下温度20$^{\circ}$C\cite{2020Effect}，而干涉仪广泛使用于光刻机中或其它超精密测量领域，其工作环境温度大多为22$^{\circ}$C或常温范围（24$^{\circ}$C-26$^{\circ}$C）。
   \item 主观性强：有的Edlen公式是根据实验数据人为总结的，带有很大的主观性。
 \end{enumerate}

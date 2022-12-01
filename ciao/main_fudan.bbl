@@ -1,0 +1,126 @@
+\begin{thebibliography}{17}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[张志平\ 等(2022)张志平 and
+  杨晓峰]{张志平2022激光外差干涉技术在光刻机中的应用}
+张志平, 杨晓峰.
+\newblock 激光外差干涉技术在光刻机中的应用\allowbreak[J].
+\newblock 激光与光电子学进展, 2022, 59\allowbreak (9): 8.
+
+\bibitem[杨荣岩\ 等(2021)杨荣岩 and
+  王大勇]{基于激光多普勒测速的自由场空气声压测量研究}
+杨荣岩, 王大勇.
+\newblock
+  基于激光多普勒测速的自由场空气声压测量研究\allowbreak[D].
+\newblock 北京工业大学, 2021.
+
+\bibitem[“科普中国”科学百科词条编写与应用工作项目(2022)]{百度百科-多普勒频移}
+“科普中国”科学百科词条编写与应用工作项目.
+\newblock 多普勒频移\allowbreak[EB/OL].
+\newblock 2022.
+\newblock
+  \url{https://baike.baidu.com/item/%E5%A4%9A%E6%99%AE%E5%8B%92%E9%A2%91%E7%A7%BB/2585005?fr=aladdin/},
+  Last accessed on 2022-03-30.
+
+\bibitem[杨琳琳(2017)]{基于拍频测量温度和旋光角的方法研究}
+杨琳琳.
+\newblock 基于拍频测量温度和旋光角的方法研究\allowbreak[D].
+\newblock 河南师范大学, 2017.
+
+\bibitem[胡红波\ 等(2018)胡红波, 杨丽峰, and
+  于梅]{零差干涉仪用于振动校准中关键技术的研究}
+胡红波, 杨丽峰, 于梅.
+\newblock
+  零差干涉仪用于振动校准中关键技术的研究\allowbreak[J].
+\newblock 计量学报, 2018, 39\allowbreak (3): 5.
+
+\bibitem[丁子婷(2022)]{丁子婷双频激光干涉仪测量系统的环境误差研究}
+丁子婷.
+\newblock 双频激光干涉仪测量系统的环境误差研究\allowbreak[D].
+\newblock 桂林电子科技大学, 2022.
+
+\bibitem[徐建(2013)]{徐建2013双频激光干涉仪系统线性测量误差主要来源及减小误差的方法分析}
+徐建.
+\newblock
+  双频激光干涉仪系统线性测量误差主要来源及减小误差的方法分析\allowbreak[J].
+\newblock 计量与测试技术, 2013, 40\allowbreak (8): 2.
+
+\bibitem[Cui et~al.(2015)Cui, Tan, Wen, and Abou-Zeid]{2015Refractive}
+CUI J, TAN J, WEN X, et~al.
+\newblock Refractive index of air for interferometric length
+  measurements\allowbreak[J].
+\newblock Proceedings of SPIE - The International Society for Optical
+  Engineering, 2015, 9446: 944640-944640-11.
+
+\bibitem[Boensch et~al.(1998)Boensch and Potulski]{1998Fit}
+BOENSCH G, POTULSKI E.
+\newblock Fit of edlen formulae to measure values of the refractive index of
+  air\allowbreak[C]//\allowbreak
+Spies International Symposium on Optical Science.
+\newblock 1998.
+
+\bibitem[李博\ 等(2021)李博, 杨军, 谢兴娟, and
+  段小艳]{李博2021温度对激光干涉法测量气体动态压力的影响}
+李博, 杨军, 谢兴娟, 等.
+\newblock
+  温度对激光干涉法测量气体动态压力的影响\allowbreak[J].
+\newblock 光学技术, 2021, 47\allowbreak (5): 565-569,581.
+
+\bibitem[Zhang et~al.(2015)Zhang, Gao, Hao, and Zi]{2015Approach}
+ZHANG Y, GAO H, HAO W, et~al.
+\newblock Approach to the measurement accuracy of laser wavelength in
+  air\allowbreak[C]//\allowbreak
+AOPC 2015: Optical Test, Measurement, and Equipment.
+\newblock 2015.
+
+\bibitem[熊显名\ 等(2021)熊显名, 丁子婷, 曾启林, and
+  杜浩]{elden公式法在双频激光干涉仪测量系统的应用}
+熊显名, 丁子婷, 曾启林, 等.
+\newblock
+  Elden公式法在双频激光干涉仪测量系统的应用\allowbreak[J].
+\newblock 仪器仪表用户, 2021.
+
+\bibitem[Kohmun et~al.(2020)Kohmun, Limsuwan, Ranusawud, and
+  Buranasiri]{2020Effect}
+KOHMUN K, LIMSUWAN P, RANUSAWUD M, et~al.
+\newblock Effect of the carbon dioxide concentration on the refractive index of
+  air in a long gauge block interferometer\allowbreak[J].
+\newblock Instrumentation Science \& Technology, 2020: 1-11.
+
+\bibitem[潘红丽(2022)]{潘红丽2022基于改进粒子群算法的垃圾清运车辆低碳路径规划}
+潘红丽.
+\newblock
+  基于改进粒子群算法的垃圾清运车辆低碳路径规划\allowbreak[D].
+\newblock 南京信息工程大学, 2022.
+
+\bibitem[Liao et~al.(2022)Liao, Zhang, Wang, Chen, Hao, and
+  Yang]{2022Environmental}
+LIAO Y, ZHANG Z, WANG N, et~al.
+\newblock Environmental compensation of laser interferometer based on particle
+  swarm algorithm\allowbreak[J].
+\newblock Applied optics, 2022\allowbreak (13): 61.
+
+\bibitem[冯浩\ 等(2015)冯浩 and
+  李现伟]{冯浩2015一种改进的粒子群优化算法惯性权值递减策略}
+冯浩, 李现伟.
+\newblock
+  一种改进的粒子群优化算法惯性权值递减策略\allowbreak[J].
+\newblock 蚌埠学院学报, 2015, 4\allowbreak (006): 21-24.
+
+\bibitem[范培蕾\ 等(2009)范培蕾, 张晓今, and
+  杨涛]{范培蕾2009克服早熟收敛现象的粒子群优化算法}
+范培蕾, 张晓今, 杨涛.
+\newblock 克服早熟收敛现象的粒子群优化算法\allowbreak[J].
+\newblock 计算机应用, 2009, 29\allowbreak (B06): 4.
+
+\end{thebibliography}
