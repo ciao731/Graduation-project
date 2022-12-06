@@ -1,0 +1,72 @@
+\contentsline {chapter}{\normalfont \sffamily 摘\hskip 1em\relax 要}{ii}{chapter*.2}%
+\contentsline {chapter}{\normalfont \sffamily Abstract}{iii}{chapter*.3}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第1章}绪论}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}课题来源}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}研究背景及意义}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}国内外研究现状}{2}{section.1.3}%
+\contentsline {subsection}{\fdu@kai \numberline {1.3.1}光栅位移测量系统}{2}{subsection.1.3.1}%
+\contentsline {subsection}{\fdu@kai \numberline {1.3.2}光栅栅距测量}{6}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}主要研究内容和结构安排}{9}{section.1.4}%
+\contentsline {subsection}{\fdu@kai \numberline {1.4.1}主要研究内容}{9}{subsection.1.4.1}%
+\contentsline {subsection}{\fdu@kai \numberline {1.4.2}论文结构安排}{9}{subsection.1.4.2}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第2章}光栅位移测量原理}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}光栅理论基础}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}光栅位移测量原理}{11}{section.2.2}%
+\contentsline {subsection}{\fdu@kai \numberline {2.2.1}光栅衍射特性}{11}{subsection.2.2.1}%
+\contentsline {subsection}{\fdu@kai \numberline {2.2.2}光路光程推导}{12}{subsection.2.2.2}%
+\contentsline {subsection}{\fdu@kai \numberline {2.2.3}多普勒频移}{13}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}外差干涉原理}{15}{section.2.3}%
+\contentsline {subsection}{\fdu@kai \numberline {2.3.1}拍频现象}{15}{subsection.2.3.1}%
+\contentsline {subsection}{\fdu@kai \numberline {2.3.2}外差干涉技术}{16}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}本章小结}{17}{section.2.4}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第3章}外差式光栅位移测量系统光路设计和分析}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}光栅位移测量系统的设计原则}{18}{section.3.1}%
+\contentsline {section}{\numberline {3.2}外差式光栅位移测量系统整体方案}{18}{section.3.2}%
+\contentsline {subsection}{\fdu@kai \numberline {3.2.1}光源模块的设计}{20}{subsection.3.2.1}%
+\contentsline {subsubsection}{声光移频器}{20}{subsubsection*.27}%
+\contentsline {subsubsection}{其他光学元件}{22}{subsubsection*.29}%
+\contentsline {subsection}{\fdu@kai \numberline {3.2.2}读数头模块的设计}{22}{subsection.3.2.2}%
+\contentsline {subsubsection}{光学倍频}{23}{subsubsection*.33}%
+\contentsline {subsubsection}{角锥棱镜}{23}{subsubsection*.36}%
+\contentsline {section}{\numberline {3.3}光路系统的琼斯矩阵推导}{24}{section.3.3}%
+\contentsline {subsection}{\fdu@kai \numberline {3.3.1}偏振光学理论}{24}{subsection.3.3.1}%
+\contentsline {subsubsection}{偏振光的琼斯矩阵}{25}{subsubsection*.39}%
+\contentsline {subsubsection}{偏振器件的琼斯矩阵}{26}{subsubsection*.42}%
+\contentsline {subsection}{\fdu@kai \numberline {3.3.2}琼斯矩阵分析}{26}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}本章小结}{28}{section.3.4}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第4章}光栅位移测量系统实验及其误差分析}{29}{chapter.4}%
+\contentsline {section}{\numberline {4.1}光路调试与平台安装}{29}{section.4.1}%
+\contentsline {section}{\numberline {4.2}性能测试和结果}{30}{section.4.2}%
+\contentsline {subsection}{\fdu@kai \numberline {4.2.1}短行程位移测试}{31}{subsection.4.2.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.2.2}长行程位移测试}{33}{subsection.4.2.2}%
+\contentsline {subsection}{\fdu@kai \numberline {4.2.3}稳定性测量}{35}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}误差分析}{36}{section.4.3}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.1}光栅非理想误差}{36}{subsection.4.3.1}%
+\contentsline {subsubsection}{周期误差分析}{36}{subsubsection*.58}%
+\contentsline {subsubsection}{累积误差分析}{37}{subsubsection*.59}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.2}几何误差}{37}{subsection.4.3.2}%
+\contentsline {subsubsection}{光栅安装误差}{37}{subsubsection*.60}%
+\contentsline {subsubsection}{读数头安装误差}{38}{subsubsection*.62}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.3}测量环境误差}{40}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}非共光程光路误差}{41}{section.4.4}%
+\contentsline {subsection}{\fdu@kai \numberline {4.4.1}空气折射率计算方法}{41}{subsection.4.4.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.4.2}实验测试}{42}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}本章小结}{44}{section.4.5}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第5章}光栅栅距测量及其误差修正}{45}{chapter.5}%
+\contentsline {section}{\numberline {5.1}栅距误差产生原因}{45}{section.5.1}%
+\contentsline {section}{\numberline {5.2}光栅栅距测量}{46}{section.5.2}%
+\contentsline {subsection}{\fdu@kai \numberline {5.2.1}光栅栅距测量原理}{46}{subsection.5.2.1}%
+\contentsline {subsection}{\fdu@kai \numberline {5.2.2}光栅栅距测量方案设计}{46}{subsection.5.2.2}%
+\contentsline {subsection}{\fdu@kai \numberline {5.2.3}双频激光干涉仪位移测量}{47}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}实验验证}{50}{section.5.3}%
+\contentsline {subsection}{\fdu@kai \numberline {5.3.1}系统搭建}{50}{subsection.5.3.1}%
+\contentsline {subsection}{\fdu@kai \numberline {5.3.2}实验结果}{50}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}累积误差修正}{52}{section.5.4}%
+\contentsline {subsection}{\fdu@kai \numberline {5.4.1}误差修正方法}{52}{subsection.5.4.1}%
+\contentsline {subsubsection}{插值法}{52}{subsubsection*.80}%
+\contentsline {subsubsection}{最小二乘拟合法}{54}{subsubsection*.81}%
+\contentsline {subsection}{\fdu@kai \numberline {5.4.2}误差修正实验}{54}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5}本章小结}{56}{section.5.5}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第6章}总结与展望}{57}{chapter.6}%
+\contentsline {section}{\numberline {6.1}本文工作总结}{57}{section.6.1}%
+\contentsline {section}{\numberline {6.2}研究工作展望}{57}{section.6.2}%

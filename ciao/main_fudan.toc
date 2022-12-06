@@ -2,35 +2,47 @@
 \contentsline {chapter}{\normalfont \sffamily 摘\hskip 1em\relax 要}{v}{chapter*.3}%
 \contentsline {chapter}{\normalfont \sffamily Abstract}{vii}{chapter*.4}%
 \contentsline {chapter}{\normalfont \sffamily 符号表}{ix}{chapter*.5}%
-\contentsline {chapter}{\normalfont \sffamily \numberline {第1章}双频激光干涉仪的环境误差及Edlen公式补偿方法}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}激光位移测量理论基础}{1}{section.1.1}%
-\contentsline {subsection}{\fdu@kai \numberline {1.1.1}多普勒频移}{1}{subsection.1.1.1}%
-\contentsline {subsection}{\fdu@kai \numberline {1.1.2}拍频现象}{2}{subsection.1.1.2}%
-\contentsline {section}{\numberline {1.2}激光干涉仪原理}{3}{section.1.2}%
-\contentsline {subsection}{\fdu@kai \numberline {1.2.1}单频激光干涉仪}{3}{subsection.1.2.1}%
-\contentsline {subsection}{\fdu@kai \numberline {1.2.2}双频激光干涉仪}{4}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}双频激光干涉仪的环境误差及其成因}{4}{section.1.3}%
-\contentsline {section}{\numberline {1.4}基于Edlen公式的补偿方法及其局限性}{5}{section.1.4}%
-\contentsline {subsection}{\fdu@kai \numberline {1.4.1}Edlen公式补偿方法}{5}{subsection.1.4.1}%
-\contentsline {subsection}{\fdu@kai \numberline {1.4.2}局限性}{6}{subsection.1.4.2}%
-\contentsline {section}{\numberline {1.5}本章小结}{7}{section.1.5}%
-\contentsline {chapter}{\normalfont \sffamily \numberline {第2章}双频激光干涉仪的环境误差补偿实验系统}{9}{chapter.2}%
-\contentsline {section}{\numberline {2.1}双频激光干涉仪测量系统光路设计与分析}{9}{section.2.1}%
-\contentsline {section}{\numberline {2.2}基于PT100的八通道温度测量系统}{9}{section.2.2}%
-\contentsline {subsection}{\fdu@kai \numberline {2.2.1}上位机系统}{9}{subsection.2.2.1}%
-\contentsline {subsection}{\fdu@kai \numberline {2.2.2}标定过程及结果}{10}{subsection.2.2.2}%
-\contentsline {chapter}{\normalfont \sffamily \numberline {第3章}基于粒子群算法的软件补偿方法及算法硬化}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}粒子群算法}{13}{section.3.1}%
-\contentsline {subsection}{\fdu@kai \numberline {3.1.1}粒子群算法基本原理}{13}{subsection.3.1.1}%
-\contentsline {subsection}{\fdu@kai \numberline {3.1.2}线性惯性权值递减策略}{14}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}基于粒子群算法优化后的Edlen公式补偿方法}{14}{section.3.2}%
-\contentsline {subsection}{\fdu@kai \numberline {3.2.1}数据预处理}{14}{subsection.3.2.1}%
-\contentsline {chapter}{\normalfont \sffamily \numberline {第4章}222222}{15}{chapter.4}%
-\contentsline {section}{\numberline {4.1}研究对象}{15}{section.4.1}%
-\contentsline {section}{\numberline {4.2}研究方法}{15}{section.4.2}%
-\contentsline {chapter}{\normalfont \sffamily \numberline {第5章}数学基础}{17}{chapter.5}%
-\contentsline {section}{\numberline {5.1}基础公设}{17}{section.5.1}%
-\contentsline {section}{\numberline {5.2}量子态与量子算符}{18}{section.5.2}%
-\contentsline {section}{\numberline {5.3}动力学演化}{18}{section.5.3}%
-\contentsline {chapter}{\normalfont \sffamily \numberline {第6章}总结与展望}{19}{chapter.6}%
-\contentsline {chapter}{\normalfont \sffamily 参考文献}{21}{chapter*.17}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第1章}绪论}{1}{chapter.1}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第2章}双频激光干涉仪的环境误差及Edlen公式补偿方法}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}激光位移测量理论基础}{3}{section.2.1}%
+\contentsline {subsection}{\fdu@kai \numberline {2.1.1}多普勒频移}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\fdu@kai \numberline {2.1.2}拍频现象}{4}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}激光干涉仪原理}{5}{section.2.2}%
+\contentsline {subsection}{\fdu@kai \numberline {2.2.1}单频激光干涉仪}{5}{subsection.2.2.1}%
+\contentsline {subsection}{\fdu@kai \numberline {2.2.2}双频激光干涉仪}{6}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}双频激光干涉仪的环境误差及其成因}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}基于Edlen公式的补偿方法及其局限性}{7}{section.2.4}%
+\contentsline {subsection}{\fdu@kai \numberline {2.4.1}Edlen公式补偿方法}{7}{subsection.2.4.1}%
+\contentsline {subsection}{\fdu@kai \numberline {2.4.2}局限性}{8}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}本章小结}{9}{section.2.5}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第3章}双频激光干涉仪的环境误差补偿实验系统}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}双频激光干涉仪测量系统光路设计与分析}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}基于PT100的八通道温度测量系统}{11}{section.3.2}%
+\contentsline {subsection}{\fdu@kai \numberline {3.2.1}上位机系统}{11}{subsection.3.2.1}%
+\contentsline {subsection}{\fdu@kai \numberline {3.2.2}标定过程及结果}{12}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}气压测量系统}{14}{section.3.3}%
+\contentsline {section}{\numberline {3.4}补偿系统总体方案}{14}{section.3.4}%
+\contentsline {section}{\numberline {3.5}实验方案及其改进}{15}{section.3.5}%
+\contentsline {subsection}{\fdu@kai \numberline {3.5.1}实验设备改进}{16}{subsection.3.5.1}%
+\contentsline {subsection}{\fdu@kai \numberline {3.5.2}实验变量改进}{16}{subsection.3.5.2}%
+\contentsline {subsection}{\fdu@kai \numberline {3.5.3}实验环境改进}{16}{subsection.3.5.3}%
+\contentsline {subsection}{\fdu@kai \numberline {3.5.4}最终实验方案}{17}{subsection.3.5.4}%
+\contentsline {section}{\numberline {3.6}实验系统安装和调试}{18}{section.3.6}%
+\contentsline {section}{\numberline {3.7}补偿性能测试与实验结果}{19}{section.3.7}%
+\contentsline {subsection}{\fdu@kai \numberline {3.7.1}短时测量}{19}{subsection.3.7.1}%
+\contentsline {subsection}{\fdu@kai \numberline {3.7.2}长时测量}{20}{subsection.3.7.2}%
+\contentsline {subsection}{\fdu@kai \numberline {3.7.3}大范围温度变化测量}{22}{subsection.3.7.3}%
+\contentsline {section}{\numberline {3.8}本章小结}{23}{section.3.8}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第4章}基于粒子群算法的软件补偿方法及算法硬化}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}粒子群算法}{25}{section.4.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.1.1}粒子群算法基本原理}{25}{subsection.4.1.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.1.2}线性惯性权值递减策略}{26}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}基于粒子群算法优化后的Edlen公式补偿方法}{26}{section.4.2}%
+\contentsline {subsection}{\fdu@kai \numberline {4.2.1}数据预处理}{27}{subsection.4.2.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.2.2}使用粒子群算法进行数据训练}{27}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}整段式粒子群算法补偿效果}{27}{section.4.3}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.1}短时测量}{28}{subsection.4.3.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.2}长时测量}{28}{subsection.4.3.2}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.3}大范围温度变化测量}{29}{subsection.4.3.3}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.4}局限性}{30}{subsection.4.3.4}%
+\contentsline {chapter}{\normalfont \sffamily 参考文献}{31}{chapter*.36}%

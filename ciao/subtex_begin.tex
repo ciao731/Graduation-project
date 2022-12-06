@@ -211,10 +211,31 @@
 \usepackage{multirow}
 \usepackage{amsmath}
 \usepackage{diagbox}
-
+% \usepackage{graphix}
 \usepackage[thmmarks]{ntheorem}
 % 需要的命令可以自行定义
 \newcommand{\hilbertH}{\symcal{H}}
 \newcommand{\ee}{\symrm{e}}
 \newcommand{\ii}{\symrm{i}}
+% Maximum fraction of area at the bottom to place floats, default 0.3.
+\renewcommand{\bottomfraction}{0.99}
+% Maximum fraction of area at the top to place floats, default 0.7.
+\renewcommand{\topfraction}{0.99}
+% Maximum fraction of area at the top to place floats spanning two columns.
+\renewcommand{\dbltopfraction}{0.99}
+% Maximum fraction of area to place floats, default 0.5.
+\renewcommand{\floatpagefraction}{0.99}
+% Maximum fraction of area to place floats spanning two columns.
+\renewcommand{\dblfloatpagefraction}{0.99}
+% Minimum fraction of area to place texts, default 0.2.
+\renewcommand{\textfraction}{0.1}
+
+% Maximum number of floats at bottom of one page.
+\setcounter{bottomnumber}{99}
+% Maximum number of floats at top of one page.
+\setcounter{topnumber}{99}
+% Maximum number of floats at one page.
+\setcounter{totalnumber}{99}
+% Maximum number of floats spanning two columns at one page.
+\setcounter{dbltopnumber}{99}
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{20}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -11,11 +11,10 @@
   \let\eprint\href
 \fi
 
-\bibitem[张志平\ 等(2022)张志平 and
-  杨晓峰]{张志平2022激光外差干涉技术在光刻机中的应用}
-张志平, 杨晓峰.
-\newblock 激光外差干涉技术在光刻机中的应用\allowbreak[J].
-\newblock 激光与光电子学进展, 2022, 59\allowbreak (9): 8.
+\bibitem[闵帅博、严利平、崔建军、王冬、束红林、陈恺(2020)]{高精度空气折射率测量系统设计与实现}
+闵帅博、严利平、崔建军、王冬、束红林、陈恺.
+\newblock 高精度空气折射率测量系统设计与实现\allowbreak[J].
+\newblock 计量学报, 2020, 41\allowbreak (11): 7.
 
 \bibitem[杨荣岩\ 等(2021)杨荣岩 and
   王大勇]{基于激光多普勒测速的自由场空气声压测量研究}
@@ -36,6 +35,12 @@
 杨琳琳.
 \newblock 基于拍频测量温度和旋光角的方法研究\allowbreak[D].
 \newblock 河南师范大学, 2017.
+
+\bibitem[张志平\ 等(2022)张志平 and
+  杨晓峰]{张志平2022激光外差干涉技术在光刻机中的应用}
+张志平, 杨晓峰.
+\newblock 激光外差干涉技术在光刻机中的应用\allowbreak[J].
+\newblock 激光与光电子学进展, 2022, 59\allowbreak (9): 8.
 
 \bibitem[胡红波\ 等(2018)胡红波, 杨丽峰, and
   于梅]{零差干涉仪用于振动校准中关键技术的研究}
@@ -96,6 +101,18 @@ KOHMUN K, LIMSUWAN P, RANUSAWUD M, et~al.
 \newblock Effect of the carbon dioxide concentration on the refractive index of
   air in a long gauge block interferometer\allowbreak[J].
 \newblock Instrumentation Science \& Technology, 2020: 1-11.
+
+\bibitem[深圳市银飞电子科技有限公司(2022)]{PACE1000}
+深圳市银飞电子科技有限公司.
+\newblock PACE1000\allowbreak[EB/OL].
+\newblock 2022.
+\newblock \url{https://www.1001718.com/druck/11175.html}.
+
+\bibitem[上海拍频光电科技有限公司(2022)]{信号处理卡}
+上海拍频光电科技有限公司.
+\newblock 信号处理卡\allowbreak[EB/OL].
+\newblock 2022.
+\newblock \url{http://www.spoe.com.cn/sys-pd/41.html}.
 
 \bibitem[潘红丽(2022)]{潘红丽2022基于改进粒子群算法的垃圾清运车辆低碳路径规划}
 潘红丽.

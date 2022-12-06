@@ -139,10 +139,12 @@
 
 但由于测量臂长度\(L\)一般远大于被测物体位移\(\Delta L\),由式\eqref{eq:测量值与光程的关系}和式\eqref{eq:实际的位移公式}可得，由于外界环境因素（温度、气压等）引起的误差为：
 \begin{equation}\label{eq:环境误差公式}
-    D=[\Delta L(\Delta n+n_0)+L\Delta n]-\Delta Ln_0=\Delta n(\Delta L+l) \approx \Delta n \Delta L.
+    D=[\Delta L(\Delta n+n_0)+L\Delta n]-\Delta Ln_0=\Delta n(\Delta L+L) \approx \Delta n L.
 \end{equation}
 
-根据相关文献的描述\cite{徐建2013双频激光干涉仪系统线性测量误差主要来源及减小误差的方法分析},在对上述环境因素不进行任何控制或补偿的情况，空气折射率的变化可能会达到50ppm，如果仅对测量环境温度进行控制，其余因素的变化也可能导致空气折射率变化20ppm以上。放在双频激光干涉仪领域，根据式\eqref{eq:环境误差公式}可知，空气折射率变化需要乘上测量臂长度才是双频激光干涉仪的环境误差，这就导致当测量臂长度较小时，这部分的误差是可以忽略不计的，但随着测量臂长度的增加，双频激光干涉仪的环境误差也随着增大。以10mm的测量臂长度为例，当温度变化超过\(0.1\)$^{\circ}$C时，这部分的误差就可能已经超过1nm了，所以需要对上述的环境误差进行补偿。
+当进行零位测量时，即被测物体的位移$\Delta L = 0$时，式\eqref{eq:环境误差公式}中的约等号即可变为等号，此时从公式可以看出，干涉仪的环境误差是与测量臂长成正比的这也是判断干涉仪环境误差补偿是否精准的标志。
+
+根据相关文献的描述\cite{徐建2013双频激光干涉仪系统线性测量误差主要来源及减小误差的方法分析},在对上述环境因素不进行任何控制或补偿的情况，空气折射率的变化可能会达到50$ppm$，如果仅对测量环境温度进行控制，其余因素的变化也可能导致空气折射率变化20$ppm$以上。放在双频激光干涉仪领域，根据式\eqref{eq:环境误差公式}可知，空气折射率变化需要乘上测量臂长度才是双频激光干涉仪的环境误差，这就导致当测量臂长度较小时，这部分的误差是可以忽略不计的，但随着测量臂长度的增加，双频激光干涉仪的环境误差也随着增大。以10$mm$的测量臂长度为例，当温度变化超过\(0.1\)$^{\circ}$C时，这部分的误差就可能已经超过1$nm$了，所以需要对上述的环境误差进行补偿。
 
 \section{基于Edlen公式的补偿方法及其局限性}
 \subsection{Edlen公式补偿方法}
@@ -155,14 +157,16 @@
 \begin{figure}[htb]
     \centering
     \subfigure[折射率随温度变化]{
+      \centering
       \begin{minipage}[b]{0.70\textwidth}
-        \includegraphics[width=10cm,height=5cm]{fig/2-fig/折射率随温度变化.pdf}
+        \includegraphics[width=10cm,height=6cm]{fig/2-fig/折射率随温度变化.pdf}
       \end{minipage}
       \label{fig:折射率-温度}
     }
     \subfigure[折射率随气压变化]{
+      \centering
       \begin{minipage}[b]{0.70\textwidth}
-        \includegraphics[width=10cm,height=5cm]{fig/2-fig/折射率随气压变化.pdf}
+        \includegraphics[width=10cm,height=6cm]{fig/2-fig/折射率随气压变化.pdf}
       \end{minipage}
       \label{fig:折射率-气压}
     }
@@ -172,7 +176,7 @@
 
 可以看出，在上述范围内，空气折射率和温度/气压变化呈近似线性\cite{李博2021温度对激光干涉法测量气体动态压力的影响}。对式\eqref{eq:原始Edlen公式}中各因子求偏导数，可以得到空气折射率变化\(10^{-8}\)时温度和气压的变化因子分别为\(3.73Pa\)和\(0.01\)$^{\circ}$C\cite{2015Approach}。通过仿真分析，可得出温度和气压对空气折射率的影响呈线性或近线性关系，\eqref{eq:原始Edlen公式}可简化如下\cite{elden公式法在双频激光干涉仪测量系统的应用}：
 \begin{equation}\label{eq:线性形式的Edlen公式}
-    \Delta n=\frac{\partial n}{\partial T}\,\Delta T+\frac{\partial n}{\partial P}\,\Delta P
+    \Delta n=\frac{\delta n}{\delta T}\,\Delta T+\frac{\delta n}{\delta P}\,\Delta P
     =-9.36*10^{-7}\Delta T\,+\,2.68*10^{-9}\Delta P.
     \end{equation}
 
@@ -180,7 +184,7 @@
 \subsection{局限性}
 现有的Edlen公式用于干涉仪环境补偿有着如下局限性：
 \begin{enumerate}
-  \item 波长不匹配：现有的Edlen公式是根据644.0nm、508.7nm、480.1nm和467.9nm四个波长段的测量数据得出的\cite{2020Effect}，而干涉仪由于对光束横模模式和频率稳定性的高要求，所用的激光光源多为波长段为633nm的氦氖激光器，两者在波长段上并不匹配。
+  \item 波长不匹配：现有的Edlen公式是根据644.0$nm$、508.7$nm$、480.1$nm$和467.9$nm$四个波长段的测量数据得出的\cite{2020Effect}，而干涉仪由于对光束横模模式和频率稳定性的高要求，所用的激光光源多为波长段为633$nm$的氦氖激光器，两者在波长段上并不匹配。
   \item 温度不匹配：现有的Edlen公式的适用温度位标准条件下温度20$^{\circ}$C\cite{2020Effect}，而干涉仪广泛使用于光刻机中或其它超精密测量领域，其工作环境温度大多为22$^{\circ}$C或常温范围（24$^{\circ}$C-26$^{\circ}$C）。
   \item 主观性强：有的Edlen公式是根据实验数据人为总结的，带有很大的主观性。
 \end{enumerate}
