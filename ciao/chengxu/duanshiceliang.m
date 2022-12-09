@@ -8,6 +8,11 @@ for i = 1:1 %%%对比测量2 小温度变化
 w1=importdata('C:\Users\1\Desktop\项目\温度补偿\温度实验数据\对比测量2\20211120-t.csv');
 w2=importdata('C:\Users\1\Desktop\项目\温度补偿\温度实验数据\对比测量2\20211120-m.csv');
 w3=importdata('C:\Users\1\Desktop\项目\温度补偿\温度实验数据\对比测量2\20211120-p.csv');%%0.01毛刺，补偿正常
+
+% w1=importdata('C:\Users\1\Desktop\项目\温度补偿\温度实验数据\对比测量2\20211117-d-t.csv');
+% w2=importdata('C:\Users\1\Desktop\项目\温度补偿\温度实验数据\对比测量2\20211117-d-m.csv');
+% w3=importdata('C:\Users\1\Desktop\项目\温度补偿\温度实验数据\对比测量2\20211117-d-p.csv');
+
 end
 
 temperature(:,1)=w1.data(:,10);
@@ -73,7 +78,7 @@ edpso_burst_compare       =0;                   %采用pso分段补偿与未分段补偿的效
 
 all_method_result_fliter_compare_with_tem=0;    %各方法的补偿结果与温度的对比（滤波）
 all_method_data_and_result=0;                   %各方法补偿数据和结果对比
-all_order_pso_result=0;                         %各阶pso补偿效果对比
+all_order_pso_result=1;                         %各阶pso补偿效果对比
 lunwentu_daiyouhua = 1;
 lunwentu_wuyouhua  = 1;
 
@@ -90,7 +95,10 @@ gbest_2=[-8.949034637700064,-102.0346592028632,-8.963643789028142];%01-0.2022
 
 
 
-
+[fitnessgbest_1,gbest_1]=PSO(average_tem,average_dis_ch1,average_pre,o_length,1,1);
+[fitnessgbest_3,gbest_3]=PSO(average_tem,average_dis_ch1,average_pre,o_length,3,1);
+[fitnessgbest_4,gbest_4]=PSO(average_tem,average_dis_ch1,average_pre,o_length,4,1);
+[fitnessgbest_5,gbest_5]=PSO(average_tem,average_dis_ch1,average_pre,o_length,5,1);
 
 
 
@@ -104,6 +112,10 @@ for i = 1: length(average_dis_ch1)
 data_pso_2(i) = gbest_2(1)*(average_tem(i)-average_tem(1))^2+gbest_2(2)*(average_tem(i)-average_tem(1))+gbest_2(3);
 data_pso_edlen(i) = gbest_0(1)*(average_tem(i)-average_tem(1))^2+gbest_0(2)*(average_tem(i)-average_tem(1))+gbest_0(3)*10^3/(1+gbest_0(4)*average_tem(i))-gbest_0(3)*10^3/(1+gbest_0(4)*average_tem(1))+gbest_0(5);
 
+data_pso_1(i) = gbest_1(1)*(average_tem(i)-average_tem(1,1))+gbest_1(2);
+data_pso_3(i) = gbest_3(1)*(average_tem(i)-average_tem(1,1))^3+gbest_3(2)*(average_tem(i)-average_tem(1))^2+gbest_3(3)*(average_tem(i)-average_tem(1))+gbest_3(4);
+data_pso_4(i) = gbest_4(1)*(average_tem(i)-average_tem(1,1))^4+gbest_4(2)*(average_tem(i)-average_tem(1))^3+gbest_4(3)*(average_tem(i)-average_tem(1))^2+gbest_4(4)*(average_tem(i)-average_tem(1))+gbest_4(5);
+data_pso_5(i) = gbest_5(1)*(average_tem(i)-average_tem(1,1))^5+gbest_5(2)*(average_tem(i)-average_tem(1))^4+gbest_5(3)*(average_tem(i)-average_tem(1))^3+gbest_5(4)*(average_tem(i)-average_tem(1))^2+gbest_5(5)*(average_tem(i)-average_tem(1))+gbest_5(6);
 
 n_edlen(i)                = gbest_edlen(1)  * average_pre(i) + gbest_edlen(2)  * average_tem(i);
 n_edpso(i)                = gbest_edpso(1) * average_pre(i) + gbest_edpso(2) * average_tem(i);
@@ -178,7 +190,14 @@ result_edpso_burst_ch1_filter   = lowp(result_edpso_burst_ch1 , 0.5 , 80 , 0.1 ,
 result_edpso_burst_ch2_filter   = lowp(result_edpso_burst_ch2 , 0.5 , 80 , 0.1 , 30 , 200);
 
 
-
+result_pso1=average_dis_ch1+data_pso_1;
+result_pso3=average_dis_ch1+data_pso_3;
+result_pso4=average_dis_ch1+data_pso_4;
+result_pso5=average_dis_ch1+data_pso_5;
+%         result_pso1_filter(:,1)=lowp(result_pso1,0.5,80,0.1,30,200);
+%         result_pso3_filter(:,1)=lowp(result_pso3,0.5,80,0.1,30,200);
+%         result_pso4_filter(:,1)=lowp(result_pso4,0.5,80,0.1,30,200);
+%         result_pso5_filter(:,1)=lowp(result_pso5,0.5,80,0.1,30,200);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%误差计算%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 error(1:8)=0;

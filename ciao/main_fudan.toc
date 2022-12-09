@@ -44,5 +44,16 @@
 \contentsline {subsection}{\fdu@kai \numberline {4.3.1}短时测量}{28}{subsection.4.3.1}%
 \contentsline {subsection}{\fdu@kai \numberline {4.3.2}长时测量}{28}{subsection.4.3.2}%
 \contentsline {subsection}{\fdu@kai \numberline {4.3.3}大范围温度变化测量}{29}{subsection.4.3.3}%
-\contentsline {subsection}{\fdu@kai \numberline {4.3.4}局限性}{30}{subsection.4.3.4}%
-\contentsline {chapter}{\normalfont \sffamily 参考文献}{31}{chapter*.36}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.4}优越性}{30}{subsection.4.3.4}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.5}局限性}{31}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}基于温度梯度的分段式粒子群算法补偿方法}{32}{section.4.4}%
+\contentsline {subsection}{\fdu@kai \numberline {4.4.1}算法原理}{32}{subsection.4.4.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.4.2}算法流程图}{32}{subsection.4.4.2}%
+\contentsline {subsection}{\fdu@kai \numberline {4.4.3}补偿效果}{33}{subsection.4.4.3}%
+\contentsline {subsection}{\fdu@kai \numberline {4.4.4}不足之处}{34}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}粒子群算法硬化}{35}{section.4.5}%
+\contentsline {subsection}{\fdu@kai \numberline {4.5.1}数据定点方案及截断方案}{35}{subsection.4.5.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.5.2}四则运算转换}{36}{subsection.4.5.2}%
+\contentsline {subsection}{\fdu@kai \numberline {4.5.3}四舍五入方案}{36}{subsection.4.5.3}%
+\contentsline {subsection}{\fdu@kai \numberline {4.5.4}字符串操作}{37}{subsection.4.5.4}%
+\contentsline {chapter}{\normalfont \sffamily 参考文献}{39}{chapter*.41}%

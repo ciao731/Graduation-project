@@ -22,42 +22,42 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: main_fudan.bib
 You've used 20 entries,
             5374 wiz_defined-function locations,
-            1155 strings with 11100 characters,
-and the built_in function-call counts, 88282 in all, are:
-= -- 2813
-> -- 8143
-< -- 11931
-+ -- 4390
-- -- 1147
-* -- 691
-:= -- 13276
+            1155 strings with 11110 characters,
+and the built_in function-call counts, 86922 in all, are:
+= -- 2826
+> -- 8027
+< -- 11592
++ -- 4270
+- -- 1174
+* -- 711
+:= -- 13138
 add.period$ -- 63
 call.type$ -- 20
 change.case$ -- 68
-chr.to.int$ -- 3646
+chr.to.int$ -- 3505
 cite$ -- 20
-duplicate$ -- 486
+duplicate$ -- 487
 empty$ -- 1338
-format.name$ -- 444
-if$ -- 22644
+format.name$ -- 466
+if$ -- 22244
 int.to.chr$ -- 1
 int.to.str$ -- 21
 missing$ -- 0
 newline$ -- 119
 num.names$ -- 60
-pop$ -- 2278
+pop$ -- 2313
 preamble$ -- 1
 purify$ -- 20
 quote$ -- 0
-skip$ -- 8257
+skip$ -- 8135
 stack$ -- 0
-substring$ -- 5080
+substring$ -- 4953
 swap$ -- 20
-text.length$ -- 390
+text.length$ -- 403
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 220
 warning$ -- 0
-while$ -- 413
+while$ -- 425
 width$ -- 0
 write$ -- 282
