@@ -51,9 +51,14 @@
 \contentsline {subsection}{\fdu@kai \numberline {4.4.2}算法流程图}{32}{subsection.4.4.2}%
 \contentsline {subsection}{\fdu@kai \numberline {4.4.3}补偿效果}{33}{subsection.4.4.3}%
 \contentsline {subsection}{\fdu@kai \numberline {4.4.4}不足之处}{34}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}粒子群算法硬化}{35}{section.4.5}%
+\contentsline {section}{\numberline {4.5}算法硬化}{35}{section.4.5}%
 \contentsline {subsection}{\fdu@kai \numberline {4.5.1}数据定点方案及截断方案}{35}{subsection.4.5.1}%
-\contentsline {subsection}{\fdu@kai \numberline {4.5.2}四则运算转换}{36}{subsection.4.5.2}%
-\contentsline {subsection}{\fdu@kai \numberline {4.5.3}四舍五入方案}{36}{subsection.4.5.3}%
-\contentsline {subsection}{\fdu@kai \numberline {4.5.4}字符串操作}{37}{subsection.4.5.4}%
-\contentsline {chapter}{\normalfont \sffamily 参考文献}{39}{chapter*.41}%
+\contentsline {subsection}{\fdu@kai \numberline {4.5.2}补码运算}{36}{subsection.4.5.2}%
+\contentsline {subsection}{\fdu@kai \numberline {4.5.3}乘除转换转换}{36}{subsection.4.5.3}%
+\contentsline {subsection}{\fdu@kai \numberline {4.5.4}四舍五入方案}{37}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}硬化前后的算法验证框架}{38}{section.4.6}%
+\contentsline {subsection}{\fdu@kai \numberline {4.6.1}进制转换与字符串操作}{38}{subsection.4.6.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.6.2}RTL model验证框架}{38}{subsection.4.6.2}%
+\contentsline {subsection}{\fdu@kai \numberline {4.6.3}验证激励和结果}{38}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}本章小结}{39}{section.4.7}%
+\contentsline {chapter}{\normalfont \sffamily 参考文献}{41}{chapter*.44}%
