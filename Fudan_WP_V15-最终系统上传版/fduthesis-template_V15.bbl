@@ -1,0 +1,501 @@
+\begin{thebibliography}{72}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}\else
+  \providecommand\doi[1]{\href{https://doi.org/#1}{\nolinkurl{#1}}}\fi
+
+\bibitem[{Butler}(2011)]{butler2011position}
+{Butler}~H.
+\newblock Position control in lithographic equipment [applications of
+  control]\allowbreak[J].
+\newblock IEEE Control Systems Magazine, 2011, 31\penalty0 (5):\penalty0 28-47.
+
+\bibitem[{Wang} et~al.(2015{\natexlab{a}}){Wang}, {Li}, and
+  {Pan}]{wang2015detent}
+{Wang}~M, {Li}~L, {Pan}~D.
+\newblock Detent force compensation for pmlsm systems based on structural
+  design and control method combination\allowbreak[J].
+\newblock IEEE Transactions on Industrial Electronics, 2015, 62\penalty0
+  (11):\penalty0 6845-6854.
+
+\bibitem[{Yang} et~al.(2018{\natexlab{a}}){Yang}, {Liu}, {Lu}, and
+  {Zhao}]{yang2018investigation}
+{Yang}~X, {Liu}~H, {Lu}~D, et~al.
+\newblock Investigation of the dynamic electromechanical coupling due to the
+  thrust harmonics in the linear motor feed system\allowbreak[J].
+\newblock Mechanical Systems and Signal Processing, 2018, 111:\penalty0
+  492-508.
+
+\bibitem[{Yang} et~al.(2018{\natexlab{b}}){Yang}, {Wang}, {Li}, {Zenggu}, and
+  {Jiang}]{yang2018integrated}
+{Yang}~R, {Wang}~M, {Li}~L, et~al.
+\newblock Integrated uncertainty/disturbance compensation with second-order
+  sliding-mode observer for pmlsm-driven motion stage\allowbreak[J].
+\newblock IEEE Transactions on Power Electronics, 2018, 34\penalty0
+  (3):\penalty0 2597-2607.
+
+\bibitem[{Tan} et~al.(2002){Tan}, {Huang}, and {Lee}]{tan2002robust}
+{Tan}~K, {Huang}~S, {Lee}~T.
+\newblock Robust adaptive numerical compensation for friction and force ripple
+  in permanent-magnet linear motors\allowbreak[J].
+\newblock IEEE Transactions on Magnetics, 2002, 38\penalty0 (1):\penalty0
+  221-228.
+
+\bibitem[{Chen} et~al.(2009){Chen}, {Tan}, {Huang}, and
+  {Teo}]{chen2009modeling}
+{Chen}~S~L, {Tan}~K~K, {Huang}~S, et~al.
+\newblock Modeling and compensation of ripples and friction in permanent-magnet
+  linear motor using a hysteretic relay\allowbreak[J].
+\newblock IEEE/ASME Transactions on Mechatronics, 2009, 15\penalty0
+  (4):\penalty0 586-594.
+
+\bibitem[{Wassink} et~al.(2005){Wassink}, van~de Wal, {Scherer}, and
+  {Bosgra}]{wassink2005lpv}
+{Wassink}~M~G, VAN~DE WAL~M, {Scherer}~C, et~al.
+\newblock {LPV} control for a wafer stage: beyond the theoretical
+  solution\allowbreak[J].
+\newblock Control Engineering Practice, 2005, 13\penalty0 (2):\penalty0
+  231-245.
+
+\bibitem[{Heertjes} et~al.(2014){Heertjes} and {Verstappen}]{heertjes2014self}
+{Heertjes}~M, {Verstappen}~R.
+\newblock Self-tuning in integral sliding mode control with a
+  levenberg--marquardt algorithm\allowbreak[J].
+\newblock Mechatronics, 2014, 24\penalty0 (4):\penalty0 385-393.
+
+\bibitem[{Li} et~al.(2016){Li}, {Yang}, {Zhu}, {Mu}, and {Hu}]{li2016state}
+{Li}~M, {Yang}~K, {Zhu}~Y, et~al.
+\newblock State/model-free variable-gain discrete sliding mode control for an
+  ultraprecision wafer stage\allowbreak[J].
+\newblock IEEE Transactions on Industrial Electronics, 2016, 64\penalty0
+  (8):\penalty0 6695-6705.
+
+\bibitem[{Young} et~al.(1999){Young}, {Utkin}, and {Ozguner}]{young1999control}
+{Young}~K~D, {Utkin}~V~I, {Ozguner}~U.
+\newblock A control engineer's guide to sliding mode control\allowbreak[J].
+\newblock IEEE transactions on control systems technology, 1999, 7\penalty0
+  (3):\penalty0 328-342.
+
+\bibitem[{Huang} et~al.(2008){Huang}, {Kuo}, and {Chang}]{huang2008adaptive}
+{Huang}~Y~J, {Kuo}~T~C, {Chang}~S~H.
+\newblock Adaptive sliding-mode control for nonlinearsystems with uncertain
+  parameters\allowbreak[J].
+\newblock IEEE Transactions on Systems, Man, and Cybernetics, Part B
+  (Cybernetics), 2008, 38\penalty0 (2):\penalty0 534-539.
+
+\bibitem[{Tong} et~al.(2003){Tong} and {Li}]{tong2003fuzzy}
+{Tong}~S, {Li}~H~X.
+\newblock Fuzzy adaptive sliding-mode control for mimo nonlinear
+  systems\allowbreak[J].
+\newblock IEEE Transactions on Fuzzy Systems, 2003, 11\penalty0 (3):\penalty0
+  354-360.
+
+\bibitem[{Qi} et~al.(2013){Qi} and {Shi}]{qi2013adaptive}
+{Qi}~L, {Shi}~H.
+\newblock Adaptive position tracking control of permanent magnet synchronous
+  motor based on rbf fast terminal sliding mode control\allowbreak[J].
+\newblock Neurocomputing, 2013, 115:\penalty0 23-30.
+
+\bibitem[董泽光(2014)]{董泽光2014精密气浮运动平台的建模}
+董泽光.
+\newblock 精密气浮运动平台的建模,分析与控制\allowbreak[D].
+\newblock 上海: 上海交通大学, 2014.
+
+\bibitem[{Heertjes} et~al.(2009){Heertjes}, {Schuurbiers}, and
+  {Nijmeijer}]{2009Performance}
+{Heertjes}~M~F, {Schuurbiers}~X~G~P, {Nijmeijer}~H.
+\newblock Performance-improved design of n-pid controlled motion systems with
+  applications to wafer stages\allowbreak[J].
+\newblock IEEE Transactions on Industrial Electronics, 2009, 56\penalty0
+  (5):\penalty0 1347-1355.
+
+\bibitem[{Shin} et~al.(2011){Shin} and {Park}]{2011Anti}
+{Shin}~H~B, {Park}~J~G.
+\newblock Anti-windup pid controller with integral state predictor for
+  variable-speed motor drives\allowbreak[J].
+\newblock IEEE Transactions on Industrial Electronics, 2011, 59\penalty0
+  (3):\penalty0 1509-1516.
+
+\bibitem[{Wang} et~al.(2011){Wang}, {Cheng}, {Fu}, and {Wang}]{wang2011design}
+{Wang}~X~L, {Cheng}~Z, {Fu}~L, et~al.
+\newblock Design of fuzzy-immune-pid controller in servo control
+  system\allowbreak[J].
+\newblock Wei-Te Dianji(Small \& Special Electrical Machines), 2011,
+  39\penalty0 (4):\penalty0 58-61.
+
+\bibitem[王辉\ 等(2014)王辉, 张段芹, and
+  王才东]{王辉2014新型智能}
+王辉, 张段芹, 王才东.
+\newblock 新型智能PID控制的PMLSM调速系统研究\allowbreak[J].
+\newblock 微电机, 2014, 47\penalty0 (001):\penalty0 71-76.
+
+\bibitem[王文深\ 等(2018)王文深 and 胡陈春]{王文深2018基于}
+王文深, 胡陈春.
+\newblock
+  基于PID+ESO控制器的气动机械手控制仿真分析及试验研究\allowbreak[J].
+\newblock 液压与气动, 2018, No.321\penalty0 (05):\penalty0 110-116.
+
+\bibitem[{Long} et~al.(2020){Long}, {Jiang}, {Wang}, {Jin}, and {Li}]{2020A}
+{Long}~Z, {Jiang}~Z, {Wang}~C, et~al.
+\newblock A novel approach to control of piezo-transducer in microelectronics
+  packaging: Pso-pid and editing trajectory optimization\allowbreak[J].
+\newblock IEEE Transactions on Components, Packaging, and Manufacturing
+  Technology, 2020, PP\penalty0 (99):\penalty0 1-1.
+
+\bibitem[{Uchiyama}(1978)]{uchiyama1978formation}
+{Uchiyama}~M.
+\newblock Formation of high-speed motion pattern of a mechanical arm by
+  trial\allowbreak[J].
+\newblock Transactions of the Society of Instrument and Control Engineers,
+  1978, 14\penalty0 (6):\penalty0 706-712.
+
+\bibitem[{Ge} et~al.(2003){Ge}, {Lee}, and {Harris}]{1998Adaptive}
+{Ge}~S~S, {Lee}~T~H, {Harris}~C~J.
+\newblock Adaptive neural network control for robotic manipulators [book
+  review]\allowbreak[J].
+\newblock IEEE Transactions on Robotics, 2003, 19:\penalty0 523-524.
+
+\bibitem[{Kawamura}(1984)]{kawamura1984iterative}
+{Kawamura}~S.
+\newblock Iterative learning control for robotic systems\allowbreak[J].
+\newblock Proc. of IECON'84, Tokyo, 1984:\penalty0 393-398.
+
+\bibitem[{Mishra} et~al.(2010){Mishra}, {Topcu}, and
+  {Tomizuka}]{mishra2010optimization}
+{Mishra}~S, {Topcu}~U, {Tomizuka}~M.
+\newblock Optimization-based constrained iterative learning
+  control\allowbreak[J].
+\newblock IEEE Transactions on Control Systems Technology, 2010, 19\penalty0
+  (6):\penalty0 1613-1621.
+
+\bibitem[{Abidi} et~al.(2010){Abidi} and {Xu}]{abidi2010iterative}
+{Abidi}~K, {Xu}~J~X.
+\newblock Iterative learning control for sampled-data systems: From theory to
+  practice\allowbreak[J].
+\newblock IEEE Transactions on Industrial Electronics, 2010, 58\penalty0
+  (7):\penalty0 3002-3015.
+
+\bibitem[{Heertjes} et~al.(2007){Heertjes} and {Tso}]{heertjes2007nonlinear}
+{Heertjes}~M, {Tso}~T.
+\newblock Nonlinear iterative learning control with applications to
+  lithographic machinery\allowbreak[J].
+\newblock Control Engineering Practice, 2007, 15\penalty0 (12):\penalty0
+  1545-1555.
+
+\bibitem[{Zhang} et~al.(2018){Zhang}, {Hui}, and {Chi}]{zhang2018data}
+{Zhang}~S, {Hui}~Y, {Chi}~R.
+\newblock Data--driven adaptive iterative learning control based on a local
+  dynamic linearization\allowbreak[C]//\allowbreak
+2018 IEEE 7th Data Driven Control and Learning Systems Conference (DDCLS).
+\newblock Enshi, China, 2018: 184-188.
+
+\bibitem[{Hao} et~al.(2020){Hao}, {Liu}, and {Rogers}]{hao2020extended}
+{Hao}~S, {Liu}~T, {Rogers}~E.
+\newblock Extended state observer based indirect-type {ILC} for single-input
+  single-output batch processes with time-and batch-varying
+  uncertainties\allowbreak[J].
+\newblock Automatica, 2020, 112:\penalty0 108673.
+
+\bibitem[{Mishra} et~al.(2007){Mishra}, {Coaplen}, and
+  {Tomizuka}]{mishra2007precision}
+{Mishra}~S, {Coaplen}~J, {Tomizuka}~M.
+\newblock Precision positioning of wafer scanners segmented iterative learning
+  control for nonrepetitive disturbances [applications of
+  control]\allowbreak[J].
+\newblock IEEE Control Systems Magazine, 2007, 27\penalty0 (4):\penalty0 20-25.
+
+\bibitem[{Chi} et~al.(2020){Chi}, {Hui}, {Chien}, {Huang}, and
+  {Hou}]{chi2020convergence}
+{Chi}~R, {Hui}~Y, {Chien}~C~J, et~al.
+\newblock Convergence analysis of sampled-data {ILC} for locally lipschitz
+  continuous nonlinear nonaffine systems with non-repetitive
+  uncertainties\allowbreak[J].
+\newblock IEEE Transactions on Automatic Control, 2020.
+
+\bibitem[{Butler}(2012)]{butler2012adaptive}
+{Butler}~H.
+\newblock Adaptive feedforward for a wafer stage in a lithographic
+  tool\allowbreak[J].
+\newblock IEEE Transactions on Control Systems Technology, 2012, 21\penalty0
+  (3):\penalty0 875-881.
+
+\bibitem[{Cho} et~al.(2014){Cho}, {Kim}, {Choi}, and {Oh}]{cho2014high}
+{Cho}~K, {Kim}~J, {Choi}~S~B, et~al.
+\newblock A high-precision motion control based on a periodic adaptive
+  disturbance observer in a pmlsm\allowbreak[J].
+\newblock IEEE/ASME Transactions on Mechatronics, 2014, 20\penalty0
+  (5):\penalty0 2158-2171.
+
+\bibitem[{Zhang} et~al.(2019){Zhang}, {Nan}, {Yang}, {Zhong}, and
+  {Chen}]{zhang2019force}
+{Zhang}~W, {Nan}~N, {Yang}~Y, et~al.
+\newblock Force ripple compensation in a pmlsm position servo system using
+  periodic adaptive learning control\allowbreak[J].
+\newblock ISA transactions, 2019, 95:\penalty0 266-277.
+
+\bibitem[{Wang} et~al.(2020){Wang} and {Na}]{wang2020parameter}
+{Wang}~S, {Na}~J.
+\newblock Parameter estimation and adaptive control for servo mechanisms with
+  friction compensation\allowbreak[J].
+\newblock IEEE Transactions on Industrial Informatics, 2020, 16\penalty0
+  (11):\penalty0 6816-6825.
+
+\bibitem[{Fu} et~al.(2020){Fu}, {Yang}, {Zanchetta}, {Liu}, {Ding}, {Tang}, and
+  {Chen}]{fu2020frequency}
+{Fu}~X, {Yang}~X, {Zanchetta}~P, et~al.
+\newblock A frequency-domain data-driven adaptive iterative learning control
+  approach: With application to wafer stage\allowbreak[J].
+\newblock IEEE Transactions on Industrial Electronics, 2020.
+
+\bibitem[刘金琨(2005)]{刘金琨2005滑模变结构控制}
+刘金琨.
+\newblock 滑模变结构控制 MATLAB 仿真\allowbreak[M].
+\newblock 北京: 清华大学出版社有限公司, 2005.
+
+\bibitem[高为炳(1996)]{高为炳1996变结构控制的理论及设计方法}
+高为炳.
+\newblock 变结构控制的理论及设计方法: 第 19 卷\allowbreak[M].
+\newblock 北京: 科学出版社, 1996.
+
+\bibitem[{Bartoszewicz}(1996)]{bartoszewicz1996remarks}
+{Bartoszewicz}~A.
+\newblock Remarks on discrete-time variable structure control
+  systems\allowbreak[J].
+\newblock IEEE transactions on industrial electronics (1982), 1996, 43\penalty0
+  (1):\penalty0 235-238.
+
+\bibitem[张合新\ 等(2013)张合新, 范金锁, 孟飞, and
+  黄金峰]{张合新2013一种新型滑模控制双幂次趋近律}
+张合新, 范金锁, 孟飞, 等.
+\newblock 一种新型滑模控制双幂次趋近律\allowbreak[J].
+\newblock 控制与决策, 2013\penalty0 (02):\penalty0 289-293.
+
+\bibitem[{Shtessel} et~al.(2009){Shtessel}, {Shkolnikov}, and
+  {Levant}]{shtessel2009guidance}
+{Shtessel}~Y~B, {Shkolnikov}~I~A, {Levant}~A.
+\newblock Guidance and control of missile interceptor using second-order
+  sliding modes\allowbreak[J].
+\newblock IEEE Transactions on Aerospace and Electronic Systems, 2009,
+  45\penalty0 (1):\penalty0 110-124.
+
+\bibitem[{Eker}(2010)]{eker2010second}
+{Eker}~I.
+\newblock Second-order sliding mode control with experimental
+  application\allowbreak[J].
+\newblock ISA transactions, 2010, 49\penalty0 (3):\penalty0 394-405.
+
+\bibitem[{Utkin} et~al.(2013){Utkin} and {Poznyak}]{utkin2013adaptive}
+{Utkin}~V~I, {Poznyak}~A~S.
+\newblock Adaptive sliding mode control with application to super-twist
+  algorithm: Equivalent control method\allowbreak[J].
+\newblock Automatica, 2013, 49\penalty0 (1):\penalty0 39-47.
+
+\bibitem[{Cheema} et~al.(2017){Cheema}, {Fletcher}, {Farshadnia}, {Xiao}, and
+  {Rahman}]{cheema2017combined}
+{Cheema}~M~A~M, {Fletcher}~J~E, {Farshadnia}~M, et~al.
+\newblock Combined speed and direct thrust force control of linear
+  permanent-magnet synchronous motors with sensorless speed estimation using a
+  sliding-mode control with integral action\allowbreak[J].
+\newblock IEEE Transactions on Industrial Electronics, 2017, 64\penalty0
+  (5):\penalty0 3489-3501.
+
+\bibitem[{Madani} et~al.(2016){Madani}, {Daachi}, and
+  {Djouani}]{madani2016modular}
+{Madani}~T, {Daachi}~B, {Djouani}~K.
+\newblock Modular-controller-design-based fast terminal sliding mode for
+  articulated exoskeleton systems\allowbreak[J].
+\newblock IEEE Transactions on Control Systems Technology, 2016, 25\penalty0
+  (3):\penalty0 1133-1140.
+
+\bibitem[{Zhao} et~al.(2019){Zhao} and {Fu}]{zhao2019adaptive}
+{Zhao}~X, {Fu}~D.
+\newblock Adaptive neural network nonsingular fast terminal sliding mode
+  control for permanent magnet linear synchronous motor\allowbreak[J].
+\newblock IEEE Access, 2019, 7:\penalty0 180361-180372.
+
+\bibitem[王一光(2015)]{王一光0滑模变结构控制在扫描光刻系统中的应用研究}
+王一光.
+\newblock
+  滑模变结构控制在扫描光刻系统中的应用研究\allowbreak[D].
+\newblock 哈尔滨: 哈尔滨工业大学, 2015.
+
+\bibitem[{Tseng} et~al.(2010){Tseng} and {Chen}]{tseng2010chattering}
+{Tseng}~M~L, {Chen}~M~S.
+\newblock Chattering reduction of sliding mode control by low-pass filtering
+  the control signal\allowbreak[J].
+\newblock Asian Journal of control, 2010, 12\penalty0 (3):\penalty0 392-398.
+
+\bibitem[{Slotine} et~al.(1983){Slotine} and {Sastry}]{slotine1983tracking}
+{Slotine}~J~J, {Sastry}~S~S.
+\newblock Tracking control of non-linear systems using sliding surfaces, with
+  application to robot manipulators\allowbreak[J].
+\newblock International journal of control, 1983, 38\penalty0 (2):\penalty0
+  465-492.
+
+\bibitem[{Zhang} et~al.(2013){Zhang} and {Zheng}]{zhang2013design}
+{Zhang}~J, {Zheng}~W~X.
+\newblock Design of adaptive sliding mode controllers for linear systems via
+  output feedback\allowbreak[J].
+\newblock IEEE transactions on industrial electronics, 2013, 61\penalty0
+  (7):\penalty0 3553-3562.
+
+\bibitem[{Butler}(2013)]{butler2013magnetic}
+{Butler}~H.
+\newblock Magnetic disturbance compensation for a reticle stage in a
+  lithographic tool\allowbreak[J].
+\newblock Mechatronics, 2013, 23\penalty0 (6):\penalty0 559-565.
+
+\bibitem[{Zhang} et~al.(2016){Zhang}, {Liu}, {Xia}, {Zuo}, and
+  {Wang}]{zhang2016disturbance}
+{Zhang}~J, {Liu}~X, {Xia}~Y, et~al.
+\newblock Disturbance observer-based integral sliding-mode control for systems
+  with mismatched disturbances\allowbreak[J].
+\newblock IEEE Transactions on Industrial Electronics, 2016, 63\penalty0
+  (11):\penalty0 7040-7048.
+
+\bibitem[{Yuen} et~al.(2019){Yuen}, {Lazar}, and {Butler}]{yuen2019data}
+{Yuen}~Y~H, {Lazar}~M, {Butler}~H.
+\newblock Data--driven neural feedforward controller design for industrial
+  linear motors\allowbreak[C]//\allowbreak
+2019 23rd International Conference on System Theory, Control and Computing
+  (ICSTCC).
+\newblock United States, 2019: 461-467.
+
+\bibitem[{Lin} et~al.(2010){Lin}, {Hwang}, {Chou}, and {Hung}]{lin2010fpga}
+{Lin}~F~J, {Hwang}~J~C, {Chou}~P~H, et~al.
+\newblock Fpga-based intelligent-complementary sliding-mode control for pmlsm
+  servo-drive system\allowbreak[J].
+\newblock IEEE transactions on power electronics, 2010, 25\penalty0
+  (10):\penalty0 2573-2587.
+
+\bibitem[{Sun} et~al.(2019){Sun}, {Xu}, {Qiang}, {Chen}, and
+  {Lin}]{sun2019adaptive}
+{Sun}~Y, {Xu}~J, {Qiang}~H, et~al.
+\newblock Adaptive sliding mode control of maglev system based on rbf neural
+  network minimum parameter learning method\allowbreak[J].
+\newblock Measurement, 2019, 141:\penalty0 217-226.
+
+\bibitem[{Zhao} et~al.(2005){Zhao} and {Tan}]{zhao2005adaptive}
+{Zhao}~S, {Tan}~K.
+\newblock Adaptive feedforward compensation of force ripples in linear
+  motors\allowbreak[J].
+\newblock Control Engineering Practice, 2005, 13\penalty0 (9):\penalty0
+  1081-1092.
+
+\bibitem[{Bascetta} et~al.(2009){Bascetta}, {Rocco}, and
+  {Magnani}]{bascetta2009force}
+{Bascetta}~L, {Rocco}~P, {Magnani}~G.
+\newblock Force ripple compensation in linear motors based on closed-loop
+  position-dependent identification\allowbreak[J].
+\newblock IEEE/ASME Transactions on Mechatronics, 2009, 15\penalty0
+  (3):\penalty0 349-359.
+
+\bibitem[{Hu} et~al.(2009){Hu}, {Yao}, and {Wang}]{hu2009coordinated}
+{Hu}~C, {Yao}~B, {Wang}~Q.
+\newblock Coordinated adaptive robust contouring control of an industrial
+  biaxial precision gantry with cogging force compensations\allowbreak[J].
+\newblock IEEE Transactions on Industrial Electronics, 2009, 57\penalty0
+  (5):\penalty0 1746-1754.
+
+\bibitem[{Yao} et~al.(2011){Yao}, {Hu}, {Lu}, and {Wang}]{yao2011adaptive}
+{Yao}~B, {Hu}~C, {Lu}~L, et~al.
+\newblock Adaptive robust precision motion control of a high-speed industrial
+  gantry with cogging force compensations\allowbreak[J].
+\newblock IEEE Transactions on control systems technology, 2011, 19\penalty0
+  (5):\penalty0 1149-1159.
+
+\bibitem[{De}~Wit et~al.(1995){De}~Wit, {Olsson}, {Astrom}, and
+  {Lischinsky}]{de1995new}
+{De}~WIT~C~C, {Olsson}~H, {Astrom}~K~J, et~al.
+\newblock A new model for control of systems with friction\allowbreak[J].
+\newblock IEEE Transactions on automatic control, 1995, 40\penalty0
+  (3):\penalty0 419-425.
+
+\bibitem[{Kano} et~al.(2005){Kano}, {Kosaka}, and {Matsui}]{kano2005simple}
+{Kano}~Y, {Kosaka}~T, {Matsui}~N.
+\newblock Simple nonlinear magnetic analysis for permanent-magnet
+  motors\allowbreak[J].
+\newblock IEEE Transactions on industry applications, 2005, 41\penalty0
+  (5):\penalty0 1205-1214.
+
+\bibitem[阮毅(2016)]{阮毅2016电力拖动自动控制系统}
+阮毅.
+\newblock 电力拖动自动控制系统: 运动控制系统\allowbreak[M].
+\newblock 北京: 机械工业出版社, 2016.
+
+\bibitem[{Song} et~al.(2017){Song}, {Liu}, {Xu}, {Yang}, {He}, and
+  {Yang}]{song2017iterative}
+{Song}~F, {Liu}~Y, {Xu}~J~X, et~al.
+\newblock Iterative learning identification and compensation of space-periodic
+  disturbance in pmlsm systems with time delay\allowbreak[J].
+\newblock IEEE Transactions on Industrial Electronics, 2017, 65\penalty0
+  (9):\penalty0 7579-7589.
+
+\bibitem[刘金琨\ 等(2013)刘金琨, 沈晓蓉, and
+  赵龙]{刘金琨2013系统辨识理论及}
+刘金琨, 沈晓蓉, 赵龙.
+\newblock 系统辨识理论及MATLAB仿真\allowbreak[M].
+\newblock 北京: 电子工业出版社, 2013.
+
+\bibitem[付雪微(2017)]{付雪微0有铁芯直线电机推力波动的分析与补偿方法研究}
+付雪微.
+\newblock
+  有铁芯直线电机推力波动的分析与补偿方法研究\allowbreak[D].
+\newblock 哈尔滨: 哈尔滨工业大学, 2017.
+
+\bibitem[荣L(1990)]{荣l1990系统辨识}
+荣L.
+\newblock 系统辨识—使用者的理论\allowbreak[M].
+\newblock 上海: 译.华东师范大学出版社, 1990.
+
+\bibitem[{Wang} et~al.(2015{\natexlab{b}}){Wang}, {Chen}, and
+  {Li}]{wang2015modified}
+{Wang}~Y, {Chen}~X, {Li}~X.
+\newblock Modified robust sliding-mode control method for wafer
+  scanner\allowbreak[J].
+\newblock Advances in Mechanical Engineering, 2015, 7\penalty0 (3):\penalty0
+  1687814015577599.
+
+\bibitem[{Burton} et~al.(1986){Burton} and {Zinober}]{burton1986continuous}
+{Burton}~J, {Zinober}~A~S.
+\newblock Continuous approximation of variable structure control\allowbreak[J].
+\newblock International journal of systems science, 1986, 17\penalty0
+  (6):\penalty0 875-885.
+
+\bibitem[{Lee} et~al.(2017){Lee}, {Chang}, and {Jin}]{lee2017adaptive}
+{Lee}~J, {Chang}~P~H, {Jin}~M.
+\newblock Adaptive integral sliding mode control with time-delay estimation for
+  robot manipulators\allowbreak[J].
+\newblock IEEE Transactions on Industrial Electronics, 2017, 64\penalty0
+  (8):\penalty0 6796-6804.
+
+\bibitem[{Slotine}\ 等(2006){Slotine} and
+  {Li}]{slotine2006应用非线性控制}
+{Slotine}~J~E, {Li}~W.
+\newblock 应用非线性控制\allowbreak[M].
+\newblock 北京: 机械工业出版社, 2006.
+
+\bibitem[{Landau}(1980)]{landau1980extension}
+{Landau}~I.
+\newblock An extension of a stability theorem applicable to adaptive
+  control\allowbreak[J].
+\newblock IEEE Transactions on Automatic Control, 1980, 25\penalty0
+  (4):\penalty0 814-817.
+
+\bibitem[{Powell}(1987)]{1987Powell}
+{Powell}~M.
+\newblock Radial basis functions for multivariable interpolation: A
+  review\allowbreak[M].
+\newblock USA: Clarendon Press, 1987: 143–167.
+
+\bibitem[{Jin} et~al.(2007){Jin}, {Luo}, {Xiao}, and
+  {Zhang}]{jin2007investigation}
+{Jin}~H~Z, {Luo}~Y~M, {Xiao}~Z, et~al.
+\newblock Investigation of a novel method of saturation function for chattering
+  reduction of sliding mode control\allowbreak[J].
+\newblock Journal of Harbin Engineering University, 2007, 3.
+
+\end{thebibliography}

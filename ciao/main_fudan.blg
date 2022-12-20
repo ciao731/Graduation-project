@@ -7,6 +7,7 @@ A level-1 auxiliary file: subtex_chapter1.aux
 A level-1 auxiliary file: subtex_chapter2.aux
 A level-1 auxiliary file: subtex_chapter3.aux
 A level-1 auxiliary file: subtex_chapter4.aux
+A level-1 auxiliary file: subtex_chapter5.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 150 items from 100.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
@@ -22,7 +23,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: main_fudan.bib
 You've used 20 entries,
             5374 wiz_defined-function locations,
-            1155 strings with 11110 characters,
+            1156 strings with 11129 characters,
 and the built_in function-call counts, 86922 in all, are:
 = -- 2826
 > -- 8027

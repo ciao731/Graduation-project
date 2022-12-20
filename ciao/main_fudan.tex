@@ -45,7 +45,7 @@
 \usepackage{diagbox}
 
 \begin{document}
-
+\begin{sloppypar}
 % 这个命令用来关闭版心底部强制对齐，可以减少不必要的 underfull \vbox 提示，但会影响排版效果
 % \raggedbottom
 
@@ -60,7 +60,7 @@
   \include{subtex_chapter2}
   \include{subtex_chapter3}
   \include{subtex_chapter4}
-
+  \include{subtex_chapter5}
 % 建议采用多文件编译的方式
 % 比较好的做法是把每一章放进一个单独的 tex 文件里，并在这里用 \include 导入，例如
 %   \include{chapter1}
@@ -70,7 +70,7 @@
 
 % 后置部分包含参考文献、声明页（自动生成）等
 \backmatter
-
+\end{sloppypar}
 % 打印参考文献列表
 \printbibliography
 

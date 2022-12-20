@@ -1,0 +1,410 @@
+% 
+%\iffalse meta-comment
+%
+% Copyright (C) 2017--2020 by Xiangdong Zeng <xdzeng96@gmail.com>
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either
+% version 1.3c of this license or (at your option) any later
+% version. The latest version of this license is in:
+%
+%   http://www.latex-project.org/lppl.txt
+%
+% and version 1.3 or later is part of all distributions of
+% LaTeX version 2005/12/01 or later.
+%
+% This work has the LPPL maintenance status `maintained'.
+%
+% The Current Maintainer of this work is Xiangdong Zeng.
+%
+% \fi
+
+%*********************************************************************
+% fduthesis: 复旦大学论文模板
+% 2020/08/30 v0.7e
+%
+% 重要提示：
+%   1. 请确保使用 UTF-8 编码保存
+%   2. 请使用 XeLaTeX 或 LuaLaTeX 编译
+%   3. 请仔细阅读用户文档
+%   4. 修改、使用、发布本文档请务必遵循 LaTeX Project Public License
+%   5. 不需要的注释可以尽情删除
+%*********************************************************************
+
+\documentclass[type=master, oneside]{fduthesis}
+% 模板选项：
+%   type = doctor|master|bachelor  论文类型，默认为本科论文
+%   oneside|twoside                论文的单双面模式，默认为 twoside
+%   draft = true|false             是否开启草稿模式，默认关闭
+% 带选项的用法示例：
+%   \documentclass[oneside]{fduthesis}
+%   \documentclass[twoside, draft=true]{fduthesis}
+%   \documentclass[type=bachelor, twoside, draft=true]{fduthesis}
+
+\fdusetup{
+  % 参数设置
+  % 允许采用两种方式设置选项：
+  %   1. style/... = ...
+  %   2. style = { ... = ... }
+  % 注意事项：
+  %   1. 不要出现空行
+  %   2. “=” 两侧的空格会被忽略
+  %   3. “/” 两侧的空格不会被忽略
+  %   4. 请使用英文逗号 “,” 分隔选项
+  %
+  % style 类用于设置论文格式
+  style = {
+    % font = times,
+    % 西文字体（包括数学字体）
+    % 允许选项：
+    %   font = garamond|libertinus|lm|palatino|times|times*|none
+    %
+    cjk-font = windows,
+    % 中文字体
+    % 允许选项：
+    %   cjk-font = adobe|fandol|founder|mac|sinotype|sourcehan|windows|none
+    %
+    % 注意：
+    %   1. 中文字体设置高度依赖于系统。各系统建议方案：
+    %        windows：cjk-font = windows
+    %        mac：    cjk-font = mac
+    %        linux：  cjk-font = fandol（默认值）
+    %   2. 除 fandol 和 sourcehan 外，其余字体均为商用字体，请注意版权问题
+    %   3. 但 fandol 字体缺字比较严重，而 sourcehan 没有配备楷体和仿宋体
+    %   4. 这里中西文字体设置均注释掉了，即使用默认设置：
+    %        font     = times
+    %        cjk-font = fandol
+    %   5. 使用 font = none / cjk-font = none 关闭默认字体设置，需手动进行配置
+    %
+    font-size = -4,
+    % 字号
+    % 允许选项：
+    %   font-size = -4|5
+    %
+    % fullwidth-stop = catcode,
+    % 是否把全角实心句点 “．” 作为默认的句号形状
+    % 允许选项：
+    %   fullwidth-stop = catcode|mapping|false
+    % 说明：
+    %   catcode   显式的 “。” 会被替换为 “．”（e.g. 不包括用宏定义保存的 “。”）
+    %   mapping   所有的 “。” 会被替换为 “．”（使用 LuaLaTeX 编译则无效）
+    %   false     不进行替换
+    %
+    footnote-style = xits,
+    % 脚注编号样式
+    % 允许选项：
+    %   footnote-style = plain|libertinus|libertinus*|libertinus-sans|
+    %                    pifont|pifont*|pifont-sans|pifont-sans*|
+    %                    xits|xits-sans|xits-sans*
+    %
+    hyperlink = none,
+    % 超链接样式
+    % 允许选项：
+    %   hyperlink = border|color|none
+    %
+    % hyperlink-color = default,
+    % 超链接颜色
+    % 允许选项：
+    %   hyperlink-color = default|classic|elegant|fantasy|material|
+    %                     business|science|summer|autumn|graylevel|prl
+    % 默认与西文字体保持一致
+    %
+    bib-backend = bibtex,
+    % 参考文献支持方式
+    % 允许选项：
+    %   bib-backend = bibtex|biblatex
+    %
+    % bib-style = numerical,
+    % 参考文献样式
+    % 允许选项：
+    %   bib-style = author-year|numerical|<其他样式>
+    % 说明：
+    %   author-year  著者—出版年制
+    %   numerical    顺序编码制
+    %   <其他样式>   使用其他 .bst（bibtex）或 .bbx（biblatex）格式文件
+    %
+    % cite-style = {},
+    % 引用样式
+    % 默认为空，即与参考文献样式保持一致
+    % 仅适用于 biblatex；如要填写，需保证相应的 .cbx 格式文件能被调用
+    %
+    bib-resource = {refs.bib},
+%    bib-resource = {fduthesis-template.bib},
+    % 参考文献数据源
+    % 可以是单个文件，也可以是用英文逗号 “,” 隔开的一组文件
+    % 如果使用 biblatex，则必须明确给出 .bib 后缀名
+    %
+    % logo = {fudan-name.pdf},
+    % 封面中的校名图片
+    % 模版已自带，通常不需要额外配置
+    %
+    % logo-size = {0.5\textwidth},      % 只设置宽度
+    % logo-size = {{}, 3cm},            % 只设置高度
+    % logo-size = {8cm, 3cm},           % 设置宽度和高度
+    % 设置校名图片的大小
+    % 通常不需要调整
+    %
+    % auto-make-cover = true
+    % 是否自动生成论文封面（封一）、指导小组成员名单（封二）和声明页（封三）
+    % 除非特殊需要（e.g. 不要封面），否则不建议设为 false
+  },
+  %
+  % info 类用于录入论文信息
+  info = {
+    title = {针对精密直线运动平台的滑模控制方法研究}, 
+    % 中文标题
+    % 长标题建议使用 “\\” 命令手动换行（不是指在源文件里输入回车符，当然
+    % 源文件里适当的换行可以有助于代码清晰）：
+    %   title = {最高人民法院、最高人民检察院关于适用\\
+    %            犯罪嫌疑人、被告人逃匿、死亡案件违法所得\\
+    %            没收程序若干问题的规定},
+    %
+    title* = {Research of Sliding Mode Control Method for Precision Linear Motion Stages},
+    % 英文标题
+    %
+%    author = {王攀},
+     author = {XXX},
+    % 作者姓名
+    %
+    % author* = {Your name},
+    % 作者姓名（英文 / 拼音）
+    % 目前不需要填写
+    %
+%    supervisor = {杨晓峰\quad 教授},
+    supervisor = {XXX},
+    % 导师
+    % 姓名与职称之间可以用 \quad 打印一个空格
+    %
+    major = {微电子学与固体电子学},
+    % 专业
+    %
+    degree = academic,
+    % 学位类型
+    % 允许选项：
+    %   degree = academic|professional
+    % 说明：
+    %   academic      学术学位
+    %   professional  专业学位
+    %
+    department = {工程与应用技术研究院},
+    % 院系
+    %
+%    student-id = {18210860016},
+    student-id = {18210860016},
+    % 作者学号
+    %
+    date = {2021 年 3 月 31 日},
+    % 日期
+    % 注释掉表示使用编译日期
+    %
+    % secret-level = ii,
+    % 密级
+    % 允许选项：
+    %   secret-level = none|i|ii|iii
+    % 说明：
+    %   none  不显示密级与保密年限
+    %   i     秘密
+    %   ii    机密
+    %   iii   绝密
+    %
+    % secret-year = {五年},
+    % 保密年限
+    % secret-level = none 时该选项无效
+    %
+%    instructors = {
+%      {杨晓峰\quad\,\,\,\,\,\, 教\quad 授\quad \quad},
+%      {丁晨阳     \quad 青年研究员},
+%      {殳\quad 峰 \quad 青年研究员},
+%      {张志平     \quad 青年研究员}
+%    },
+    % instructors=none,
+    % 指导小组成员
+    % 使用英文逗号 “,” 分隔
+    % 如有需要，可以用 \quad 手工对齐
+    %
+    keywords = {精密直线运动平台, 系统辨识, 递推最小二乘, 神经网络, 滑模控制},
+    % 中文关键字
+    % 使用英文逗号 “,” 分隔
+    %
+    keywords* = {precision linear motion stage, system identification, recursive least squares, neural network, sliding mode control},
+    % 英文关键字
+    % 使用英文逗号 “,” 分隔
+    %
+    clc = {TP273+.2}
+    % 中图分类号
+  }
+}
+
+% 需要的宏包可以自行调用
+\usepackage{physics}
+%\input fduthesis-test-toolkit
+\usepackage{float}
+\usepackage{subfig}
+%\usepackage{subfigure}
+\usepackage{cases}
+%%
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{textcomp}
+\usepackage{siunitx}  %可以输入摄氏度
+\usepackage{subfig}
+\usepackage{bm}
+%\usepackage{mathastext}
+%%
+
+%%
+\makeatletter  
+\newif\if@restonecol  
+\makeatother  
+\let\algorithm\relax  
+\let\endalgorithm\relax  
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{algpseudocode}
+\usepackage{lscape}
+\usepackage{url}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}} 
+\renewcommand{\algorithmicensure}{\textbf{Output:}} % Use Output in the format of Algorithm%
+%%
+\usepackage{verbatim}
+% 需要的命令可以自行定义
+\newcommand{\hilbertH}{\symcal{H}}
+\newcommand{\ee}{\symrm{e}}
+\newcommand{\ii}{\symrm{i}}
+
+\makeatletter
+\fancyhead[L]{}
+\fancyhead[R]{}
+\fancyhead[C]{\fdu@kai\zihao{-3}复~旦~大~学~硕~士~学~位~论~文}
+\let\ps@plain\ps@fancy
+\patchcmd{\l@chapter}
+  {\hfil}
+  {\leaders\hbox{\normalfont$\m@th\mkern \@dotsep mu\hbox{.}\mkern \@dotsep mu$}\hfill}
+  {}{}
+\makeatother
+
+\begin{document}
+
+\frontmatter
+
+% 目录
+\tableofcontents
+%% 插图目录
+%\listoffigures
+%% 表格目录
+%% \listoftables
+
+\begin{abstract}
+芯片尺寸的不断缩小对扫描投影光刻机提出了严峻的挑战，其中，完成大量直线扫描运动的工件台及其控制是重要瓶颈之一。直线电机作为核心的执行机构，一直是研究的焦点和热点。但是，直线电机自身所含有的模型参数摄动、定位力、电磁非线性以及外部扰动等因素严重影响其位置跟踪性能，因此，如何克服上述影响因素成为实现精密直线运动平台高性能控制的关键。
+
+本文以光刻机工件台为研究背景，针对上述核心问题，从基于直线电机的精密直线运动平台系统建模和滑模控制算法方面开展研究。主要研究内容和结论如下：
+
+1) 建立了一种新的基于神经网络的扰动模型。该模型充分考虑了精密直线运动平台的各种非线性扰动，并将其分为时变和时不变两部分，并结合在线自适应补偿方法实现对各种非线性扰动的补偿。此外，对系统进行了初步的参数辨识，获得了系统的等效质量、等效阻尼和定位力最大空间周期，为后文控制器的设计奠定了基础。
+
+2) 提出了一种改进型递推最小二乘积分滑模控制方法(Improved Recursive Least Square Integral Sliding Mode Control, IRLSISMC)。该方法在传统递推最小二乘积分滑模控制(Traditional Recursive Least Square Integral Sliding Mode Control, TRLSISMC)的基础上，将精密直线运动平台定位力的主要成分引入到递推最小二乘算法的回归向量中，实时地进行逆模型前馈控制和定位力补偿。与此同时，积分滑模反馈控制部分保证了位置跟踪误差渐近收敛到0，并通过李雅普诺夫理论证明了系统稳定性。
+
+
+3) 提出了一种多核神经网络滑模控制方法(Multi-Kernel Neural Network Sliding Mode Control, MNNSMC)。该方法由多核神经网络(Multi-Kernel Neural Network, MNN)和带有动态边界层的滑模控制两部分组成。前者考虑了所研究的精密直线运动平台的动力学特性，将定位力与摩擦力的经典模型考虑进神经网络核函数的设计中，不仅保留了典型的高斯径向基函数，还引入了三角核函数和sigmoid核函数，分别在线拟合并补偿定位力与摩擦力引起的扰动。后者采用的动态边界层可以根据系统的速度信息实时地进行边界层厚度的调整，有助于系统状态轨迹收敛到滑模面，同时构建了李雅普诺夫函数，证明了MNNSMC的渐近稳定性。
+
+4) 设计了三组不同设置的位置跟踪实验，验证了所提方法在精密直线运动平台上的高性能控制效果。与传统方法相比，IRLSISMC方法和MNNSMC方法能够有效地提升系统的位置跟踪精度和扰动抑制能力，并对模型参数摄动有一定的鲁棒性。
+\pagenumbering{Roman}
+\end{abstract}
+
+
+
+\begin{abstract*}
+ The continuous shrinking of chip size poses severe challenges to the scanning projection lithography machine. Among them, the wafer stage that completes a large number of linear scanning motions is one of the important bottlenecks. As the core actuator, the linear motor has always been the focus and hotspot of research. However, the linear motor itself contains model parameter variations, positioning force, electromagnetic nonlinearity, and external disturbance that seriously affect its position tracking performance. Therefore, how to overcome the above influencing factors has become the key to achieving high-performance control of precision linear motion stages.
+ 
+ This thesis takes the lithography machine's wafer stage as the research background, aiming at the aforementioned core problems, and researches from the aspects of the precision linear motion stage model based on the linear motor and the sliding mode control method. The specific research contents and conclusions are as follows:
+ 
+ 1) Developed a new disturbance model based on neural network. The model fully considers the various nonlinear disturbances of the precision linear motion stage, and divides them into two parts, time-varying and time-invariant, and combines the adaptive control method to realize the compensation of various nonlinear disturbances online. In addition, preliminary parameter identification of the system was carried out, and the equivalent mass, equivalent damping and maximum space period of the positioning force of the system were obtained, which laid the foundation for the design of the controller later.
+ 
+ 2) Proposed an improved recursive least square integral sliding mode control (IRLSISMC) method. Based on the traditional recursive least square integral sliding mode control (TRLSISMC), this method introduces the main component of the positioning force of the precision linear motion stage into the regression vector of the recursive least squares algorithm to realize inverse-model-based feedforward control and positioning force compensation. At the same time, the integral sliding mode feedback control ensures that the position tracking error asymptotically converges to zero, and the system stability is proved by the Lyapunov theorem.
+ 
+ 
+ 3) Proposed a multi-kernel neural network sliding mode control (MNNSMC) method. This strategy consists of two parts: multi-kernel neural network (MNN) and sliding mode control with dynamic boundary layer. The former considers the dynamic characteristics of the studied precision linear motion stage, and introduced the classic models of positioning force and friction into the design of kernel functions, not only retaining the typical Gaussian radial basis function, but also introducing triangular functions and sigmoid function to fit and compensate for the disturbances caused by positioning force and friction, respectively. The latter can adjust the thickness of the boundary layer in real time according to the velocity of the mover, which helps the system state trajectory converge to the sliding manifold asymptotically. At the same time, the Lyapunov theorem is constructed to prove the asymptotic stability of MNNSMC. 
+ 
+ 4) Designed three different position tracking experiments settings to verify the high-performance control effect of proposed methods on a precision linear motion stage. Compared with traditional methods, the IRLSISMC method and MNNSMC strategy can effectively improve the system's position tracking accuracy and disturbance suppression ability, and have certain robustness to the model parameter variations.
+\end{abstract*}
+
+% 符号表
+% 语法与 LaTeX 表格一致：列用 & 区分，行用 \\ 区分
+% 如需修改格式，可以使用可选参数：
+%   \begin{notation}[ll]
+%     $x$ & 坐标 \\
+%     $p$ & 动量
+%   \end{notation}
+% 可选参数与 LaTeX 标准表格的列格式说明语法一致
+% 这里的 “ll” 表示两列均为自动宽度，并且左对齐
+%\begin{notation}[lp{20em}]
+%	$\sin$      &  正弦 \\
+%	HPC         &  高性能计算 (High Performance Computing) \\
+%	cluster     &  集群 \\
+%	Itanium     &  安腾 \\
+%	SMP         &  对称多处理 \\
+%	API         &  应用程序编程接口 \\
+%	PI          &  聚酰亚胺 \\
+%	MPI         &  聚酰亚胺模型化合物，N-苯基邻苯酰亚胺 \\
+%	PBI         &  聚苯并咪唑 \\
+%	MPBI        &  聚苯并咪唑模型化合物，N-苯基苯并咪唑 \\
+%	PY          &  聚吡咙 \\
+%	PMDA-BDA    &  均苯四酸二酐与联苯四胺合成的聚吡咙薄膜 \\
+%	$\Delta G$  &  活化自由能 (Activation Free Energy) \\
+%	$\chi$      &  传输系数 (Transmission Coefficient) \\
+%	$E$         &  能量 \\
+%	$m$         &  质量 \\
+%	$c$         &  光速 \\
+%	$P$         &  概率 \\
+%	$T$         &  时间 \\
+%	$v$         &  速度
+%\end{notation}
+
+\mainmatter
+
+\include{includes/chapter1}
+\include{includes/chapter2}
+\include{includes/chapter3}
+\include{includes/chapter4}
+\include{includes/chapter5}
+\include{includes/chapter6}
+
+\backmatter
+
+%\section{参考文献备份}
+%[1]基于非线性和柔性特性分析及补偿的直线电机精密运动控制陈正[J](79-83)
+
+\printbibliography
+\begin{comment}
+\chapter{致~谢}
+
+三年硕士生涯似弹指一挥间，在上海的这段岁月里，我收获了知识、友谊、成长以及格局，更懂得了珍惜与感恩，在这里我要感谢每一位在我硕士生涯中给予过帮助的老师、同学和朋友。
+
+本人的硕士课题是在杨晓峰教授的精心指导下完成的，在这里我要特别感谢杨老师的教导之恩。杨老师将我带入超精密运动控制领域，打开了我知识的另一扇门，让我有机会在解决国家重大需求的领域做一些研究工作。在这三年里，杨老师在科研和生活上都为我指明了进步的方向。他不仅学识渊博，更有着高瞻远瞩的视野和格局，每次与杨老师的倾心畅谈，都会让我有种醍醐灌顶的感觉，深深地被杨老师宽广的胸襟和宏大的格局所吸引。他在组会上时常教导我们要注重基础，只有扎实的基础才能有长远的发展，同时他以身作则地教导我们，做科研要勤奋，几乎不出差的时候，杨老师总是晚上11点才离开办公室。最后，大论文的撰写过程中，杨老师与我多次讨论行文逻辑与篇章安排，为我在科研的道路上继续奋斗打下了坚实的基础。我非常幸运作为杨老师的学生，因为他教会我们的东西，不只是论文中的知识，更是受用一生的宝贵财富。
+
+另外，我还要感谢丁晨阳老师，在我科研初期，他带我参与实际的工程项目，帮我建立了很多实际工程应用中有意义的认识和一些工具的使用，这些对我后期的硕士课题非常有帮助。同时，我还要感谢殳峰老师，感谢他在英文写作方面给予我的惴惴教诲，让我对于英文写作有了更加深刻的认识，尤其是学术英语的逻辑方面，这将对我学术生涯的长期发展非常有意义，在此表达诚挚的谢意。此外，我还要感谢张志平老师，感谢他在光学领域为我答疑解惑，让我能够对所研究的整个光机电系统工作有更加全面的认识。同时，我还应该感谢微电子学院的纪新明老师和卢洪亮老师，感谢他们在我硕士生涯的最伊始给予的帮助和建议。
+
+我还要感谢复旦大学、工程与应用技术研究院为我提供的广阔平台和众多磨炼机会，作为学院第一届学生，我见证了学院的快速发展进步，我也坚信学院未来的发展会越来越好，期待更加辉煌的明天。我还要感谢学院的石丽君老师、尹娜老师、姚明远老师和赵玮杰老师，感谢他们为全院研究生工作付出的日日夜夜和对我学习科研工作提出的宝贵意见和建议，尤其是疫情期间，学院的老师们牺牲了太多自己的时间，在此向你们表示深深的敬意。我还要感谢国家重大科技专项02专项子课题的支持，也是我硕士研究课题的来源。
+
+在这匆匆逝去的三年里，实验室的大师兄徐云浪对我研究课题提供了极大的帮助，在我科研遇到问题的时候，他总是会设身处地地替我考虑解决办法，在完成实验研究和科研论文撰写的过程中，更是给予了我极大的帮助，在此由衷地感谢徐师兄。此外，实验室的刘维珂师兄和丁润泽师兄，在我科研最艰难的时候也是鼎力相助，帮助我解决了很多实际问题，使我能够顺利完成硕士课题，非常感谢丁师兄和刘师兄。我也要感谢我的同窗张佩瑾和师妹苏新艺，大家一起交流讨论的岁月是最难忘的。另外还有师弟刘子东、廖永超、姜龙滨和张阳、师妹郁思熠和李福，感谢你们在我科研最忙的时候给予的协助，感谢你们。还有超精密运动控制与检测实验室的其他师兄师姐师弟师妹们，在此一并感谢你们。还要感谢上海隐冠半导体技术有限公司的技术总监吴立伟，以及张东、黄传和陈椿元等工程师，感谢你们在工程问题上给予的热情帮助。
+
+最后，我还要感谢我的妻子季慧女士以及我所有的家人，在这三年里你们的支持和付出是我强大的精神后盾。还有太多需要感谢的人无法一一列出，在此向你们表示衷心的感谢，感谢你们一直以来的关心、支持和帮助。
+\end{comment}
+
+\chapter{攻读硕士期间发表的学术论文}
+
+\begin{comment}
+\begin{enumerate}
+	\renewcommand{\labelenumi}{[\theenumi].}
+    \item \textbf{Pan Wang}, Yunlang Xu, Runze Ding, Weike Liu, Steve Shu, and Xiaofeng Yang. Multi-Kernel Neural Network Sliding Mode Control for Permanent Magnet Linear Synchronous Motors[J]. IEEE Access (under review)
+\end{enumerate}
+
+
+\begin{enumerate}
+\renewcommand{\labelenumi}{[\theenumi].}
+\item \textbf{XXX}, XXX, XXX, et al. Multi-Kernel Neural Network Sliding Mode Control for Permanent Magnet Linear Synchronous Motors[J]. IEEE Access (under review)
+\end{enumerate}
+\end{comment}
+第一作者，IEEE Access (under review)
+
+
+\end{document}

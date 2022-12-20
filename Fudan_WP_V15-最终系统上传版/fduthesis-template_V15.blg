@@ -1,0 +1,84 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: fduthesis-template_V15.aux
+The style file: gbt7714-numerical.bst
+A level-1 auxiliary file: includes/chapter1.aux
+A level-1 auxiliary file: includes/chapter2.aux
+A level-1 auxiliary file: includes/chapter3.aux
+A level-1 auxiliary file: includes/chapter4.aux
+A level-1 auxiliary file: includes/chapter5.aux
+A level-1 auxiliary file: includes/chapter6.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: refs.bib
+I was expecting a `,' or a `}'---line 643 of file refs.bib
+ :  
+ :  organization={IEEE}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 1529 of file refs.bib
+ : @article{slotine1983tracking
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1573 of file refs.bib
+ : @article{tseng2010chattering
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1595 of file refs.bib
+ : @article{zhang2013design
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1683 of file refs.bib
+ : @article{sun2019adaptive
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1839 of file refs.bib
+ : @article{chen2009modeling
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1927 of file refs.bib
+ : @article{young1999control
+ :                          ,
+I'm skipping whatever remains of this entry
+You've used 72 entries,
+            4281 wiz_defined-function locations,
+            1310 strings with 20232 characters,
+and the built_in function-call counts, 388129 in all, are:
+= -- 7442
+> -- 44970
+< -- 56287
++ -- 15569
+- -- 3030
+* -- 2692
+:= -- 53536
+add.period$ -- 216
+call.type$ -- 72
+change.case$ -- 282
+chr.to.int$ -- 14183
+cite$ -- 72
+duplicate$ -- 1312
+empty$ -- 3732
+format.name$ -- 1052
+if$ -- 100543
+int.to.chr$ -- 3
+int.to.str$ -- 73
+missing$ -- 0
+newline$ -- 372
+num.names$ -- 216
+pop$ -- 20177
+preamble$ -- 1
+purify$ -- 72
+quote$ -- 0
+skip$ -- 39579
+stack$ -- 0
+substring$ -- 18923
+swap$ -- 192
+text.length$ -- 671
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 888
+warning$ -- 0
+while$ -- 932
+width$ -- 0
+write$ -- 1040
+(There were 7 error messages)

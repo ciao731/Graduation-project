@@ -1,0 +1,52 @@
+\contentsline {chapter}{\normalfont \sffamily 摘\hskip 1em\relax 要}{I}{chapter*.2}%
+\contentsline {chapter}{\normalfont \sffamily Abstract}{II}{chapter*.3}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第1章}绪论}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}课题来源}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}研究背景与意义}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}精密直线运动平台控制方法研究现状及分析}{3}{section.1.3}%
+\contentsline {subsection}{\fdu@kai \numberline {1.3.1}比例-积分-微分控制}{4}{subsection.1.3.1}%
+\contentsline {subsection}{\fdu@kai \numberline {1.3.2}迭代学习控制}{4}{subsection.1.3.2}%
+\contentsline {subsection}{\fdu@kai \numberline {1.3.3}自适应控制}{5}{subsection.1.3.3}%
+\contentsline {subsection}{\fdu@kai \numberline {1.3.4}滑模控制}{6}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}论文主要研究内容}{8}{section.1.4}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第2章}精密直线运动平台动力学建模与参数辨识}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}引言}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}精密直线运动平台工作原理}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}精密直线运动平台动力学建模}{15}{section.2.3}%
+\contentsline {section}{\numberline {2.4}精密直线运动平台模型参数辨识}{17}{section.2.4}%
+\contentsline {subsection}{\fdu@kai \numberline {2.4.1}离线辨识输入信号要求}{18}{subsection.2.4.1}%
+\contentsline {subsection}{\fdu@kai \numberline {2.4.2}基于频率响应函数的辨识方法}{18}{subsection.2.4.2}%
+\contentsline {subsection}{\fdu@kai \numberline {2.4.3}基于频率响应函数的辨识结果}{20}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}本章小结}{22}{section.2.5}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第3章}基于递推最小二乘的积分滑模控制方法研究}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}引言}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}滑模控制基本原理}{23}{section.3.2}%
+\contentsline {section}{\numberline {3.3}递推最小二乘原理}{25}{section.3.3}%
+\contentsline {section}{\numberline {3.4}基于传统递推最小二乘的前馈控制器设计}{28}{section.3.4}%
+\contentsline {section}{\numberline {3.5}基于改进型递推最小二乘的积分滑模控制器设计}{29}{section.3.5}%
+\contentsline {subsection}{\fdu@kai \numberline {3.5.1}基于改进型递推最小二乘的前馈控制器设计}{30}{subsection.3.5.1}%
+\contentsline {subsection}{\fdu@kai \numberline {3.5.2}基于积分滑模的反馈控制器设计}{31}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}本章小结}{32}{section.3.6}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第4章}基于神经网络的滑模控制方法研究}{33}{chapter.4}%
+\contentsline {section}{\numberline {4.1}引言}{33}{section.4.1}%
+\contentsline {section}{\numberline {4.2}基于传统RBF神经网络的自适应补偿器设计}{33}{section.4.2}%
+\contentsline {section}{\numberline {4.3}基于多核神经网络的动态边界层滑模控制器设计}{34}{section.4.3}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.1}多核神经网络补偿器设计}{35}{subsection.4.3.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.2}基于多核神经网络的滑模控制器设计}{37}{subsection.4.3.2}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.3}动态边界层设计}{39}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}本章小结}{40}{section.4.4}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第5章}精密直线运动平台控制系统实验验证与分析}{41}{chapter.5}%
+\contentsline {section}{\numberline {5.1}引言}{41}{section.5.1}%
+\contentsline {section}{\numberline {5.2}实验验证与分析}{41}{section.5.2}%
+\contentsline {subsection}{\fdu@kai \numberline {5.2.1}实验装置}{41}{subsection.5.2.1}%
+\contentsline {subsection}{\fdu@kai \numberline {5.2.2}实验设置}{41}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}实验结果与分析}{44}{section.5.3}%
+\contentsline {subsection}{\fdu@kai \numberline {5.3.1}性能评价指标}{44}{subsection.5.3.1}%
+\contentsline {subsection}{\fdu@kai \numberline {5.3.2}递推最小二乘积分滑模控制器实验结果分析}{45}{subsection.5.3.2}%
+\contentsline {subsection}{\fdu@kai \numberline {5.3.3}多核神经网络动态边界层滑模控制器实验结果分析}{51}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}本章小结}{61}{section.5.4}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第6章}全文总结与展望}{62}{chapter.6}%
+\contentsline {section}{\numberline {6.1}本文工作总结}{62}{section.6.1}%
+\contentsline {section}{\numberline {6.2}研究工作展望}{63}{section.6.2}%
+\contentsline {chapter}{\normalfont \sffamily 参考文献}{64}{chapter*.43}%
+\contentsline {chapter}{\normalfont \sffamily 攻读硕士期间发表的学术论文}{71}{chapter*.44}%
