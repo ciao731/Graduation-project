@@ -1,19 +1,19 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.21)  20 DEC 2022 15:05
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.20)  21 DEC 2022 11:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **main_fudan
 (./main_fudan.tex
-LaTeX2e <2022-11-01>
-L3 programming layer <2022-11-02>
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2022-12-17>
 
 LaTeX Warning: \include should only be used after \begin{document} on input line 34.
 
 (./subtex_begin.tex (./fduthesis.cls
 Document Class: fduthesis 2022/09/04 v0.8 Thesis template for Fudan University
 (d:/latex/texlive/2022/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty (d:/latex/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-11-02 L3 programming layer (loader) 
+Package: expl3 2022-12-17 L3 programming layer (loader) 
  (d:/latex/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2022-10-26 L3 backend support: XeTeX
 \g__graphics_track_int=\count181
@@ -22,18 +22,18 @@ File: l3backend-xetex.def 2022-10-26 L3 backend support: XeTeX
 \g__pdf_backend_annotation_int=\count183
 \g__pdf_backend_link_int=\count184
 ))
-Package: xtemplate 2022-06-22 L3 Experimental prototype document functions
+Package: xtemplate 2022-12-17 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen140
 \l__xtemplate_tmp_int=\count185
 \l__xtemplate_tmp_muskip=\muskip16
-\l__xtemplate_tmp_skip=\skip47
+\l__xtemplate_tmp_skip=\skip48
 ) (d:/latex/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2022-12-17 LaTeX2e option processing using LaTeX3 keys
 )
 \l__fdu_tmpa_box=\box52
 \l__fdu_tmpa_dim=\dimen141
 \l__fdu_tmpb_dim=\dimen142
-\l__fdu_tmpa_skip=\skip48
+\l__fdu_tmpa_skip=\skip49
 \g__fdu_thesis_type_int=\count186
  (./fduthesis.def
 File: fduthesis.def 2022/09/04 v0.8 Definition file for fduthesis
@@ -72,8 +72,8 @@ File: bk12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count196
 \c@figure=\count197
 \c@table=\count198
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
+\abovecaptionskip=\skip50
+\belowcaptionskip=\skip51
 \bibindent=\dimen144
 ) (d:/latex/texlive/2022/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
 File: ctex-engine-xetex.def 2022/07/14 v2.5.10 XeLaTeX adapter (CTEX)
@@ -82,7 +82,7 @@ Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
 \l__xeCJK_tmp_int=\count199
 \l__xeCJK_tmp_box=\box54
 \l__xeCJK_tmp_dim=\dimen145
-\l__xeCJK_tmp_skip=\skip51
+\l__xeCJK_tmp_skip=\skip52
 \g__xeCJK_space_factor_int=\count266
 \l__xeCJK_begin_int=\count267
 \l__xeCJK_end_int=\count268
@@ -94,7 +94,7 @@ Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
 \c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
 \c__xeCJK_CM_class_int=\XeTeXcharclass7
 \c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
-\l__xeCJK_last_skip=\skip52
+\l__xeCJK_last_skip=\skip53
 \c__xeCJK_none_node=\count269
 \g__xeCJK_node_int=\count270
 \c__xeCJK_CJK_node_dim=\dimen146
@@ -102,10 +102,10 @@ Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
 \c__xeCJK_default_node_dim=\dimen148
 \c__xeCJK_CJK-widow_node_dim=\dimen149
 \c__xeCJK_normalspace_node_dim=\dimen150
-\c__xeCJK_default-space_node_skip=\skip53
-\l__xeCJK_ccglue_skip=\skip54
-\l__xeCJK_ecglue_skip=\skip55
-\l__xeCJK_punct_kern_skip=\skip56
+\c__xeCJK_default-space_node_skip=\skip54
+\l__xeCJK_ccglue_skip=\skip55
+\l__xeCJK_ecglue_skip=\skip56
+\l__xeCJK_punct_kern_skip=\skip57
 \l__xeCJK_indent_box=\box55
 \l__xeCJK_last_penalty_int=\count271
 \l__xeCJK_last_bound_dim=\dimen151
@@ -138,9 +138,9 @@ Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
 \l__xeCJK_fam_int=\count274
 \g__xeCJK_fam_allocation_int=\count275
 \l__xeCJK_verb_case_int=\count276
-\l__xeCJK_verb_exspace_skip=\skip57
+\l__xeCJK_verb_exspace_skip=\skip58
  (d:/latex/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.sty (d:/latex/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2022-06-22 L3 Experimental document command parser
+Package: xparse 2022-12-17 L3 Experimental document command parser
 )
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
  (d:/latex/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
@@ -165,7 +165,7 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
 ))
 \ccwd=\dimen175
-\l__ctex_ccglue_skip=\skip58
+\l__ctex_ccglue_skip=\skip59
 )
 \l__ctex_ziju_dim=\dimen176
  (d:/latex/texlive/2022/texmf-dist/tex/latex/zhnumber/zhnumber.sty
@@ -175,7 +175,7 @@ Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
  (d:/latex/texlive/2022/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
 ))
-\l__ctex_heading_skip=\skip59
+\l__ctex_heading_skip=\skip60
  (d:/latex/texlive/2022/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-book.def
 File: ctex-scheme-chinese-book.def 2022/07/14 v2.5.10 Chinese scheme for book (CTEX)
  (d:/latex/texlive/2022/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
@@ -186,7 +186,7 @@ File: ctex-cs4size.clo 2022/07/14 v2.5.10 cs4size option (CTEX)
 File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
 ) (d:/latex/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip60
+\@mathmargin=\skip61
 
 For additional information on amsmath, use the `?' option.
 (d:/latex/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -243,8 +243,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \totwidth@=\dimen184
 \lineht@=\dimen185
 \@envbody=\toks19
-\multlinegap=\skip61
-\multlinetaggap=\skip62
+\multlinegap=\skip62
+\multlinetaggap=\skip63
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
@@ -280,15 +280,15 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@dimlist=\toks22
 ) (d:/latex/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip63
-\f@nch@O@elh=\skip64
-\f@nch@O@erh=\skip65
-\f@nch@O@olh=\skip66
-\f@nch@O@orh=\skip67
-\f@nch@O@elf=\skip68
-\f@nch@O@erf=\skip69
-\f@nch@O@olf=\skip70
-\f@nch@O@orf=\skip71
+\f@nch@headwidth=\skip64
+\f@nch@O@elh=\skip65
+\f@nch@O@erh=\skip66
+\f@nch@O@olh=\skip67
+\f@nch@O@orh=\skip68
+\f@nch@O@elf=\skip69
+\f@nch@O@erf=\skip70
+\f@nch@O@olf=\skip71
+\f@nch@O@orf=\skip72
 ) (d:/latex/texlive/2022/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2022/03/08 v6.0d a miscellany of footnote facilities
 \FN@temptoken=\toks23
@@ -315,12 +315,12 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \theorem@@style=\toks25
 \theorembodyfont=\toks26
 \theoremnumbering=\toks27
-\theorempreskipamount=\skip72
-\theorempostskipamount=\skip73
-\theoremframepreskipamount=\skip74
-\theoremframepostskipamount=\skip75
-\theoreminframepreskipamount=\skip76
-\theoreminframepostskipamount=\skip77
+\theorempreskipamount=\skip73
+\theorempostskipamount=\skip74
+\theoremframepreskipamount=\skip75
+\theoremframepostskipamount=\skip76
+\theoreminframepreskipamount=\skip77
+\theoreminframepostskipamount=\skip78
 \theorem@preskip=\toks28
 \theorem@postskip=\toks29
 \theorem@framepreskip=\toks30
@@ -339,12 +339,12 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \qedsymbol=\toks39
 \theoremkeyword=\toks40
 \qedsymbol=\toks41
-\thm@topsep=\skip78
-\thm@topsepadd=\skip79
+\thm@topsep=\skip79
+\thm@topsepadd=\skip80
 Package ntheorem Info: Option `thmmarks' loaded on input line 1175.
 \c@endNonectr=\count310
 \c@currNonectr=\count311
-\mysavskip=\skip80
+\mysavskip=\skip81
 Package ntheorem Info: option `amsmath' handling for `thmmarks' loaded on input line 1175.
 \thm@amstmpdepth=\dimen256
 \tagwidth=\dimen257
@@ -365,10 +365,10 @@ File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 \Gin@req@width=\dimen259
 ) (d:/latex/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip81
-\LTright=\skip82
-\LTpre=\skip83
-\LTpost=\skip84
+\LTleft=\skip82
+\LTright=\skip83
+\LTpre=\skip84
+\LTpost=\skip85
 \LTchunksize=\count312
 \LTcapwidth=\dimen260
 \LT@head=\box58
@@ -421,27 +421,27 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 Package xtemplate Info: Declaring object type 'fdu/cover' taking 0 argument(s)
 (xtemplate)             on line 1206.
 
-\l__fdu_cover/cover-i/top_skip=\skip85
-\l__fdu_cover/cover-i/bottom_skip=\skip86
-\l__fdu_cover/cover-i/id/bottom_skip=\skip87
-\l__fdu_cover/cover-i/logo/bottom_skip=\skip88
-\l__fdu_cover/cover-i/type/bottom_skip=\skip89
-\l__fdu_cover/cover-i/degree/bottom_skip=\skip90
-\l__fdu_cover/cover-i/title/bottom_skip=\skip91
-\l__fdu_cover/cover-i/title-en/bottom_skip=\skip92
-\l__fdu_cover/cover-i/info/bottom_skip=\skip93
-\l__fdu_cover/cover-ii/top_skip=\skip94
-\l__fdu_cover/cover-ii/bottom_skip=\skip95
-\l__fdu_cover/cover-ii/title/bottom_skip=\skip96
-\l__fdu_cover/cover-ii/name-list/bottom_skip=\skip97
-\l__fdu_cover/cover-iii/top_skip=\skip98
-\l__fdu_cover/cover-iii/bottom_skip=\skip99
-\l__fdu_cover/cover-iii/originality-decl-name/bottom_skip=\skip100
-\l__fdu_cover/cover-iii/originality-decl-text/bottom_skip=\skip101
-\l__fdu_cover/cover-iii/originality-decl-sig/bottom_skip=\skip102
-\l__fdu_cover/cover-iii/authorization-decl-name/bottom_skip=\skip103
-\l__fdu_cover/cover-iii/authorization-decl-text/bottom_skip=\skip104
-\l__fdu_cover/cover-iii/authorization-decl-sig/bottom_skip=\skip105
+\l__fdu_cover/cover-i/top_skip=\skip86
+\l__fdu_cover/cover-i/bottom_skip=\skip87
+\l__fdu_cover/cover-i/id/bottom_skip=\skip88
+\l__fdu_cover/cover-i/logo/bottom_skip=\skip89
+\l__fdu_cover/cover-i/type/bottom_skip=\skip90
+\l__fdu_cover/cover-i/degree/bottom_skip=\skip91
+\l__fdu_cover/cover-i/title/bottom_skip=\skip92
+\l__fdu_cover/cover-i/title-en/bottom_skip=\skip93
+\l__fdu_cover/cover-i/info/bottom_skip=\skip94
+\l__fdu_cover/cover-ii/top_skip=\skip95
+\l__fdu_cover/cover-ii/bottom_skip=\skip96
+\l__fdu_cover/cover-ii/title/bottom_skip=\skip97
+\l__fdu_cover/cover-ii/name-list/bottom_skip=\skip98
+\l__fdu_cover/cover-iii/top_skip=\skip99
+\l__fdu_cover/cover-iii/bottom_skip=\skip100
+\l__fdu_cover/cover-iii/originality-decl-name/bottom_skip=\skip101
+\l__fdu_cover/cover-iii/originality-decl-text/bottom_skip=\skip102
+\l__fdu_cover/cover-iii/originality-decl-sig/bottom_skip=\skip103
+\l__fdu_cover/cover-iii/authorization-decl-name/bottom_skip=\skip104
+\l__fdu_cover/cover-iii/authorization-decl-text/bottom_skip=\skip105
+\l__fdu_cover/cover-iii/authorization-decl-sig/bottom_skip=\skip106
 \c@currproofctr=\count320
 \c@endproofctr=\count321
 \c@proof=\count322
@@ -571,17 +571,17 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip106
+\Hy@SectionHShift=\skip107
 ) (d:/latex/texlive/2022/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
 ) (d:/latex/texlive/2022/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip107
-\subfigcapskip=\skip108
+\subfigtopskip=\skip108
+\subfigcapskip=\skip109
 \subfigcaptopadj=\dimen273
-\subfigbottomskip=\skip109
+\subfigbottomskip=\skip110
 \subfigcapmargin=\dimen274
-\subfiglabelskip=\skip110
+\subfiglabelskip=\skip111
 \c@subfigure=\count354
 \c@lofdepth=\count355
 \c@subtable=\count356
@@ -591,8 +591,8 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 * Local config file subfigure.cfg used *
 ****************************************
 (d:/latex/texlive/2022/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip111
-\subfig@bottom=\skip112
+\subfig@top=\skip112
+\subfig@bottom=\skip113
 ) (d:/latex/texlive/2022/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count358
@@ -602,9 +602,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box65
 ) (d:/latex/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip113
+\multirow@colwidth=\skip114
 \multirow@cntb=\count359
-\multirow@dima=\skip114
+\multirow@dima=\skip115
 \bigstrutjot=\dimen275
 ) (d:/latex/texlive/2022/texmf-dist/tex/latex/diagbox/diagbox.sty
 Package: diagbox 2020/02/09 v2.3 Making table heads with diagonal lines
@@ -633,20 +633,20 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count361
 \calc@Adimen=\dimen284
 \calc@Bdimen=\dimen285
-\calc@Askip=\skip115
-\calc@Bskip=\skip116
+\calc@Askip=\skip116
+\calc@Bskip=\skip117
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count362
-\calc@Cskip=\skip117
+\calc@Cskip=\skip118
 ) (d:/latex/texlive/2022/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen286
 \ar@mcellbox=\box66
 \extrarowheight=\dimen287
 \NC@list=\toks46
-\extratabsurround=\skip118
-\backup@length=\skip119
+\extratabsurround=\skip119
+\backup@length=\skip120
 \ar@cellbox=\box67
 )
 \diagbox@boxa=\box68
@@ -1001,8 +1001,8 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 Package: gbt7714 2022/10/03 v2.1.5 GB/T 7714 BibTeX Style
  (d:/latex/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip120
-\bibsep=\skip121
+\bibhang=\skip121
+\bibsep=\skip122
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count363
 ))
@@ -1267,4 +1267,249 @@ File: fig/2-fig/双频激光干涉仪原理图.pdf Graphic file (type pdf)
 File: fig/2-fig/折射率随温度变化.pdf Graphic file (type pdf)
 <use fig/2-fig/折射率随温度变化.pdf>
 File: fig/2-fig/折射率随气压变化.pdf Graphic file (type pdf)
-<use fig
+<use fig/2-fig/折射率随气压变化.pdf>
+ [7] [8]) [9]
+\openout2 = `subtex_chapter3.aux'.
+
+ (./subtex_chapter3.tex [10
+
+
+
+
+]
+第3章
+File: fig/3-fig/上位机程序示意图.pdf Graphic file (type pdf)
+<use fig/3-fig/上位机程序示意图.pdf>
+File: fig/3-fig/温度采集上位机前面板.jpg Graphic file (type bmp)
+<fig/3-fig/温度采集上位机前面板.jpg>
+[11]
+File: fig/3-fig/温度测量系统标定示意图.jpg Graphic file (type bmp)
+<fig/3-fig/温度测量系统标定示意图.jpg>
+ [12]
+File: fig/3-fig/标定程序前面板.jpg Graphic file (type bmp)
+<fig/3-fig/标定程序前面板.jpg>
+File: fig/3-fig/PACE1000气压传感器.jpg Graphic file (type bmp)
+<fig/3-fig/PACE1000气压传感器.jpg>
+ [13]
+File: fig/3-fig/激光器实物图.png Graphic file (type bmp)
+<fig/3-fig/激光器实物图.png>
+File: fig/3-fig/干涉仪实物图.pdf Graphic file (type pdf)
+<use fig/3-fig/干涉仪实物图.pdf>
+File: fig/3-fig/信号采集卡实物图.jpg Graphic file (type bmp)
+<fig/3-fig/信号采集卡实物图.jpg>
+ [14]
+File: fig/3-fig/带金属外壳的干涉仪.png Graphic file (type bmp)
+<fig/3-fig/带金属外壳的干涉仪.png>
+File: fig/3-fig/实验系统图-带外壳干涉仪.jpg Graphic file (type bmp)
+<fig/3-fig/实验系统图-带外壳干涉仪.jpg>
+File: fig/3-fig/实验数据-带外壳的干涉仪.pdf Graphic file (type pdf)
+<use fig/3-fig/实验数据-带外壳的干涉仪.pdf>
+ [15]
+File: fig/3-fig/实验系统图-带微晶玻璃.jpg Graphic file (type bmp)
+<fig/3-fig/实验系统图-带微晶玻璃.jpg>
+File: fig/3-fig/实验数据-带微晶玻璃.jpg Graphic file (type bmp)
+<fig/3-fig/实验数据-带微晶玻璃.jpg>
+File: fig/3-fig/实验示意图-带温控箱.pdf Graphic file (type pdf)
+<use fig/3-fig/实验示意图-带温控箱.pdf>
+File: fig/3-fig/实验系统图-带温控箱.jpg Graphic file (type bmp)
+<fig/3-fig/实验系统图-带温控箱.jpg>
+File: fig/3-fig/实验数据-温控箱.pdf Graphic file (type pdf)
+<use fig/3-fig/实验数据-温控箱.pdf>
+ [16]
+File: fig/3-fig/最终实验示意图.pdf Graphic file (type pdf)
+<use fig/3-fig/最终实验示意图.pdf>
+File: fig/3-fig/最终实验系统图.pdf Graphic file (type pdf)
+<use fig/3-fig/最终实验系统图.pdf>
+
+Underfull \vbox (badness 1005) has occurred while \output is active []
+
+ [17] [18]
+File: fig/3-fig/短时测量数据.pdf Graphic file (type pdf)
+<use fig/3-fig/短时测量数据.pdf>
+ [19]
+File: fig/3-fig/长时测量数据.pdf Graphic file (type pdf)
+<use fig/3-fig/长时测量数据.pdf>
+ [20]
+Underfull \vbox (badness 1097) has occurred while \output is active []
+
+ [21]
+File: fig/3-fig/大范围温度测量实验数据.pdf Graphic file (type pdf)
+<use fig/3-fig/大范围温度测量实验数据.pdf>
+ [22]) [23]
+\openout2 = `subtex_chapter4.aux'.
+
+ (./subtex_chapter4.tex [24
+
+
+
+
+]
+第4章
+File: fig/4-fig/粒子群算法流程图.png Graphic file (type bmp)
+<fig/4-fig/粒子群算法流程图.png>
+[25] [26]
+File: fig/4-fig/edpso_短时测量实验数据.pdf Graphic file (type pdf)
+<use fig/4-fig/edpso_短时测量实验数据.pdf>
+ [27]
+File: fig/4-fig/edpso_长时测量实验数据.pdf Graphic file (type pdf)
+<use fig/4-fig/edpso_长时测量实验数据.pdf>
+ [28]
+File: fig/4-fig/edpso_大范围温度变化测量数据.pdf Graphic file (type pdf)
+<use fig/4-fig/edpso_大范围温度变化测量数据.pdf>
+ [29]
+File: fig/4-fig/训练过程a.png Graphic file (type bmp)
+<fig/4-fig/训练过程a.png>
+File: fig/4-fig/训练过程b.png Graphic file (type bmp)
+<fig/4-fig/训练过程b.png>
+
+Overfull \hbox (1.10648pt too wide) in paragraph at lines 125--133
+ [][] 
+ []
+
+
+Overfull \hbox (1.10648pt too wide) in paragraph at lines 125--133
+ [][] 
+ []
+
+File: fig/4-fig/温度梯度实验数据.jpg Graphic file (type bmp)
+<fig/4-fig/温度梯度实验数据.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+[]\TU/FandolSong(0)/m/n/10.53937 测 量 时 间 约 为 $[][][][][]$，|  温 度 变 化 范 围 为 $[][][][][][]   [][][][][][][][]$，|  气 压 变 化 范 围 为
+ []
+
+[31]
+File: fig/4-fig/基于温度梯度的分段式粒子群算法流程图.drawio.pdf Graphic file (type pdf)
+<use fig/4-fig/基于温度梯度的分段式粒子群算法流程图.drawio.pdf>
+ [32]
+File: fig/4-fig/基于温度梯度的分段粒子群算法补偿效果.jpg Graphic file (type bmp)
+<fig/4-fig/基于温度梯度的分段粒子群算法补偿效果.jpg>
+ [33] [34]
+File: fig/4-fig/定点数示意图.drawio.pdf Graphic file (type pdf)
+<use fig/4-fig/定点数示意图.drawio.pdf>
+ [35]
+File: fig/4-fig/补码计算示意图.pdf Graphic file (type pdf)
+<use fig/4-fig/补码计算示意图.pdf>
+ [36] [37]
+File: fig/4-fig/rtl_model验证环境.drawio.pdf Graphic file (type pdf)
+<use fig/4-fig/rtl_model验证环境.drawio.pdf>
+
+Overfull \hbox (3.0995pt too wide) in paragraph at lines 256--269
+ [][] 
+ []
+
+[38]) [39]
+\openout2 = `subtex_chapter5.aux'.
+
+ (./subtex_chapter5.tex [40
+
+
+
+
+]
+第5章
+File: fig/5-fig/流水线示意图.drawio.pdf Graphic file (type pdf)
+<use fig/5-fig/流水线示意图.drawio.pdf>
+[41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+File: fig/5-fig/握手控制模块时序图.jpg Graphic file (type bmp)
+<fig/5-fig/握手控制模块时序图.jpg>
+File: fig/5-fig/握手控制模块逻辑结构图.jpg Graphic file (type bmp)
+<fig/5-fig/握手控制模块逻辑结构图.jpg>
+File: fig/5-fig/逻辑复制示意图a.drawio.pdf Graphic file (type pdf)
+<use fig/5-fig/逻辑复制示意图a.drawio.pdf>
+File: fig/5-fig/逻辑复制示意图b.drawio.pdf Graphic file (type pdf)
+<use fig/5-fig/逻辑复制示意图b.drawio.pdf>
+
+Overfull \hbox (1.10648pt too wide) in paragraph at lines 82--90
+ [][] 
+ []
+
+
+Overfull \hbox (1.10648pt too wide) in paragraph at lines 82--90
+ [][] 
+ []
+
+[43] [44]
+File: fig/5-fig/锁存门控的结构图和波形图.drawio.pdf Graphic file (type pdf)
+<use fig/5-fig/锁存门控的结构图和波形图.drawio.pdf>
+File: fig/5-fig/LSFR架构图.pdf Graphic file (type pdf)
+<use fig/5-fig/LSFR架构图.pdf>
+
+Underfull \hbox (badness 1661) in paragraph at lines 124--125
+[]\TU/FandolSong(0)/m/n/10.53937 整 个 粒 子 群 算 法 加 速 系 统 架 构 如 图[][]\TU/XITS(0)/m/n/10.53937 5-7[][]\TU/FandolSong(0)/m/n/10.53937 ，|  其 中 $[][][][][][][][][][][][][][]$ 为[][]\TU/XITS(0)/m/n/10.53937 5.1.2[][]\TU/FandolSong(0)/m/n/10.53937 节 中 介 绍 的 握
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 124--125
+\TU/FandolSong(0)/m/n/10.53937 手 控 制 模 块，| $[][][][][][][][][][][][][][][]$ 为 适 应 度 计 算 模 块，|  并 行 放 置 了 \TU/XITS(0)/m/n/10.53937 N \TU/FandolSong(0)/m/n/10.53937 个 适 应 度 计 算 模 块，|
+ []
+
+[45]
+File: fig/5-fig/粒子群算法加速系统架构.drawio.pdf Graphic file (type pdf)
+<use fig/5-fig/粒子群算法加速系统架构.drawio.pdf>
+ [46]
+File: fig/5-fig/适应度计算模块架构图.pdf Graphic file (type pdf)
+<use fig/5-fig/适应度计算模块架构图.pdf>
+
+Overfull \hbox (3.95322pt too wide) in paragraph at lines 193--214
+ [][] 
+ []
+
+[47]
+File: fig/5-fig/种群信息更新模块架构.pdf Graphic file (type pdf)
+<use fig/5-fig/种群信息更新模块架构.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+File: fig/5-fig/速度和位置更新模块架构图.pdf Graphic file (type pdf)
+<use fig/5-fig/速度和位置更新模块架构图.pdf>
+
+Overfull \hbox (3.68974pt too wide) in paragraph at lines 276--299
+ [][] 
+ []
+
+[49]
+File: fig/5-fig/单起点训练时序图.jpg Graphic file (type bmp)
+<fig/5-fig/单起点训练时序图.jpg>
+File: fig/5-fig/多起点训练时序图.jpg Graphic file (type bmp)
+<fig/5-fig/多起点训练时序图.jpg>
+ [50]
+Underfull \hbox (badness 1661) in paragraph at lines 320--321
+[]\TU/FandolSong(0)/m/n/10.53937 如 表[][]\TU/XITS(0)/m/n/10.53937 5-4[][]\TU/FandolSong(0)/m/n/10.53937 所 示，|  按 照 配 置 顺 序，|  粒 子 群 算 法 加 速 系 统 共 有 \TU/XITS(0)/m/n/10.53937 i$[]$cfg$[]$pso$[]$in$[]$initial$[]$para\TU/FandolSong(0)/m/n/10.53937 、|
+ []
+
+File: fig/5-fig/双差分验证环境.drawio.pdf Graphic file (type pdf)
+<use fig/5-fig/双差分验证环境.drawio.pdf>
+[51]) [52] [53] [54
+
+
+
+] (./main_fudan.bbl [55
+
+])
+\tf@thm=\write6
+\openout6 = `main_fudan.thm'.
+
+ [56] [57
+
+] (./main_fudan.aux (./subtex_frontmatter.aux) (./subtex_chapter1.aux) (./subtex_chapter2.aux) (./subtex_chapter3.aux) (./subtex_chapter4.aux) (./subtex_chapter5.aux))
+Package rerunfilecheck Info: File `main_fudan.out' has not changed.
+(rerunfilecheck)             Checksum: AF0200656CD30B550562AF17BE7AA27C;11799.
+ ) 
+Here is how much of TeX's memory you used:
+ 26813 strings out of 476778
+ 555431 string characters out of 5806856
+ 1887973 words of memory out of 5000000
+ 46453 multiletter control sequences out of 15000+600000
+ 519922 words of font info for 147 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 110i,13n,116p,2043b,2311s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main_fudan.pdf (71 pages).
