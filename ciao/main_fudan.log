@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.20)  21 DEC 2022 12:34
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.20)  30 DEC 2022 17:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1041,7 +1041,7 @@ Package fontspec Info: Font family 'FandolSong(0)' created for font
 (fontspec)             <->"[FandolSong-Bold.otf]/OT:language=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-(./main_fudan.aux (./subtex_frontmatter.aux) (./subtex_chapter1.aux) (./subtex_chapter2.aux) (./subtex_chapter3.aux) (./subtex_chapter4.aux) (./subtex_chapter5.aux))
+(./main_fudan.aux (./subtex_frontmatter.aux) (./subtex_chapter1.aux) (./subtex_chapter2.aux) (./subtex_chapter3.aux) (./subtex_chapter4.aux) (./subtex_chapter5.aux) (./subtex_chapter6.aux))
 \openout1 = `main_fudan.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
@@ -1280,8 +1280,8 @@ File: fig/2-fig/折射率随气压变化.pdf Graphic file (type pdf)
 第3章
 File: fig/3-fig/上位机程序示意图.pdf Graphic file (type pdf)
 <use fig/3-fig/上位机程序示意图.pdf>
-File: fig/3-fig/温度采集上位机前面板.jpg Graphic file (type bmp)
-<fig/3-fig/温度采集上位机前面板.jpg>
+File: fig/3-fig/温度采集上位机前面板.png Graphic file (type bmp)
+<fig/3-fig/温度采集上位机前面板.png>
 [11]
 File: fig/3-fig/温度测量系统标定示意图.jpg Graphic file (type bmp)
 <fig/3-fig/温度测量系统标定示意图.jpg>
@@ -1362,23 +1362,23 @@ File: fig/4-fig/训练过程a.png Graphic file (type bmp)
 File: fig/4-fig/训练过程b.png Graphic file (type bmp)
 <fig/4-fig/训练过程b.png>
 
-Overfull \hbox (1.10648pt too wide) in paragraph at lines 125--133
+Overfull \hbox (1.10648pt too wide) in paragraph at lines 126--134
  [][] 
  []
 
 
-Overfull \hbox (1.10648pt too wide) in paragraph at lines 125--133
+Overfull \hbox (1.10648pt too wide) in paragraph at lines 126--134
  [][] 
  []
 
 File: fig/4-fig/温度梯度实验数据.jpg Graphic file (type bmp)
 <fig/4-fig/温度梯度实验数据.jpg>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1377) has occurred while \output is active []
 
  [30]
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
-[]\TU/FandolSong(0)/m/n/10.53937 测 量 时 间 约 为 $[][][][][]$，|  温 度 变 化 范 围 为 $[][][][][][]   [][][][][][][][]$，|  气 压 变 化 范 围 为
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+[]\TU/FandolSong(0)/m/n/10.53937 测 量 时 间 约 为 \TU/XITS(0)/m/n/10.53937 10.2h\TU/FandolSong(0)/m/n/10.53937 ，|  温 度 变 化 范 围 为 $[][][][][][]   [][][][][][][][]$，|  气 压 变 化 范 围 为
  []
 
 [31]
@@ -1397,7 +1397,7 @@ File: fig/4-fig/补码计算示意图.pdf Graphic file (type pdf)
 File: fig/4-fig/rtl_model验证环境.drawio.pdf Graphic file (type pdf)
 <use fig/4-fig/rtl_model验证环境.drawio.pdf>
 
-Overfull \hbox (3.0995pt too wide) in paragraph at lines 256--269
+Overfull \hbox (3.0995pt too wide) in paragraph at lines 258--271
  [][] 
  []
 
@@ -1440,28 +1440,13 @@ File: fig/5-fig/锁存门控的结构图和波形图.drawio.pdf Graphic file (ty
 <use fig/5-fig/锁存门控的结构图和波形图.drawio.pdf>
 File: fig/5-fig/LSFR架构图.pdf Graphic file (type pdf)
 <use fig/5-fig/LSFR架构图.pdf>
-
-Underfull \hbox (badness 1661) in paragraph at lines 124--125
-[]\TU/FandolSong(0)/m/n/10.53937 整 个 粒 子 群 算 法 加 速 系 统 架 构 如 图[][]\TU/XITS(0)/m/n/10.53937 5-7[][]\TU/FandolSong(0)/m/n/10.53937 ，|  其 中 $[][][][][][][][][][][][][][]$ 为[][]\TU/XITS(0)/m/n/10.53937 5.1.2[][]\TU/FandolSong(0)/m/n/10.53937 节 中 介 绍 的 握
- []
-
-
-Underfull \hbox (badness 1194) in paragraph at lines 124--125
-\TU/FandolSong(0)/m/n/10.53937 手 控 制 模 块，| $[][][][][][][][][][][][][][][]$ 为 适 应 度 计 算 模 块，|  并 行 放 置 了 \TU/XITS(0)/m/n/10.53937 N \TU/FandolSong(0)/m/n/10.53937 个 适 应 度 计 算 模 块，|
- []
-
-[45]
+ [45]
 File: fig/5-fig/粒子群算法加速系统架构.drawio.pdf Graphic file (type pdf)
 <use fig/5-fig/粒子群算法加速系统架构.drawio.pdf>
  [46]
 File: fig/5-fig/适应度计算模块架构图.pdf Graphic file (type pdf)
 <use fig/5-fig/适应度计算模块架构图.pdf>
-
-Overfull \hbox (3.95322pt too wide) in paragraph at lines 193--214
- [][] 
- []
-
-[47]
+ [47]
 File: fig/5-fig/种群信息更新模块架构.pdf Graphic file (type pdf)
 <use fig/5-fig/种群信息更新模块架构.pdf>
 
@@ -1481,35 +1466,60 @@ File: fig/5-fig/单起点训练时序图.jpg Graphic file (type bmp)
 File: fig/5-fig/多起点训练时序图.jpg Graphic file (type bmp)
 <fig/5-fig/多起点训练时序图.jpg>
  [50]
-Underfull \hbox (badness 1661) in paragraph at lines 320--321
-[]\TU/FandolSong(0)/m/n/10.53937 如 表[][]\TU/XITS(0)/m/n/10.53937 5-4[][]\TU/FandolSong(0)/m/n/10.53937 所 示，|  按 照 配 置 顺 序，|  粒 子 群 算 法 加 速 系 统 共 有 \TU/XITS(0)/m/n/10.53937 i$[]$cfg$[]$pso$[]$in$[]$initial$[]$para\TU/FandolSong(0)/m/n/10.53937 、|
- []
-
 File: fig/5-fig/双差分验证环境.drawio.pdf Graphic file (type pdf)
 <use fig/5-fig/双差分验证环境.drawio.pdf>
-[51]) [52] [53] [54
+ [51] [52]) [53]
+\openout2 = `subtex_chapter6.aux'.
+
+ (./subtex_chapter6.tex [54
 
 
 
-] (./main_fudan.bbl [55
+
+]
+第6章
+File: fig/6-fig/软件运行时间.png Graphic file (type bmp)
+<fig/6-fig/软件运行时间.png>
+File: fig/6-fig/输入延迟示意图.png Graphic file (type bmp)
+<fig/6-fig/输入延迟示意图.png>
+File: fig/6-fig/输出延迟示意图.png Graphic file (type bmp)
+<fig/6-fig/输出延迟示意图.png>
+[55]
+File: fig/6-fig/时序检查结果.png Graphic file (type bmp)
+<fig/6-fig/时序检查结果.png>
+File: fig/6-fig/硬件运行时间.png Graphic file (type bmp)
+<fig/6-fig/硬件运行时间.png>
+File: fig/6-fig/运行时间和种群大小的关系.pdf Graphic file (type pdf)
+<use fig/6-fig/运行时间和种群大小的关系.pdf>
+ [56]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+File: fig/6-fig/软硬件补偿效果对比.pdf Graphic file (type pdf)
+<use fig/6-fig/软硬件补偿效果对比.pdf>
+ [58]) [59] [60
+
+
+
+] (./main_fudan.bbl [61
 
 ])
 \tf@thm=\write6
 \openout6 = `main_fudan.thm'.
 
- [56] [57
+ [62] [63
 
-] (./main_fudan.aux (./subtex_frontmatter.aux) (./subtex_chapter1.aux) (./subtex_chapter2.aux) (./subtex_chapter3.aux) (./subtex_chapter4.aux) (./subtex_chapter5.aux))
+] (./main_fudan.aux (./subtex_frontmatter.aux) (./subtex_chapter1.aux) (./subtex_chapter2.aux) (./subtex_chapter3.aux) (./subtex_chapter4.aux) (./subtex_chapter5.aux) (./subtex_chapter6.aux))
 Package rerunfilecheck Info: File `main_fudan.out' has not changed.
-(rerunfilecheck)             Checksum: AF0200656CD30B550562AF17BE7AA27C;11799.
+(rerunfilecheck)             Checksum: 3CB3CF69BADAE423C2A7823502798FA4;12646.
  ) 
 Here is how much of TeX's memory you used:
- 26813 strings out of 476778
- 555431 string characters out of 5806856
+ 26919 strings out of 476778
+ 558217 string characters out of 5806856
  1887973 words of memory out of 5000000
- 46453 multiletter control sequences out of 15000+600000
- 519922 words of font info for 147 fonts, out of 8000000 for 9000
+ 46541 multiletter control sequences out of 15000+600000
+ 519946 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  110i,13n,116p,2043b,2311s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main_fudan.pdf (71 pages).
+Output written on main_fudan.pdf (77 pages).
