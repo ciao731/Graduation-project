@@ -9,6 +9,7 @@ A level-1 auxiliary file: subtex_chapter3.aux
 A level-1 auxiliary file: subtex_chapter4.aux
 A level-1 auxiliary file: subtex_chapter5.aux
 A level-1 auxiliary file: subtex_chapter6.aux
+A level-1 auxiliary file: subtex_chapter7.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 150 items from 100.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
@@ -22,44 +23,49 @@ Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: main_fudan.bib
-You've used 20 entries,
+Warning--empty year in 徐飞0基于
+Warning--empty year in 徐飞0基于
+Warning--empty year in 徐飞0基于
+Warning--empty year in 徐飞0基于
+You've used 63 entries,
             5374 wiz_defined-function locations,
-            1157 strings with 11148 characters,
-and the built_in function-call counts, 86922 in all, are:
-= -- 2826
-> -- 8027
-< -- 11592
-+ -- 4270
-- -- 1174
-* -- 711
-:= -- 13138
-add.period$ -- 63
-call.type$ -- 20
-change.case$ -- 68
-chr.to.int$ -- 3505
-cite$ -- 20
-duplicate$ -- 487
-empty$ -- 1338
-format.name$ -- 466
-if$ -- 22244
+            1388 strings with 18420 characters,
+and the built_in function-call counts, 290839 in all, are:
+= -- 8856
+> -- 28612
+< -- 39057
++ -- 13496
+- -- 3558
+* -- 2382
+:= -- 43093
+add.period$ -- 193
+call.type$ -- 63
+change.case$ -- 276
+chr.to.int$ -- 11025
+cite$ -- 67
+duplicate$ -- 1536
+empty$ -- 4105
+format.name$ -- 1594
+if$ -- 74800
 int.to.chr$ -- 1
-int.to.str$ -- 21
+int.to.str$ -- 64
 missing$ -- 0
-newline$ -- 119
-num.names$ -- 60
-pop$ -- 2313
+newline$ -- 338
+num.names$ -- 189
+pop$ -- 8968
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 63
 quote$ -- 0
-skip$ -- 8135
+skip$ -- 28808
 stack$ -- 0
-substring$ -- 4953
-swap$ -- 20
-text.length$ -- 403
+substring$ -- 15372
+swap$ -- 63
+text.length$ -- 1313
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 220
-warning$ -- 0
-while$ -- 425
+type$ -- 693
+warning$ -- 4
+while$ -- 1381
 width$ -- 0
-write$ -- 282
+write$ -- 868
+(There were 4 warnings)

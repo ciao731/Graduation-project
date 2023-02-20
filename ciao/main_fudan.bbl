@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{63}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -17,11 +17,214 @@
 \newblock 激光外差干涉技术在光刻机中的应用\allowbreak[J].
 \newblock 激光与光电子学进展, 2022, 59\allowbreak (9): 8.
 
+\bibitem[中国半导体行业协会(2022)]{csia1}
+中国半导体行业协会.
+\newblock
+  中国半导体行业协会常务副理事长兼秘书长、中国电子信息产业发展研究院院长张立：中国集成电路产业整体实力显著提升\allowbreak[EB/OL].
+\newblock 2022.
+\newblock \url{https://web.csia.net.cn/newsinfo/4647678.html}, Last accessed on
+  2022-11-17.
+
+\bibitem[张依依(2022)]{中国再次成为全球最大半导体设备市场}
+张依依.
+\newblock 中国再次成为全球最大半导体设备市场\allowbreak[J].
+\newblock 中国电子报, 2022.
+
+\bibitem[Fang et~al.(2022)Fang, a, He, b, and †]{2022reso1ution}
+FANG Y, A, HE Y, et~al.
+\newblock resolution techno1ogy of 1ithography machine\allowbreak[J].
+\newblock IOP Publishing Ltd, 2022.
+
+\bibitem[于海娇(2022)]{于海娇2022双频激光干涉仪的应用研究综述}
+于海娇.
+\newblock 双频激光干涉仪的应用研究综述\allowbreak[J].
+\newblock 电子测试, 2022\allowbreak (000-008).
+
+\bibitem[Zhang et~al.(2007)Zhang, Yang, Dong, and Wu]{2007Studyon}
+ZHANG T, YANG C, DONG W, et~al.
+\newblock Study on high speed dual-frequency laser interferometry in two
+  longitudinal modes\allowbreak[J].
+\newblock Proc Spie, 2007, 6723.
+
+\bibitem[Chen et~al.(2021)Chen and Zhang]{2021Microchip}
+CHEN H, ZHANG S.
+\newblock Microchip nd:yag dual-frequency laser interferometer for displacement
+  measurement.\allowbreak[J].
+\newblock Optics express, 2021, 29\allowbreak (4): 6248-6256.
+
+\bibitem[Nguyen et~al.(2020)Nguyen, Duong, Higuchi, Vu, and
+  Aketagawa]{202019picometer}
+NGUYEN T~D, DUONG Q~A, HIGUCHI M, et~al.
+\newblock 19-picometer mechanical step displacement measurement using
+  heterodyne interferometer with phase-locked loop and piezoelectric driving
+  flexure-stage\allowbreak[J].
+\newblock Sensors and Actuators A Physical, 2020, 304: 111880.
+
+\bibitem[孙凤鸣\ 等(2013)孙凤鸣, 傅星, 朱振宇, 高赛, and
+  张超]{孙凤鸣2013基于}
+孙凤鸣, 傅星, 朱振宇, 等.
+\newblock 基于MEMS的微位移传感器及其应用研究\allowbreak[J].
+\newblock 传感技术学报, 2013, 26\allowbreak (2): 4.
+
+\bibitem[Maya et~al.(2019)Maya, Calvo, Sanz-Pascual, and Osorio]{Maya2019Low}
+MAYA, CALVO, SANZ-PASCUAL, et~al.
+\newblock Low cost autonomous lock-in amplifier for resistance/capacitance
+  sensor measurements\allowbreak[J].
+\newblock Electronics, 2019, 8\allowbreak (12): 1413.
+
+\bibitem[Ge et~al.(2015)Ge, Ying, Ying, Qin, and Liang]{2015Ahighprecisio}
+GE J, YING Z, YING P, et~al.
+\newblock A high-precision detection circuit for capacitive
+  sensor\allowbreak[C]//\allowbreak
+2015 IEEE 16th International Conference on Communication Technology (ICCT).
+\newblock 2015.
+
+\bibitem[王晓立(2011)]{王晓立2011电容式位移传感器研究}
+王晓立.
+\newblock 电容式位移传感器研究\allowbreak[D].
+\newblock 湘潭大学, 2011.
+
+\bibitem[曹妍(2019)]{曹妍0基于膜电极的电容微位移传感器研究与设计}
+曹妍.
+\newblock
+  基于膜电极的电容微位移传感器研究与设计\allowbreak[D].
+\newblock 合肥工业大学, 2019.
+
+\bibitem[Li et~al.(1999)Li and Ji]{1999Study}
+LI H, JI C.
+\newblock Study on raster-sensing technology\allowbreak[J].
+\newblock OPTOELECFRONIC TECHNOLOGY, 1999.
+
+\bibitem[Li et~al.(2021)Li, Wang, Zhang, Hao, and Xiong]{2021Real}
+LI S, WANG J, ZHANG W, et~al.
+\newblock Real-time direction judgment system of sub-nanometer scale grating
+  ruler\allowbreak[J].
+\newblock IEEE Access, 2021, PP\allowbreak (99): 1-1.
+
+\bibitem[Sun et~al.(2020)Sun and Tian]{2020CPLD}
+SUN J, TIAN C.
+\newblock Cpld-based displacement measurement system for nanoscale grating
+  ruler\allowbreak[J].
+\newblock Journal of Chemistry, 2020, 2020\allowbreak (12): 1-8.
+
+\bibitem[{\CJKfontspec{宋体}
+  \fontsize{11.0pt}{\baselineskip}\selectfont{苏绍璟}}(2001)]{苏绍璟2001大量程纳米级光栅位移测量理论及关键技术研究}
+{\CJKfontspec{宋体} \fontsize{11.0pt}{\baselineskip}\selectfont{苏绍璟}}.
+\newblock
+  大量程纳米级光栅位移测量理论及关键技术研究\allowbreak[D].
+\newblock 国防科学技术大学, 2001.
+
+\bibitem[Rui et~al.(2004)Rui, Zhi-jun, Yan, and Shu-lian]{NovelWay}
+RUI S, ZHI-JUN F, YAN L, et~al.
+\newblock Novel way to increase measurement speed of dual frequency laser
+  interferometer\allowbreak[C]//\allowbreak
+第三届国际仪器科学技术学术研讨会论文集.
+\newblock 2004.
+
+\bibitem[楚兴春(2005)]{楚兴春2005纳米光栅干涉位移测量关键技术的研究}
+楚兴春.
+\newblock 纳米光栅干涉位移测量关键技术的研究\allowbreak[D].
+\newblock 国防科学技术大学, 2005.
+
+\bibitem[马磊\ 等(2018)马磊, 钟兴旺, 刘玄, and
+  任帅]{马磊2018星间激光干涉仪测距技术发展现状与趋势}
+马磊, 钟兴旺, 刘玄, 等.
+\newblock 星间激光干涉仪测距技术发展现状与趋势\allowbreak[J].
+\newblock 空间电子技术, 2018, 15\allowbreak (6): 6.
+
+\bibitem[戴成睿(2019)]{戴成睿硕士论文面向激光追踪测量系统的空气折射率补偿方法研究}
+戴成睿.
+\newblock
+  面向激光追踪测量系统的空气折射率补偿方法研究\allowbreak[D].
+\newblock 北京工业大学, 2019.
+
+\bibitem[徐建(2013)]{徐建2013双频激光干涉仪系统线性测量误差主要来源及减小误差的方法分析}
+徐建.
+\newblock
+  双频激光干涉仪系统线性测量误差主要来源及减小误差的方法分析\allowbreak[J].
+\newblock 计量与测试技术, 2013, 40\allowbreak (8): 2.
+
 \bibitem[闵帅博\ 等(2020)闵帅博, 严利平, 崔建军, 王冬,
   束红林, and 陈恺]{高精度空气折射率测量系统设计与实现}
 闵帅博, 严利平, 崔建军, 等.
 \newblock 高精度空气折射率测量系统设计与实现\allowbreak[J].
 \newblock 计量学报, 2020, 41\allowbreak (11): 7.
+
+\bibitem[Birch et~al.(1988)Birch and Downs]{1988The}
+BIRCH K~P, DOWNS M~J.
+\newblock The results of a comparison between calculated and measured values of
+  the refractive index of air\allowbreak[J].
+\newblock Journal of Physics E entific Instruments, 1988, 21\allowbreak (7):
+  694.
+
+\bibitem[陈强华\ 等(2004)陈强华, 闫聚群, 柳忠尧, 殷纯永, and
+  叶孝佑]{2004基于等效合成波方法的双真空管空气折射率测量仪}
+陈强华, 闫聚群, 柳忠尧, 等.
+\newblock
+  基于等效合成波方法的双真空管空气折射率测量仪\allowbreak[J].
+\newblock 计量学报, 2004, 25\allowbreak (3): 4.
+
+\bibitem[羡一民(2015)]{羡一民2015折射率修正技术——激光干涉仪技术综述之四}
+羡一民.
+\newblock
+  折射率修正技术——激光干涉仪技术综述之四\allowbreak[J].
+\newblock 工具技术, 2015, 49\allowbreak (1): 5.
+
+\bibitem[池峰\ 等(2014)池峰, 朱煜, 张志平, and
+  高为宫]{池峰2014双频激光干涉测量中的环境补偿技术}
+池峰, 朱煜, 张志平, 等.
+\newblock 双频激光干涉测量中的环境补偿技术\allowbreak[J].
+\newblock 中国激光, 2014\allowbreak (4): 7.
+
+\bibitem[Yang et~al.(2017)Yang, Wu, Wei, and Li]{2017Frequency}
+YANG L, WU X, WEI H, et~al.
+\newblock Frequency comb calibrated frequency-sweeping interferometry for
+  absolute group refractive index measurement of air\allowbreak[J].
+\newblock Applied Optics, 2017, 56\allowbreak (11): 3109.
+
+\bibitem[Chen et~al.(2019)Chen, Yang, Yan, Lou, Zhou, Zhang, and
+  Cui]{2019Precision}
+CHEN B, YANG Y, YAN L, et~al.
+\newblock Precision measurement of the refractive index of air using a phase
+  modulated homodyne interferometer with a variable length vacuum
+  cavity\allowbreak[J].
+\newblock Measurement Science and Technology, 2019.
+
+\bibitem[Okafor et~al.(2000)Okafor and Ertekin]{2000Vertical}
+OKAFOR A~C, ERTEKIN Y~M.
+\newblock Vertical machining center accuracy characterization using laser
+  interferometer\allowbreak[J].
+\newblock Journal of Materials Processing Technology, 2000.
+
+\bibitem[周毅冰\ 等(2015)周毅冰, 程文君, and
+  张忠立]{周毅冰2015激光干涉仪环境补偿单元气压传感器检定装置}
+周毅冰, 程文君, 张忠立.
+\newblock
+  激光干涉仪环境补偿单元气压传感器检定装置\allowbreak[J].
+\newblock 上海计量测试, 2015, 42\allowbreak (4): 3.
+
+\bibitem[Lee et~al.(2016)Lee, Pyo, and You]{2016Lagrange}
+LEE K, PYO Y, YOU K.
+\newblock Lagrange multiplier based error compensation of heterodyne
+  interferometer\allowbreak[J].
+\newblock Electronics Letters, 2016, 52\allowbreak (20): 1692-1694.
+
+\bibitem[吴炳阳\ 等(2018)吴炳阳, 于晋龙, 王菊, and
+  王文睿]{吴炳阳2018小型化空气折射率测量装置的精度修正}
+吴炳阳, 于晋龙, 王菊, 等.
+\newblock 小型化空气折射率测量装置的精度修正\allowbreak[J].
+\newblock 激光与光电子学进展, 2018, 55\allowbreak (4): 7.
+
+\bibitem[丁子婷(2021)]{丁子婷双频激光干涉仪测量系统的环境误差研究}
+丁子婷.
+\newblock 双频激光干涉仪测量系统的环境误差研究\allowbreak[D].
+\newblock 桂林电子科技大学, 2021.
+
+\bibitem[严利平\ 等(2022)严利平, 蒋剑波, 楼盈天, 陈本永, and
+  谢建东]{2022基于激光单频干涉和PTF传感融合的空气折射率测量方法}
+严利平, 蒋剑波, 楼盈天, 等.
+\newblock 双频激光干涉测量中的环境补偿技术\allowbreak[J].
+\newblock 激光与光电子学进展, 2022\allowbreak (14): 1.
 
 \bibitem[杨荣岩\ 等(2021)杨荣岩 and
   王大勇]{基于激光多普勒测速的自由场空气声压测量研究}
@@ -49,17 +252,6 @@
 \newblock
   零差干涉仪用于振动校准中关键技术的研究\allowbreak[J].
 \newblock 计量学报, 2018, 39\allowbreak (3): 5.
-
-\bibitem[丁子婷(2022)]{丁子婷双频激光干涉仪测量系统的环境误差研究}
-丁子婷.
-\newblock 双频激光干涉仪测量系统的环境误差研究\allowbreak[D].
-\newblock 桂林电子科技大学, 2022.
-
-\bibitem[徐建(2013)]{徐建2013双频激光干涉仪系统线性测量误差主要来源及减小误差的方法分析}
-徐建.
-\newblock
-  双频激光干涉仪系统线性测量误差主要来源及减小误差的方法分析\allowbreak[J].
-\newblock 计量与测试技术, 2013, 40\allowbreak (8): 2.
 
 \bibitem[Cui et~al.(2015)Cui, Tan, Wen, and Abou-Zeid]{2015Refractive}
 CUI J, TAN J, WEN X, et~al.
@@ -140,5 +332,77 @@ LIAO Y, ZHANG Z, WANG N, et~al.
 范培蕾, 张晓今, 杨涛.
 \newblock 克服早熟收敛现象的粒子群优化算法\allowbreak[J].
 \newblock 计算机应用, 2009, 29\allowbreak (B06): 4.
+
+\bibitem[潘树朋\ 等(2021)潘树朋, 刘有耀, 焦继业, and
+  李昭]{潘树朋2021基于}
+潘树朋, 刘有耀, 焦继业, 等.
+\newblock 基于RISC-V浮点指令集FPU的研究与设计\allowbreak[J].
+\newblock 计算机工程与应用, 2021, 57\allowbreak (3): 7.
+
+\bibitem[徐飞()]{徐飞0基于}
+徐飞.
+\newblock 基于BOOM的浮点单元的设计优化与验证\allowbreak[D].
+\newblock 西安电子科技大学.
+
+\bibitem[Kang et~al.(2018)Kang and Wang]{2018TheDesign}
+KANG L, WANG C.
+\newblock The design and implementation of multi-precision floating point
+  arithmetic unit based on fpga\allowbreak[C]//\allowbreak
+International Conference on Intelligent Transportation.
+\newblock 2018: 587-591.
+
+\bibitem[Zhang et~al.(2021)Zhang, Li, Luo, and Lin]{2021Higherprecision}
+ZHANG J, LI G, LUO Y, et~al.
+\newblock Higher precision integer operations instead of floating-point
+  operations in computers or microprocessors\allowbreak[J].
+\newblock Review of Scientific Instruments, 2021, 92\allowbreak (2): 025104.
+
+\bibitem[赵黎娜(2011)]{赵黎娜2011补码表示的定点数取值范围分析}
+赵黎娜.
+\newblock 补码表示的定点数取值范围分析\allowbreak[J].
+\newblock 科技信息, 2011\allowbreak (8): 1.
+
+\bibitem[李景琳\ 等(2021)李景琳, 姜晶菲, 窦勇, 许金伟, and
+  温冬]{李景琳2021基于}
+李景琳, 姜晶菲, 窦勇, 等.
+\newblock 基于Soft-NMS的候选框去冗余加速器设计\allowbreak[J].
+\newblock 计算机工程与科学, 2021, 043\allowbreak (004): 586-593.
+
+\bibitem[吴艳霞\ 等(2019)吴艳霞, 梁楷, 刘颖, and
+  崔慧敏]{吴艳霞2019深度学习}
+吴艳霞, 梁楷, 刘颖, 等.
+\newblock 深度学习FPGA加速器的进展与趋势\allowbreak[J].
+\newblock 计算机学报, 2019, 42\allowbreak (11): 20.
+
+\bibitem[张立学\ 等(2016)张立学 and
+  尹东辉]{张立学2016流水线技术在}
+张立学, 尹东辉.
+\newblock 流水线技术在FPGA设计中的运用\allowbreak[J].
+\newblock 计算机时代, 2016\allowbreak (2): 3.
+
+\bibitem[田帆\ 等(2019)田帆, 杨檬玮, and
+  单长虹]{田帆2019基于流水线技术的全数字锁相环设计}
+田帆, 杨檬玮, 单长虹.
+\newblock 基于流水线技术的全数字锁相环设计\allowbreak[J].
+\newblock 电子技术应用, 2019\allowbreak (4): 6.
+
+\bibitem[Vijeyakumar et~al.(2014)Vijeyakumar, Sumathy, Pramod, and
+  Saravanakumar]{2014Designof}
+VIJEYAKUMAR K~N, SUMATHY V, PRAMOD P, et~al.
+\newblock Design of high speed low power counter using
+  pipelining\allowbreak[J].
+\newblock Journal of Scientific \& Industrial Research, 2014\allowbreak (2):
+  117-123.
+
+\bibitem[Liu et~al.(2013)Liu, Liu, Wu, and Tan]{2013Designadn}
+LIU Q~L, LIU M, WU X~L, et~al.
+\newblock Design and analysis of 2-stage pipelining high-performance
+  sram\allowbreak[J].
+\newblock Advanced Materials Research, 2013, 614-615: 1524-1529.
+
+\bibitem[李科(2011)]{LDPC解码器的异步流水线电路研究}
+李科.
+\newblock LDPC解码器的异步流水线电路研究\allowbreak[D].
+\newblock 华南理工大学, 2011.
 
 \end{thebibliography}

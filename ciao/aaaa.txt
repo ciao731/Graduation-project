@@ -1,0 +1,18 @@
+哈尔滨工业大学谭久彬院士带领的团队在精密测量领域耕耘多年。先后研制了外差式激光干涉仪、光栅干涉仪[33]
+
+
+桂林电子科技大学熊显名团队在针对掩模台位置测量需要，研究了掩模台光栅干涉仪测量模型设计以及几何误差[46-52]、热漂移误差的[53-54]补偿方法
+
+林存宝介绍了一种高稳定性、低非线性的外差光栅干涉仪，有实现纳米级位移测量的潜力[59-60]
+
+
+[33] 邢旭等, 空间分离式外差二自由度平面光栅干涉仪[J].. 光学精密工程, 2019. 27(08):1727-1736.
+[46] 杨松，掩模台平面光栅尺测量系统的研究[D]，桂林电子科技大学, 2020.
+[47] 杨松,张文涛,熊显名,王献英.高精度位移测量系统硬件在环仿真优化设计[J].仪器仪表用户,2020,27(03):1-6..
+[48] 郝春晓等, 基于平面光栅尺的掩模台位置误差分析与验证[J]. 激光与光电子学进展, 2019. 56(23): 174-182.
+[49] 郝春晓等, 掩模台水平向的二维衍射平面光栅测量模型验证[J]. 仪器仪表用户, 2019. 26(06): 49-51.
+[50] 郝春晓，掩模台位置测量系统校准方法与验证[D]. 桂林电子科技大学，2019.
+[51] 徐康等，超精密掩模台位置测量系统算法优化[J]. 激光杂志, 2019. 40(11): 38-41.
+[52] 徐康，掩模台位置测量系统算法设计与验证[D]. 桂林电子科技大学，2019
+[59] Lin, C., et al. Compact high-stability and low-nonlinearity heterodyne grating interferometer[C]. Proc. SPIE 11439, 2019 International Conference on Optical Instruments and Technology: Optoelectronic Measurement Technology and Systems, 114390E (12 March 2020).
+[60] Lin, C., et al., Two-dimensional diagonal-based heterodyne grating interferometer with enhanced signal-to-noise ratio and optical subdivision[J]. Optical Engineering, 2018. 57(06): p. 1.
