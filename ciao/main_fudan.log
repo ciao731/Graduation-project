@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.21)  21 FEB 2023 17:25
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.21)  22 FEB 2023 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1272,10 +1272,12 @@ File: fig/1-fig/双频激光干涉仪环境误差补偿实验平台图.jpg Graph
  [7]
 File: fig/1-fig/基于激光单频干涉和PTF传感融合的空气折射率测量装置图.png Graphic file (type bmp)
 <fig/1-fig/基于激光单频干涉和PTF传感融合的空气折射率测量装置图.png>
- [8] [9] [10]
+ [8] [9] [10] [11]
 File: fig/1-fig/论文组织架构图.drawio.pdf Graphic file (type pdf)
 <use fig/1-fig/论文组织架构图.drawio.pdf>
-) [11] [12]
+) [12
+
+]
 \openout2 = `subtex_chapter2.aux'.
 
  (./subtex_chapter2.tex
@@ -1638,23 +1640,25 @@ Package fontspec Info: Font family '宋体(0)' created for font '宋体' with op
 (fontspec)             <->"宋体/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- [80] [81] [82])
+ [80] [81] [82]) [83] [84
+
+]
 \tf@thm=\write6
 \openout6 = `main_fudan.thm'.
 
- [83] [84
+ [85] [86
 
-] [85] (./main_fudan.aux (./subtex_frontmatter.aux) (./subtex_chapter1.aux) (./subtex_chapter2.aux) (./subtex_chapter3.aux) (./subtex_chapter4.aux) (./subtex_chapter5.aux) (./subtex_chapter6.aux) (./subtex_chapter7.aux))
+] [87] (./main_fudan.aux (./subtex_frontmatter.aux) (./subtex_chapter1.aux) (./subtex_chapter2.aux) (./subtex_chapter3.aux) (./subtex_chapter4.aux) (./subtex_chapter5.aux) (./subtex_chapter6.aux) (./subtex_chapter7.aux))
 Package rerunfilecheck Info: File `main_fudan.out' has not changed.
 (rerunfilecheck)             Checksum: 445F6CB2FF2AC0A4016A600FF7EA75ED;13804.
  ) 
 Here is how much of TeX's memory you used:
- 27237 strings out of 475644
- 568795 string characters out of 5797184
- 1044548 words of memory out of 5000000
- 47956 multiletter control sequences out of 15000+600000
+ 27238 strings out of 475644
+ 568805 string characters out of 5797184
+ 1044557 words of memory out of 5000000
+ 47957 multiletter control sequences out of 15000+600000
  478105 words of font info for 164 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  110i,13n,116p,2043b,2452s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main_fudan.pdf (101 pages).
+Output written on main_fudan.pdf (103 pages).
