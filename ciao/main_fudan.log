@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.21)  22 FEB 2023 15:26
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.21)  8 MAR 2023 11:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1217,13 +1217,13 @@ Package fontspec Info: Font family 'FandolKai(0)' created for font 'FandolKai'
 
 
 
-] [2])
+] [2] [3])
 \tf@toc=\write4
 \openout4 = `main_fudan.toc'.
 
- [3] [4
+ [4] (./main_fudan.lof [5
 
-] (./main_fudan.lof [5] [6])
+] [6])
 \tf@lof=\write5
 \openout5 = `main_fudan.lof'.
 
@@ -1237,7 +1237,10 @@ Underfull \vbox (badness 1033) has occurred while \output is active []
 
  [11
 
-]) [12] [13] [14
+]
+Underfull \vbox (badness 2277) has occurred while \output is active []
+
+ [12]) [13] [14
 
 
 
@@ -1264,35 +1267,41 @@ File: fig/1-fig/基于变长真空腔调相零差干涉仪的空气折射率测�
 <fig/1-fig/基于变长真空腔调相零差干涉仪的空气折射率测量装置图.png>
 File: fig/1-fig/EC10.jpg Graphic file (type bmp)
 <fig/1-fig/EC10.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [5] [6]
 File: fig/1-fig/周毅冰等人设计的压传感器的检定装置图.jpg Graphic file (type bmp)
 <fig/1-fig/周毅冰等人设计的压传感器的检定装置图.jpg>
+ [7]
 File: fig/1-fig/双频激光干涉仪环境误差补偿实验平台图.jpg Graphic file (type bmp)
 <fig/1-fig/双频激光干涉仪环境误差补偿实验平台图.jpg>
- [7]
 File: fig/1-fig/基于激光单频干涉和PTF传感融合的空气折射率测量装置图.png Graphic file (type bmp)
 <fig/1-fig/基于激光单频干涉和PTF传感融合的空气折射率测量装置图.png>
- [8] [9] [10] [11]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8] [9] [10] [11] [12]
 File: fig/1-fig/论文组织架构图.drawio.pdf Graphic file (type pdf)
 <use fig/1-fig/论文组织架构图.drawio.pdf>
-) [12
+) [13
 
 ]
 \openout2 = `subtex_chapter2.aux'.
 
- (./subtex_chapter2.tex
-第2章
-File: fig/2-fig/多普勒频移示意图.drawio.pdf Graphic file (type pdf)
-<use fig/2-fig/多普勒频移示意图.drawio.pdf>
-[13
+ (./subtex_chapter2.tex [14
 
 
 
 
 ]
+第2章
+File: fig/2-fig/多普勒频移示意图.drawio.pdf Graphic file (type pdf)
+<use fig/2-fig/多普勒频移示意图.drawio.pdf>
+[15]
 File: fig/2-fig/多普勒频测速示意图.drawio.pdf Graphic file (type pdf)
 <use fig/2-fig/多普勒频测速示意图.drawio.pdf>
- [14]
+ [16]
 File: fig/2-fig/拍频波形示意图.jpg Graphic file (type bmp)
 <fig/2-fig/拍频波形示意图.jpg>
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
@@ -1301,15 +1310,15 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
 (Font)              scaled to size 6.99925pt on input line 67.
 File: fig/2-fig/单频激光干涉仪原理图.drawio.pdf Graphic file (type pdf)
 <use fig/2-fig/单频激光干涉仪原理图.drawio.pdf>
- [15]
+ [17]
 File: fig/2-fig/双频激光干涉仪原理图.pdf Graphic file (type pdf)
 <use fig/2-fig/双频激光干涉仪原理图.pdf>
- [16] [17]
+ [18] [19] [20]
 File: fig/2-fig/折射率随温度变化.pdf Graphic file (type pdf)
 <use fig/2-fig/折射率随温度变化.pdf>
 File: fig/2-fig/折射率随气压变化.pdf Graphic file (type pdf)
 <use fig/2-fig/折射率随气压变化.pdf>
- [18] [19]) [20]
+ [21]) [22]
 \openout2 = `subtex_chapter3.aux'.
 
  (./subtex_chapter3.tex
@@ -1318,7 +1327,7 @@ File: fig/3-fig/上位机程序示意图.pdf Graphic file (type pdf)
 <use fig/3-fig/上位机程序示意图.pdf>
 File: fig/3-fig/温度采集上位机前面板.png Graphic file (type bmp)
 <fig/3-fig/温度采集上位机前面板.png>
-[21
+[23
 
 
 
@@ -1326,22 +1335,22 @@ File: fig/3-fig/温度采集上位机前面板.png Graphic file (type bmp)
 ]
 File: fig/3-fig/温度测量系统标定示意图.jpg Graphic file (type bmp)
 <fig/3-fig/温度测量系统标定示意图.jpg>
- [22]
+ [24]
 File: fig/3-fig/标定程序前面板.jpg Graphic file (type bmp)
 <fig/3-fig/标定程序前面板.jpg>
- [23]
+ [25]
 File: fig/3-fig/PACE1000气压传感器.jpg Graphic file (type bmp)
 <fig/3-fig/PACE1000气压传感器.jpg>
 File: fig/3-fig/激光器实物图.png Graphic file (type bmp)
 <fig/3-fig/激光器实物图.png>
 File: fig/3-fig/干涉仪实物图.pdf Graphic file (type pdf)
 <use fig/3-fig/干涉仪实物图.pdf>
- [24]
+ [26]
 File: fig/3-fig/信号采集卡实物图.jpg Graphic file (type bmp)
 <fig/3-fig/信号采集卡实物图.jpg>
- [25]
-File: fig/3-fig/带金属外壳的干涉仪.png Graphic file (type bmp)
-<fig/3-fig/带金属外壳的干涉仪.png>
+ [27]
+File: fig/3-fig/带金属外壳的干涉仪.jpg Graphic file (type bmp)
+<fig/3-fig/带金属外壳的干涉仪.jpg>
 File: fig/3-fig/实验系统图-带外壳干涉仪.jpg Graphic file (type bmp)
 <fig/3-fig/实验系统图-带外壳干涉仪.jpg>
 File: fig/3-fig/实验数据-带外壳的干涉仪.pdf Graphic file (type pdf)
@@ -1350,7 +1359,7 @@ File: fig/3-fig/实验系统图-带微晶玻璃.jpg Graphic file (type bmp)
 <fig/3-fig/实验系统图-带微晶玻璃.jpg>
 File: fig/3-fig/实验数据-带微晶玻璃.jpg Graphic file (type bmp)
 <fig/3-fig/实验数据-带微晶玻璃.jpg>
- [26]
+ [28]
 File: fig/3-fig/实验示意图-带温控箱.pdf Graphic file (type pdf)
 <use fig/3-fig/实验示意图-带温控箱.pdf>
 File: fig/3-fig/实验系统图-带温控箱.jpg Graphic file (type bmp)
@@ -1361,40 +1370,48 @@ File: fig/3-fig/最终实验示意图.pdf Graphic file (type pdf)
 <use fig/3-fig/最终实验示意图.pdf>
 File: fig/3-fig/最终实验系统图.pdf Graphic file (type pdf)
 <use fig/3-fig/最终实验系统图.pdf>
- [27] [28] [29]
+
+Overfull \hbox (23.4512pt too wide) in paragraph at lines 192--192
+ [][] 
+ []
+
+[29] [30]
+Underfull \vbox (badness 3088) has occurred while \output is active []
+
+ [31]
 File: fig/3-fig/短时测量数据.pdf Graphic file (type pdf)
 <use fig/3-fig/短时测量数据.pdf>
- [30]
+ [32]
+Underfull \vbox (badness 2913) has occurred while \output is active []
+
+ [33]
 File: fig/3-fig/长时测量数据.pdf Graphic file (type pdf)
 <use fig/3-fig/长时测量数据.pdf>
- [31]
-Underfull \vbox (badness 2302) has occurred while \output is active []
-
- [32]
+ [34]
 File: fig/3-fig/大范围温度测量实验数据.pdf Graphic file (type pdf)
 <use fig/3-fig/大范围温度测量实验数据.pdf>
- [33]) [34]
+ [35]) [36]
 \openout2 = `subtex_chapter4.aux'.
 
  (./subtex_chapter4.tex
 第4章
 File: fig/4-fig/粒子群算法流程图.png Graphic file (type bmp)
 <fig/4-fig/粒子群算法流程图.png>
-[35
+[37
 
 
 
 
-] [36] [37]
+] [38] [39]
 File: fig/4-fig/edpso_短时测量实验数据.pdf Graphic file (type pdf)
 <use fig/4-fig/edpso_短时测量实验数据.pdf>
- [38]
+ [40]
 File: fig/4-fig/edpso_长时测量实验数据.pdf Graphic file (type pdf)
 <use fig/4-fig/edpso_长时测量实验数据.pdf>
- [39]
+ [41]
 File: fig/4-fig/edpso_大范围温度变化测量数据.pdf Graphic file (type pdf)
 <use fig/4-fig/edpso_大范围温度变化测量数据.pdf>
- [40]
+ [42]
 File: fig/4-fig/训练过程a.png Graphic file (type bmp)
 <fig/4-fig/训练过程a.png>
 File: fig/4-fig/训练过程b.png Graphic file (type bmp)
@@ -1411,169 +1428,134 @@ Overfull \hbox (1.85928pt too wide) in paragraph at lines 126--134
 
 File: fig/4-fig/温度梯度实验数据.jpg Graphic file (type bmp)
 <fig/4-fig/温度梯度实验数据.jpg>
-[41]
+[43]
 Underfull \vbox (badness 1527) has occurred while \output is active []
 
- [42] [43]
+ [44] [45]
 File: fig/4-fig/基于温度梯度的分段式粒子群算法流程图.drawio.pdf Graphic file (type pdf)
 <use fig/4-fig/基于温度梯度的分段式粒子群算法流程图.drawio.pdf>
- [44]
+ [46]
 File: fig/4-fig/基于温度梯度的分段粒子群算法补偿效果.jpg Graphic file (type bmp)
 <fig/4-fig/基于温度梯度的分段粒子群算法补偿效果.jpg>
 
 Underfull \vbox (badness 3323) has occurred while \output is active []
 
- [45] [46]
+ [47] [48]
 File: fig/4-fig/定点数示意图.drawio.pdf Graphic file (type pdf)
 <use fig/4-fig/定点数示意图.drawio.pdf>
- [47]
+ [49]
 File: fig/4-fig/补码计算示意图.pdf Graphic file (type pdf)
 <use fig/4-fig/补码计算示意图.pdf>
- [48]
+ [50]
 Underfull \vbox (badness 2173) has occurred while \output is active []
 
- [49]
+ [51]
 File: fig/4-fig/rtl_model验证环境.drawio.pdf Graphic file (type pdf)
 <use fig/4-fig/rtl_model验证环境.drawio.pdf>
- [50]
-Overfull \hbox (56.02095pt too wide) in paragraph at lines 260--273
- [][] 
- []
-
-[51]) [52]
+ [52] [53]) [54]
 \openout2 = `subtex_chapter5.aux'.
 
  (./subtex_chapter5.tex
 第5章
 File: fig/5-fig/流水线示意图.drawio.pdf Graphic file (type pdf)
 <use fig/5-fig/流水线示意图.drawio.pdf>
-[53
+[55
 
 
 
 
-] [54]
+] [56]
 File: fig/5-fig/握手控制模块时序图.jpg Graphic file (type bmp)
 <fig/5-fig/握手控制模块时序图.jpg>
 File: fig/5-fig/握手控制模块逻辑结构图.jpg Graphic file (type bmp)
 <fig/5-fig/握手控制模块逻辑结构图.jpg>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55]
 File: fig/5-fig/逻辑复制示意图a.drawio.pdf Graphic file (type pdf)
 <use fig/5-fig/逻辑复制示意图a.drawio.pdf>
 File: fig/5-fig/逻辑复制示意图b.drawio.pdf Graphic file (type pdf)
 <use fig/5-fig/逻辑复制示意图b.drawio.pdf>
 
-Overfull \hbox (1.85928pt too wide) in paragraph at lines 82--90
+Overfull \hbox (1.85928pt too wide) in paragraph at lines 79--87
  [][] 
  []
 
 
-Overfull \hbox (1.85928pt too wide) in paragraph at lines 82--90
+Overfull \hbox (1.85928pt too wide) in paragraph at lines 79--87
  [][] 
  []
 
-[56]
+[57]
 File: fig/5-fig/锁存门控的结构图和波形图.drawio.pdf Graphic file (type pdf)
 <use fig/5-fig/锁存门控的结构图和波形图.drawio.pdf>
- [57]
+ [58]
 File: fig/5-fig/LSFR架构图.pdf Graphic file (type pdf)
 <use fig/5-fig/LSFR架构图.pdf>
- [58]
+ [59]
 File: fig/5-fig/粒子群算法加速系统架构.drawio.pdf Graphic file (type pdf)
 <use fig/5-fig/粒子群算法加速系统架构.drawio.pdf>
 
-Overfull \hbox (24.19809pt too wide) in paragraph at lines 155--177
+Overfull \hbox (12.15309pt too wide) in paragraph at lines 152--174
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [59]
+[60]
 File: fig/5-fig/适应度计算模块架构图.pdf Graphic file (type pdf)
 <use fig/5-fig/适应度计算模块架构图.pdf>
-
-Overfull \hbox (44.95161pt too wide) in paragraph at lines 193--214
- [][] 
- []
-
-
-Underfull \vbox (badness 5133) has occurred while \output is active []
-
- [60] [61]
+ [61]
 File: fig/5-fig/种群信息更新模块架构.pdf Graphic file (type pdf)
 <use fig/5-fig/种群信息更新模块架构.pdf>
-
-Overfull \hbox (46.56566pt too wide) in paragraph at lines 234--259
+ [62]
+Overfull \hbox (4.40816pt too wide) in paragraph at lines 229--254
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--259
+Underfull \hbox (badness 10000) in paragraph at lines 224--255
 []\TU/FandolSong(0)/m/n/12.045 种 群 信 息 更 新 模 块 的 所 有 接 口 信 号 如 表[][]\TU/XITS(0)/m/n/12.045 5-6[][]\TU/FandolSong(0)/m/n/12.045 所 示，|  其 中 \TU/XITS(0)/m/n/12.045 ppu \TU/FandolSong(0)/m/n/12.045 为
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 229--259
+Underfull \hbox (badness 1275) in paragraph at lines 224--255
 \TU/XITS(0)/m/n/12.045 pso$[]$population$[]$upda \TU/FandolSong(0)/m/n/12.045 的 缩 写 首 字 母，|  标 志 着 该 信 号 为 种 群 信 息 更 新 模 块 的
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [62]
 File: fig/5-fig/速度和位置更新模块架构图.pdf Graphic file (type pdf)
 <use fig/5-fig/速度和位置更新模块架构图.pdf>
-
-Underfull \hbox (badness 7963) in paragraph at lines 270--271
+[63]
+Underfull \hbox (badness 7963) in paragraph at lines 265--266
 []\TU/FandolSong(0)/m/n/12.045 速 度 和 位 置 更 新 模 块 的 所 有 接 口 信 号 如 表[][]\TU/XITS(0)/m/n/12.045 5-7[][]\TU/FandolSong(0)/m/n/12.045 所 示，|  其 中 \TU/XITS(0)/m/n/12.045 pvc \TU/FandolSong(0)/m/n/12.045 为
  []
 
 
-Overfull \hbox (56.6955pt too wide) in paragraph at lines 276--299
+Overfull \hbox (8.5155pt too wide) in paragraph at lines 271--294
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [63]
 File: fig/5-fig/单起点训练时序图.jpg Graphic file (type bmp)
 <fig/5-fig/单起点训练时序图.jpg>
 File: fig/5-fig/多起点训练时序图.jpg Graphic file (type bmp)
 <fig/5-fig/多起点训练时序图.jpg>
- [64]
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+[64] [65]
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 []\TU/FandolSong(0)/m/n/12.045 如 表[][]\TU/XITS(0)/m/n/12.045 5-4[][]\TU/FandolSong(0)/m/n/12.045 所 示，|  按 照 配 置 顺 序，|  粒 子 群 算 法 加 速 补 偿 系 统 共 有
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 \TU/XITS(0)/m/n/12.045 i$[]$cfg$[]$pso$[]$in$[]$initial$[]$para\TU/FandolSong(0)/m/n/12.045 、| \TU/XITS(0)/m/n/12.045 i$[]$cfg$[]$pso$[]$in$[]$initial$[]$lastv\TU/FandolSong(0)/m/n/12.045 、| \TU/XITS(0)/m/n/12.045 i$[]$cfg$[]$pso$[]$in$[]$len\TU/FandolSong(0)/m/n/12.045 、|
  []
 
 File: fig/5-fig/双差分验证环境.drawio.pdf Graphic file (type pdf)
 <use fig/5-fig/双差分验证环境.drawio.pdf>
-[65]
-Overfull \hbox (25.72777pt too wide) in paragraph at lines 336--348
- [][] 
- []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]) [67]
+ [66]
+Underfull \vbox (badness 3579) has occurred while \output is active []
+
+ [67]) [68]
 \openout2 = `subtex_chapter6.aux'.
 
- (./subtex_chapter6.tex [68
-
-
-
-
-]
+ (./subtex_chapter6.tex
 第6章
 File: fig/6-fig/软件运行时间.png Graphic file (type bmp)
 <fig/6-fig/软件运行时间.png>
@@ -1581,7 +1563,12 @@ File: fig/6-fig/输入延迟示意图.png Graphic file (type bmp)
 <fig/6-fig/输入延迟示意图.png>
 File: fig/6-fig/输出延迟示意图.png Graphic file (type bmp)
 <fig/6-fig/输出延迟示意图.png>
-[69]
+[69
+
+
+
+
+]
 File: fig/6-fig/时序检查结果.png Graphic file (type bmp)
 <fig/6-fig/时序检查结果.png>
 File: fig/6-fig/硬件运行时间.png Graphic file (type bmp)
@@ -1589,9 +1576,6 @@ File: fig/6-fig/硬件运行时间.png Graphic file (type bmp)
  [70]
 File: fig/6-fig/运行时间和种群大小的关系.pdf Graphic file (type pdf)
 <use fig/6-fig/运行时间和种群大小的关系.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [71]
 File: fig/6-fig/软硬件补偿效果对比.pdf Graphic file (type pdf)
 <use fig/6-fig/软硬件补偿效果对比.pdf>
@@ -1640,25 +1624,25 @@ Package fontspec Info: Font family '宋体(0)' created for font '宋体' with op
 (fontspec)             <->"宋体/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- [80] [81] [82]) [83] [84
-
-]
+ [80] [81] [82] [83]) [84]
 \tf@thm=\write6
 \openout6 = `main_fudan.thm'.
 
- [85] [86
+ [85
+
+] [86
 
 ] [87] (./main_fudan.aux (./subtex_frontmatter.aux) (./subtex_chapter1.aux) (./subtex_chapter2.aux) (./subtex_chapter3.aux) (./subtex_chapter4.aux) (./subtex_chapter5.aux) (./subtex_chapter6.aux) (./subtex_chapter7.aux))
 Package rerunfilecheck Info: File `main_fudan.out' has not changed.
-(rerunfilecheck)             Checksum: 445F6CB2FF2AC0A4016A600FF7EA75ED;13804.
+(rerunfilecheck)             Checksum: 770BFAA8EB6B6CA103CEB9B45A051F01;13914.
  ) 
 Here is how much of TeX's memory you used:
- 27238 strings out of 475644
- 568805 string characters out of 5797184
- 1044557 words of memory out of 5000000
- 47957 multiletter control sequences out of 15000+600000
+ 27256 strings out of 475644
+ 569330 string characters out of 5797184
+ 1046916 words of memory out of 5000000
+ 47975 multiletter control sequences out of 15000+600000
  478105 words of font info for 164 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 110i,13n,116p,2043b,2452s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,13n,116p,2043b,2454s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main_fudan.pdf (103 pages).

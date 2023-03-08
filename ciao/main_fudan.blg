@@ -27,45 +27,45 @@ Warning--empty year in 徐飞0基于
 Warning--empty year in 徐飞0基于
 Warning--empty year in 徐飞0基于
 Warning--empty year in 徐飞0基于
-You've used 63 entries,
+You've used 69 entries,
             5374 wiz_defined-function locations,
-            1388 strings with 18420 characters,
-and the built_in function-call counts, 290839 in all, are:
-= -- 8856
-> -- 28612
-< -- 39057
-+ -- 13496
-- -- 3558
-* -- 2382
-:= -- 43093
-add.period$ -- 193
-call.type$ -- 63
-change.case$ -- 276
-chr.to.int$ -- 11025
-cite$ -- 67
-duplicate$ -- 1536
-empty$ -- 4105
-format.name$ -- 1594
-if$ -- 74800
+            1419 strings with 19543 characters,
+and the built_in function-call counts, 315929 in all, are:
+= -- 9648
+> -- 30960
+< -- 42410
++ -- 14729
+- -- 3894
+* -- 2592
+:= -- 46903
+add.period$ -- 211
+call.type$ -- 69
+change.case$ -- 294
+chr.to.int$ -- 12025
+cite$ -- 73
+duplicate$ -- 1679
+empty$ -- 4477
+format.name$ -- 1735
+if$ -- 81199
 int.to.chr$ -- 1
-int.to.str$ -- 64
+int.to.str$ -- 70
 missing$ -- 0
-newline$ -- 338
-num.names$ -- 189
-pop$ -- 8968
+newline$ -- 368
+num.names$ -- 207
+pop$ -- 9730
 preamble$ -- 1
-purify$ -- 63
+purify$ -- 69
 quote$ -- 0
-skip$ -- 28808
+skip$ -- 31103
 stack$ -- 0
-substring$ -- 15372
-swap$ -- 63
-text.length$ -- 1313
+substring$ -- 16759
+swap$ -- 69
+text.length$ -- 1434
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 693
+type$ -- 759
 warning$ -- 4
-while$ -- 1381
+while$ -- 1508
 width$ -- 0
-write$ -- 868
+write$ -- 949
 (There were 4 warnings)

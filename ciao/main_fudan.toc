@@ -6,81 +6,82 @@
 \contentsline {section}{\numberline {1.2}研究背景及意义}{1}{section.1.2}%
 \contentsline {section}{\numberline {1.3}国内外研究现状}{3}{section.1.3}%
 \contentsline {subsection}{\fdu@kai \numberline {1.3.1}直接测量法}{3}{subsection.1.3.1}%
-\contentsline {subsection}{\fdu@kai \numberline {1.3.2}间接测量法}{5}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}本文的主要工作及组织结构}{8}{section.1.4}%
-\contentsline {subsection}{\fdu@kai \numberline {1.4.1}本文的主要工作}{8}{subsection.1.4.1}%
+\contentsline {subsection}{\fdu@kai \numberline {1.3.2}间接测量法}{6}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}本文的主要工作及组织结构}{9}{section.1.4}%
+\contentsline {subsection}{\fdu@kai \numberline {1.4.1}本文的主要工作}{9}{subsection.1.4.1}%
 \contentsline {subsection}{\fdu@kai \numberline {1.4.2}本文的组织结构}{10}{subsection.1.4.2}%
-\contentsline {chapter}{\normalfont \sffamily \numberline {第2章}双频激光干涉仪的环境误差及Edlen公式补偿方法}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}激光位移测量理论基础}{13}{section.2.1}%
-\contentsline {subsection}{\fdu@kai \numberline {2.1.1}多普勒频移}{13}{subsection.2.1.1}%
-\contentsline {subsection}{\fdu@kai \numberline {2.1.2}拍频现象}{14}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}激光干涉仪原理}{15}{section.2.2}%
-\contentsline {subsection}{\fdu@kai \numberline {2.2.1}单频激光干涉仪}{15}{subsection.2.2.1}%
-\contentsline {subsection}{\fdu@kai \numberline {2.2.2}双频激光干涉仪}{16}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}双频激光干涉仪的环境误差及其成因}{17}{section.2.3}%
-\contentsline {section}{\numberline {2.4}基于Edlen公式的补偿方法及其局限性}{18}{section.2.4}%
-\contentsline {subsection}{\fdu@kai \numberline {2.4.1}Edlen公式补偿方法}{18}{subsection.2.4.1}%
-\contentsline {subsection}{\fdu@kai \numberline {2.4.2}局限性}{19}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}本章小结}{20}{section.2.5}%
-\contentsline {chapter}{\normalfont \sffamily \numberline {第3章}双频激光干涉仪的环境误差补偿实验系统}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}基于PT100的八通道温度测量系统}{21}{section.3.1}%
-\contentsline {subsection}{\fdu@kai \numberline {3.1.1}上位机系统}{21}{subsection.3.1.1}%
-\contentsline {subsection}{\fdu@kai \numberline {3.1.2}标定过程及结果}{23}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}气压测量系统}{24}{section.3.2}%
-\contentsline {section}{\numberline {3.3}补偿系统总体方案}{24}{section.3.3}%
-\contentsline {section}{\numberline {3.4}实验方案及其改进}{26}{section.3.4}%
-\contentsline {subsection}{\fdu@kai \numberline {3.4.1}实验设备改进}{26}{subsection.3.4.1}%
-\contentsline {subsection}{\fdu@kai \numberline {3.4.2}实验变量改进}{26}{subsection.3.4.2}%
-\contentsline {subsection}{\fdu@kai \numberline {3.4.3}实验环境改进}{27}{subsection.3.4.3}%
-\contentsline {subsection}{\fdu@kai \numberline {3.4.4}最终实验方案}{27}{subsection.3.4.4}%
-\contentsline {section}{\numberline {3.5}实验系统安装和调试}{28}{section.3.5}%
-\contentsline {section}{\numberline {3.6}补偿性能测试与实验结果}{30}{section.3.6}%
-\contentsline {subsection}{\fdu@kai \numberline {3.6.1}短时测量}{30}{subsection.3.6.1}%
-\contentsline {subsection}{\fdu@kai \numberline {3.6.2}长时测量}{31}{subsection.3.6.2}%
-\contentsline {subsection}{\fdu@kai \numberline {3.6.3}大范围温度变化测量}{33}{subsection.3.6.3}%
-\contentsline {section}{\numberline {3.7}本章小结}{34}{section.3.7}%
-\contentsline {chapter}{\normalfont \sffamily \numberline {第4章}基于粒子群算法的软件补偿方法及算法硬化}{35}{chapter.4}%
-\contentsline {section}{\numberline {4.1}粒子群算法}{35}{section.4.1}%
-\contentsline {subsection}{\fdu@kai \numberline {4.1.1}粒子群算法基本原理}{35}{subsection.4.1.1}%
-\contentsline {subsection}{\fdu@kai \numberline {4.1.2}线性惯性权值递减策略}{36}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}基于粒子群算法优化后的Edlen公式补偿方法}{37}{section.4.2}%
-\contentsline {subsection}{\fdu@kai \numberline {4.2.1}数据预处理}{37}{subsection.4.2.1}%
-\contentsline {subsection}{\fdu@kai \numberline {4.2.2}使用粒子群算法进行数据训练}{37}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}整段式粒子群算法补偿效果}{38}{section.4.3}%
-\contentsline {subsection}{\fdu@kai \numberline {4.3.1}短时测量}{38}{subsection.4.3.1}%
-\contentsline {subsection}{\fdu@kai \numberline {4.3.2}长时测量}{39}{subsection.4.3.2}%
-\contentsline {subsection}{\fdu@kai \numberline {4.3.3}大范围温度变化测量}{40}{subsection.4.3.3}%
-\contentsline {subsection}{\fdu@kai \numberline {4.3.4}优越性}{41}{subsection.4.3.4}%
-\contentsline {subsection}{\fdu@kai \numberline {4.3.5}局限性}{42}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}基于温度梯度的分段式粒子群算法补偿方法}{43}{section.4.4}%
-\contentsline {subsection}{\fdu@kai \numberline {4.4.1}算法原理}{43}{subsection.4.4.1}%
-\contentsline {subsection}{\fdu@kai \numberline {4.4.2}算法流程图}{44}{subsection.4.4.2}%
-\contentsline {subsection}{\fdu@kai \numberline {4.4.3}补偿效果}{45}{subsection.4.4.3}%
-\contentsline {subsection}{\fdu@kai \numberline {4.4.4}不足之处}{46}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}算法硬化}{47}{section.4.5}%
-\contentsline {subsection}{\fdu@kai \numberline {4.5.1}数据定点方案及截断方案}{47}{subsection.4.5.1}%
-\contentsline {subsection}{\fdu@kai \numberline {4.5.2}补码运算}{48}{subsection.4.5.2}%
-\contentsline {subsection}{\fdu@kai \numberline {4.5.3}乘除转换转换}{49}{subsection.4.5.3}%
-\contentsline {subsection}{\fdu@kai \numberline {4.5.4}四舍五入方案}{50}{subsection.4.5.4}%
-\contentsline {section}{\numberline {4.6}硬化前后的算法验证框架}{50}{section.4.6}%
-\contentsline {subsection}{\fdu@kai \numberline {4.6.1}进制转换与字符串操作}{50}{subsection.4.6.1}%
-\contentsline {subsection}{\fdu@kai \numberline {4.6.2}RTL model验证框架}{50}{subsection.4.6.2}%
-\contentsline {subsection}{\fdu@kai \numberline {4.6.3}验证激励和结果}{51}{subsection.4.6.3}%
-\contentsline {section}{\numberline {4.7}本章小结}{52}{section.4.7}%
-\contentsline {chapter}{\normalfont \sffamily \numberline {第5章}用于干涉仪环境补偿的粒子群算法的硬件加速补偿系统设计}{53}{chapter.5}%
-\contentsline {section}{\numberline {5.1}硬件设计方法}{53}{section.5.1}%
-\contentsline {subsection}{\fdu@kai \numberline {5.1.1}流水线技术}{53}{subsection.5.1.1}%
-\contentsline {subsection}{\fdu@kai \numberline {5.1.2}握手控制方案}{54}{subsection.5.1.2}%
-\contentsline {subsection}{\fdu@kai \numberline {5.1.3}逻辑复制与资源共享技术}{56}{subsection.5.1.3}%
-\contentsline {subsection}{\fdu@kai \numberline {5.1.4}门控时钟技术}{56}{subsection.5.1.4}%
-\contentsline {subsection}{\fdu@kai \numberline {5.1.5}随机数生成设计}{58}{subsection.5.1.5}%
-\contentsline {section}{\numberline {5.2}粒子群算法加速补偿系统架构}{59}{section.5.2}%
-\contentsline {subsection}{\fdu@kai \numberline {5.2.1}适应度计算模块架构}{60}{subsection.5.2.1}%
-\contentsline {subsection}{\fdu@kai \numberline {5.2.2}种群信息更新模块架构}{61}{subsection.5.2.2}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第2章}双频激光干涉仪的环境误差及Edlen公式补偿方法}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}激光位移测量理论基础}{15}{section.2.1}%
+\contentsline {subsection}{\fdu@kai \numberline {2.1.1}多普勒频移}{15}{subsection.2.1.1}%
+\contentsline {subsection}{\fdu@kai \numberline {2.1.2}拍频现象}{16}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}激光干涉仪原理}{17}{section.2.2}%
+\contentsline {subsection}{\fdu@kai \numberline {2.2.1}单频激光干涉仪}{17}{subsection.2.2.1}%
+\contentsline {subsection}{\fdu@kai \numberline {2.2.2}双频激光干涉仪}{18}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}双频激光干涉仪的系统误差}{19}{section.2.3}%
+\contentsline {section}{\numberline {2.4}双频激光干涉仪的环境误差及其成因}{20}{section.2.4}%
+\contentsline {section}{\numberline {2.5}基于Edlen公式的补偿方法及其局限性}{21}{section.2.5}%
+\contentsline {subsection}{\fdu@kai \numberline {2.5.1}Edlen公式补偿方法}{21}{subsection.2.5.1}%
+\contentsline {subsection}{\fdu@kai \numberline {2.5.2}局限性}{21}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}本章小结}{22}{section.2.6}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第3章}双频激光干涉仪的环境误差补偿实验系统}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}基于PT100的八通道温度测量系统}{23}{section.3.1}%
+\contentsline {subsection}{\fdu@kai \numberline {3.1.1}上位机系统}{23}{subsection.3.1.1}%
+\contentsline {subsection}{\fdu@kai \numberline {3.1.2}标定过程及结果}{25}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}气压测量系统}{26}{section.3.2}%
+\contentsline {section}{\numberline {3.3}补偿系统总体方案}{26}{section.3.3}%
+\contentsline {section}{\numberline {3.4}实验方案及其改进}{28}{section.3.4}%
+\contentsline {subsection}{\fdu@kai \numberline {3.4.1}实验设备改进}{28}{subsection.3.4.1}%
+\contentsline {subsection}{\fdu@kai \numberline {3.4.2}实验变量改进}{28}{subsection.3.4.2}%
+\contentsline {subsection}{\fdu@kai \numberline {3.4.3}实验环境改进}{29}{subsection.3.4.3}%
+\contentsline {subsection}{\fdu@kai \numberline {3.4.4}最终实验方案}{29}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}实验系统安装和调试}{30}{section.3.5}%
+\contentsline {section}{\numberline {3.6}补偿性能测试与实验结果}{32}{section.3.6}%
+\contentsline {subsection}{\fdu@kai \numberline {3.6.1}短时测量}{32}{subsection.3.6.1}%
+\contentsline {subsection}{\fdu@kai \numberline {3.6.2}长时测量}{34}{subsection.3.6.2}%
+\contentsline {subsection}{\fdu@kai \numberline {3.6.3}大范围温度变化测量}{35}{subsection.3.6.3}%
+\contentsline {section}{\numberline {3.7}本章小结}{36}{section.3.7}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第4章}基于粒子群算法的软件补偿方法及算法硬化}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1}粒子群算法}{37}{section.4.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.1.1}粒子群算法基本原理}{37}{subsection.4.1.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.1.2}线性惯性权值递减策略}{38}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}基于粒子群算法优化后的Edlen公式补偿方法}{39}{section.4.2}%
+\contentsline {subsection}{\fdu@kai \numberline {4.2.1}数据预处理}{39}{subsection.4.2.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.2.2}使用粒子群算法进行数据训练}{39}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}整段式粒子群算法补偿效果}{40}{section.4.3}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.1}短时测量}{40}{subsection.4.3.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.2}长时测量}{41}{subsection.4.3.2}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.3}大范围温度变化测量}{42}{subsection.4.3.3}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.4}优越性}{43}{subsection.4.3.4}%
+\contentsline {subsection}{\fdu@kai \numberline {4.3.5}局限性}{44}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}基于温度梯度的分段式粒子群算法补偿方法}{45}{section.4.4}%
+\contentsline {subsection}{\fdu@kai \numberline {4.4.1}算法原理}{45}{subsection.4.4.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.4.2}算法流程图}{46}{subsection.4.4.2}%
+\contentsline {subsection}{\fdu@kai \numberline {4.4.3}补偿效果}{47}{subsection.4.4.3}%
+\contentsline {subsection}{\fdu@kai \numberline {4.4.4}不足之处}{48}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}算法硬化}{49}{section.4.5}%
+\contentsline {subsection}{\fdu@kai \numberline {4.5.1}数据定点方案及截断方案}{49}{subsection.4.5.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.5.2}补码运算}{50}{subsection.4.5.2}%
+\contentsline {subsection}{\fdu@kai \numberline {4.5.3}乘除转换转换}{51}{subsection.4.5.3}%
+\contentsline {subsection}{\fdu@kai \numberline {4.5.4}四舍五入方案}{52}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}硬化前后的算法验证框架}{52}{section.4.6}%
+\contentsline {subsection}{\fdu@kai \numberline {4.6.1}进制转换与字符串操作}{52}{subsection.4.6.1}%
+\contentsline {subsection}{\fdu@kai \numberline {4.6.2}RTL model验证框架}{52}{subsection.4.6.2}%
+\contentsline {subsection}{\fdu@kai \numberline {4.6.3}验证激励和结果}{53}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}本章小结}{54}{section.4.7}%
+\contentsline {chapter}{\normalfont \sffamily \numberline {第5章}基于粒子群算法的硬件加速补偿系统设计}{55}{chapter.5}%
+\contentsline {section}{\numberline {5.1}硬件设计方法}{55}{section.5.1}%
+\contentsline {subsection}{\fdu@kai \numberline {5.1.1}流水线技术}{55}{subsection.5.1.1}%
+\contentsline {subsection}{\fdu@kai \numberline {5.1.2}握手控制方案}{56}{subsection.5.1.2}%
+\contentsline {subsection}{\fdu@kai \numberline {5.1.3}逻辑复制与资源共享技术}{58}{subsection.5.1.3}%
+\contentsline {subsection}{\fdu@kai \numberline {5.1.4}门控时钟技术}{58}{subsection.5.1.4}%
+\contentsline {subsection}{\fdu@kai \numberline {5.1.5}随机数生成设计}{59}{subsection.5.1.5}%
+\contentsline {section}{\numberline {5.2}粒子群算法加速补偿系统架构}{60}{section.5.2}%
+\contentsline {subsection}{\fdu@kai \numberline {5.2.1}适应度计算模块架构}{61}{subsection.5.2.1}%
+\contentsline {subsection}{\fdu@kai \numberline {5.2.2}种群信息更新模块架构}{62}{subsection.5.2.2}%
 \contentsline {subsection}{\fdu@kai \numberline {5.2.3}速度和位置更新模块架构}{63}{subsection.5.2.3}%
 \contentsline {subsection}{\fdu@kai \numberline {5.2.4}多起点训练方法及寄存器配置}{64}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}双差分验证框架}{65}{section.5.3}%
-\contentsline {section}{\numberline {5.4}本章小结}{67}{section.5.4}%
+\contentsline {section}{\numberline {5.3}双差分验证框架}{67}{section.5.3}%
+\contentsline {section}{\numberline {5.4}本章小结}{68}{section.5.4}%
 \contentsline {chapter}{\normalfont \sffamily \numberline {第6章}软硬件补偿方法的性能对比}{69}{chapter.6}%
 \contentsline {section}{\numberline {6.1}运行时间对比}{69}{section.6.1}%
 \contentsline {section}{\numberline {6.2}所需资源对比}{71}{section.6.2}%
@@ -89,5 +90,5 @@
 \contentsline {section}{\numberline {6.5}本章小结}{74}{section.6.5}%
 \contentsline {chapter}{\normalfont \sffamily \numberline {第7章}总结和展望}{75}{chapter.7}%
 \contentsline {section}{\numberline {7.1}研究工作总结}{75}{section.7.1}%
-\contentsline {section}{\numberline {7.2}研究工作展望}{77}{section.7.2}%
+\contentsline {section}{\numberline {7.2}研究工作展望}{76}{section.7.2}%
 \contentsline {chapter}{\normalfont \sffamily 参考文献}{79}{chapter*.81}%

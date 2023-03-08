@@ -7,7 +7,7 @@
 粒子群算法(Particle Swarm optimization,PSO)是一种启发于鸟群协同捕食行为的智能算法，利用种群与个体之间的信息交互来寻找问题的最优解，具有较高的搜索效率和精度\cite{潘红丽2022基于改进粒子群算法的垃圾清运车辆低碳路径规划}，已广泛应用于函数优化等领域\cite{2022Environmental}。
 \begin{figure}[htb]
   \centering
-  \includegraphics[width=4cm,height=7cm]{fig/4-fig/粒子群算法流程图.png}
+  \includegraphics[width=5cm,height=8cm]{fig/4-fig/粒子群算法流程图.png}
   \caption{粒子群算法流程图}
   \label{fig:粒子群算法流程图}
 \end{figure}
@@ -265,8 +265,8 @@ RTL model的验证框架示意图如图\ref{fig:RTL model验证框架}所示，�
       fitness$\_$cal$\_$temp            & 输入的温度                  &  [-500,500]     & 无      \\ \hline
       fitness$\_$cal$\_$para            & 当前搜索点                  &  [-500,500]     & 无      \\ \hline
       population$\_$upda$\_$gbest       & 迭代结果的全局最优解         &  [0,5000]       & 无       \\ \hline
-      population$\_$upda$\_$pbest       & 迭代结果的局部最优解         &  [0,5000]       &小于population$\_$upda$\_$gbest \\ \hline
-      velocity$\_$upda$\_$curpara       & 上一轮迭代的位置信息         & [-500,500]      & 等于fitness$\_$cal$\_$para     \\ \hline
+      population$\_$upda$\_$pbest       & 迭代结果的局部最优解         &  [0,5000]       & 小于全局最优 \\ \hline
+      velocity$\_$upda$\_$curpara       & 上一轮迭代的位置信息         & [-500,500]      & 无     \\ \hline
       velocity$\_$upda$\_$lastv         & 上一轮迭代的速度增量         & [0,1]           & 无     \\ \hline
       velocity$\_$upda$\_$randc         & 更新速度信息的随机数         & [0,1]           & 无     \\ \hline
   \end{tabular}

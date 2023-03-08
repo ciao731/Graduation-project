@@ -1,4 +1,4 @@
-\begin{thebibliography}{63}
+\begin{thebibliography}{69}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -10,12 +10,6 @@
   \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
   \let\eprint\href
 \fi
-
-\bibitem[张志平\ 等(2022)张志平 and
-  杨晓峰]{张志平2022激光外差干涉技术在光刻机中的应用}
-张志平, 杨晓峰.
-\newblock 激光外差干涉技术在光刻机中的应用\allowbreak[J].
-\newblock 激光与光电子学进展, 2022, 59\allowbreak (9): 8.
 
 \bibitem[中国半导体行业协会(2022)]{csia1}
 中国半导体行业协会.
@@ -34,6 +28,12 @@
 FANG Y, A, HE Y, et~al.
 \newblock resolution techno1ogy of 1ithography machine\allowbreak[J].
 \newblock IOP Publishing Ltd, 2022.
+
+\bibitem[张志平\ 等(2022)张志平 and
+  杨晓峰]{张志平2022激光外差干涉技术在光刻机中的应用}
+张志平, 杨晓峰.
+\newblock 激光外差干涉技术在光刻机中的应用\allowbreak[J].
+\newblock 激光与光电子学进展, 2022, 59\allowbreak (9): 8.
 
 \bibitem[于海娇(2022)]{于海娇2022双频激光干涉仪的应用研究综述}
 于海娇.
@@ -131,6 +131,26 @@ RUI S, ZHI-JUN F, YAN L, et~al.
 马磊, 钟兴旺, 刘玄, 等.
 \newblock 星间激光干涉仪测距技术发展现状与趋势\allowbreak[J].
 \newblock 空间电子技术, 2018, 15\allowbreak (6): 6.
+
+\bibitem[张书练(2023)]{张书练2023关键和全链条技术}
+张书练.
+\newblock
+  关键和全链条技术:组装式双折射双频激光器及其干涉仪\allowbreak[J].
+\newblock 光学学报, 2023, 43\allowbreak (01).
+
+\bibitem[胡玲\ 等(2014)胡玲, 潘征宇, 洪扁, and
+  赵栋]{胡玲2014双频激光干涉仪中的数字相位计设计}
+胡玲, 潘征宇, 洪扁, 等.
+\newblock 双频激光干涉仪中的数字相位计设计\allowbreak[J].
+\newblock 光学仪器, 2014\allowbreak (3): 6.
+
+\bibitem[王学锋\ 等(2001)王学锋, 王向朝, 钱锋, 卢洪斌, 宋松,
+  and
+  步扬]{王学锋2001用于纳米精度大范围位移测量的半导体激光干涉仪}
+王学锋, 王向朝, 钱锋, 等.
+\newblock
+  用于纳米精度大范围位移测量的半导体激光干涉仪\allowbreak[J].
+\newblock 量子电子学报, 2001, 18\allowbreak (B12): 4.
 
 \bibitem[戴成睿(2019)]{戴成睿硕士论文面向激光追踪测量系统的空气折射率补偿方法研究}
 戴成睿.
@@ -252,6 +272,24 @@ LEE K, PYO Y, YOU K.
 \newblock
   零差干涉仪用于振动校准中关键技术的研究\allowbreak[J].
 \newblock 计量学报, 2018, 39\allowbreak (3): 5.
+
+\bibitem[孙志猛(2014)]{2014双频激光干涉仪非线性误差测量技术研究}
+孙志猛.
+\newblock 双频激光干涉仪非线性误差测量技术研究\allowbreak[D].
+\newblock 哈尔滨工业大学, 2014.
+
+\bibitem[Tianci et~al.(2022)Tianci, Chengjun, Shan, Dengfeng, Weihu, and
+  Jianli]{2022Astudyon}
+TIANCI F, CHENGJUN C, SHAN W, et~al.
+\newblock A study on the real-time compensation system based on abbe principle
+  for range accuracy of submicron measuring instrument\allowbreak[J].
+\newblock Measurement Science \& Technology, 2022\allowbreak (8): 33.
+
+\bibitem[刘亚睿(2023)]{2023外差干涉测量系统主要误差源的分析与抑制技术研究}
+刘亚睿.
+\newblock
+  外差干涉测量系统主要误差源的分析与抑制技术研究\allowbreak[D].
+\newblock 中国计量大学, 2023.
 
 \bibitem[Cui et~al.(2015)Cui, Tan, Wen, and Abou-Zeid]{2015Refractive}
 CUI J, TAN J, WEN X, et~al.
